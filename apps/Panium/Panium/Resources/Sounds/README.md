@@ -1,12 +1,6 @@
 # Sons WAV du handpan
 
-Copie ici les fichiers depuis le projet Flutter :
-
-```
-c:\Users\jouet\Downloads\panium\sons_en_wave\*.wav
-```
-
-Vers :
+Place les fichiers WAV dans ce dossier :
 
 ```
 Panium/Resources/Sounds/
@@ -19,8 +13,4 @@ Panium/Resources/Sounds/
 
 Exemple : `pos1_C_v0.wav`, `pos3_G_v1.wav`
 
-## Liste complète (36 fichiers)
-
-Voir `HandpanAudioEngine.soundNames` dans le code Swift, ou `SOUND_NAMES` dans le `MainActivity.kt` Android du projet Flutter.
-
-Sans ces fichiers, l'app compile mais affiche **Sounds unavailable** au lancement.
+Sans ces fichiers, l’app compile mais les pads restent silencieux.

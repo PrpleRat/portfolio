@@ -17,3 +17,7 @@ AuthKey*
 credentials.json
 GoogleService-Info.plist
 ExportOptions.plist
+
+# CV local (photo + PDF perso)
+cv/
+
