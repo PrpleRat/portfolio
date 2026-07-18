@@ -1,0 +1,35 @@
+name: DropDay Expo
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit
+
+      - name: Verify app structure
+        run: |
+          test -f app.json
+          test -f app/_layout.tsx
+          test -f "app/(tabs)/index.tsx"
+          test -f hooks/useReleases.ts
+          test -f utils/generatePDF.ts
+          test -f data/templates.json
+          echo "DropDay structure OK"

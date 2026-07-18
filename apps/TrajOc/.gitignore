@@ -1,0 +1,33 @@
+# Xcode / Swift
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Généré localement par XcodeGen (régénéré en CI)
+TrajOc.xcodeproj/
+*.xcworkspace/xcuserdata/
+
+# macOS
+.DS_Store
+
+# Secrets
+*.p12
+*.mobileprovision
+TrajOc/Config/APIKeys.swift
+
+# Fastlane local
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/test_output/
+
+# Généré en CI (install-signing.sh)
+ci/Release-App.xcconfig
+ci/Release-Widget.xcconfig
+ExportOptions-ci.plist

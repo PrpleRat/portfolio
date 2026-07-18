@@ -1,0 +1,1060 @@
+[
+  {
+    "id": "stop_area:OIF:SA:8775890",
+    "name": "Toulouse Matabiau",
+    "type": "gare",
+    "latitude": 43.6114,
+    "longitude": 1.4531,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER",
+      "TGV",
+      "Intercités",
+      "Tisséo"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775821",
+    "name": "Montpellier Saint-Roch",
+    "type": "gare",
+    "latitude": 43.6047,
+    "longitude": 3.8805,
+    "city": "Montpellier",
+    "department": "Hérault",
+    "networks": [
+      "TER",
+      "TGV",
+      "TaM"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8777500",
+    "name": "Nîmes Centre",
+    "type": "gare",
+    "latitude": 43.8322,
+    "longitude": 4.3658,
+    "city": "Nîmes",
+    "department": "Gard",
+    "networks": [
+      "TER",
+      "TGV"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778400",
+    "name": "Perpignan",
+    "type": "gare",
+    "latitude": 42.6964,
+    "longitude": 2.8806,
+    "city": "Perpignan",
+    "department": "Pyrénées-Orientales",
+    "networks": [
+      "TER",
+      "TGV"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778100",
+    "name": "Narbonne",
+    "type": "gare",
+    "latitude": 43.1843,
+    "longitude": 3.0039,
+    "city": "Narbonne",
+    "department": "Aude",
+    "networks": [
+      "TER",
+      "TGV"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778800",
+    "name": "Carcassonne",
+    "type": "gare",
+    "latitude": 43.2167,
+    "longitude": 2.3517,
+    "city": "Carcassonne",
+    "department": "Aude",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778300",
+    "name": "Albi Ville",
+    "type": "gare",
+    "latitude": 43.9289,
+    "longitude": 2.1481,
+    "city": "Albi",
+    "department": "Tarn",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778200",
+    "name": "Béziers",
+    "type": "gare",
+    "latitude": 43.3364,
+    "longitude": 3.2189,
+    "city": "Béziers",
+    "department": "Hérault",
+    "networks": [
+      "TER",
+      "TGV"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778120",
+    "name": "Sète",
+    "type": "gare",
+    "latitude": 43.4128,
+    "longitude": 3.6958,
+    "city": "Sète",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8777400",
+    "name": "Lunel",
+    "type": "gare",
+    "latitude": 43.6778,
+    "longitude": 4.1339,
+    "city": "Lunel",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8777300",
+    "name": "Mende",
+    "type": "gare",
+    "latitude": 44.5172,
+    "longitude": 3.5011,
+    "city": "Mende",
+    "department": "Lozère",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8779600",
+    "name": "Rodez",
+    "type": "gare",
+    "latitude": 44.3511,
+    "longitude": 2.5739,
+    "city": "Rodez",
+    "department": "Aveyron",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8779400",
+    "name": "Auch",
+    "type": "gare",
+    "latitude": 43.6467,
+    "longitude": 0.5886,
+    "city": "Auch",
+    "department": "Gers",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8779700",
+    "name": "Tarbes",
+    "type": "gare",
+    "latitude": 43.2333,
+    "longitude": -0.0833,
+    "city": "Tarbes",
+    "department": "Hautes-Pyrénées",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778500",
+    "name": "Pau",
+    "type": "gare",
+    "latitude": 43.2917,
+    "longitude": -0.3667,
+    "city": "Pau",
+    "department": "Pyrénées-Atlantiques",
+    "networks": [
+      "TER",
+      "TGV"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8779100",
+    "name": "Foix",
+    "type": "gare",
+    "latitude": 42.9667,
+    "longitude": 1.6167,
+    "city": "Foix",
+    "department": "Ariège",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8778305",
+    "name": "Millau",
+    "type": "gare",
+    "latitude": 44.1,
+    "longitude": 3.0833,
+    "city": "Millau",
+    "department": "Aveyron",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8776500",
+    "name": "Avignon TGV",
+    "type": "gare",
+    "latitude": 43.9219,
+    "longitude": 4.7861,
+    "city": "Avignon",
+    "department": "Vaucluse",
+    "networks": [
+      "TGV",
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8776100",
+    "name": "Valence TGV",
+    "type": "gare",
+    "latitude": 44.9919,
+    "longitude": 4.9786,
+    "city": "Valence",
+    "department": "Drôme",
+    "networks": [
+      "TGV"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775600",
+    "name": "Toulouse Compans-Caffarelli",
+    "type": "gare",
+    "latitude": 43.611,
+    "longitude": 1.434,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "Tisséo",
+      "Métro"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775601",
+    "name": "Toulouse Capitole",
+    "type": "gare",
+    "latitude": 43.6008,
+    "longitude": 1.4436,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "Tisséo",
+      "Métro"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775602",
+    "name": "Toulouse Jean-Jaurès",
+    "type": "gare",
+    "latitude": 43.6042,
+    "longitude": 1.4489,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "Tisséo",
+      "Métro",
+      "Tram"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775603",
+    "name": "Toulouse Basso Cambo",
+    "type": "gare",
+    "latitude": 43.5636,
+    "longitude": 1.395,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "Tisséo",
+      "Métro"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775604",
+    "name": "Toulouse Ramonville",
+    "type": "gare",
+    "latitude": 43.5467,
+    "longitude": 1.4744,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "Tisséo",
+      "Métro"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775801",
+    "name": "Montpellier Comédie",
+    "type": "gare",
+    "latitude": 43.6083,
+    "longitude": 3.8803,
+    "city": "Montpellier",
+    "department": "Hérault",
+    "networks": [
+      "TaM",
+      "Tram"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775802",
+    "name": "Montpellier Mosson",
+    "type": "gare",
+    "latitude": 43.615,
+    "longitude": 3.845,
+    "city": "Montpellier",
+    "department": "Hérault",
+    "networks": [
+      "TaM",
+      "Tram"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775803",
+    "name": "Montpellier Odysseum",
+    "type": "gare",
+    "latitude": 43.602,
+    "longitude": 3.917,
+    "city": "Montpellier",
+    "department": "Hérault",
+    "networks": [
+      "TaM",
+      "Tram"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775901",
+    "name": "Colomiers",
+    "type": "gare",
+    "latitude": 43.61,
+    "longitude": 1.32,
+    "city": "Colomiers",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER",
+      "Tisséo"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775902",
+    "name": "Muret",
+    "type": "gare",
+    "latitude": 43.46,
+    "longitude": 1.33,
+    "city": "Muret",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775903",
+    "name": "Castelnaudary",
+    "type": "gare",
+    "latitude": 43.32,
+    "longitude": 1.95,
+    "city": "Castelnaudary",
+    "department": "Aude",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775904",
+    "name": "Limoux",
+    "type": "gare",
+    "latitude": 43.05,
+    "longitude": 2.22,
+    "city": "Limoux",
+    "department": "Aude",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775905",
+    "name": "Quillan",
+    "type": "gare",
+    "latitude": 42.88,
+    "longitude": 2.18,
+    "city": "Quillan",
+    "department": "Aude",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775906",
+    "name": "Portbou",
+    "type": "gare",
+    "latitude": 42.43,
+    "longitude": 3.16,
+    "city": "Portbou",
+    "department": "Catalogne",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775907",
+    "name": "Agde",
+    "type": "gare",
+    "latitude": 43.31,
+    "longitude": 3.47,
+    "city": "Agde",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775908",
+    "name": "Montauban Ville-Bourbon",
+    "type": "gare",
+    "latitude": 44.02,
+    "longitude": 1.35,
+    "city": "Montauban",
+    "department": "Tarn-et-Garonne",
+    "networks": [
+      "TER",
+      "Intercités"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775909",
+    "name": "Cahors",
+    "type": "gare",
+    "latitude": 44.45,
+    "longitude": 1.44,
+    "city": "Cahors",
+    "department": "Lot",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775910",
+    "name": "Figeac",
+    "type": "gare",
+    "latitude": 44.61,
+    "longitude": 2.03,
+    "city": "Figeac",
+    "department": "Lot",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775911",
+    "name": "Villefranche-de-Rouergue",
+    "type": "gare",
+    "latitude": 44.35,
+    "longitude": 2.04,
+    "city": "Villefranche-de-Rouergue",
+    "department": "Aveyron",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775912",
+    "name": "Severac-le-Château",
+    "type": "gare",
+    "latitude": 44.32,
+    "longitude": 3.06,
+    "city": "Sévérac",
+    "department": "Aveyron",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775913",
+    "name": "La Bastide-Saint-Laurent-les-Bains",
+    "type": "gare",
+    "latitude": 44.64,
+    "longitude": 3.97,
+    "city": "Largentière",
+    "department": "Ardèche",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775914",
+    "name": "Alès",
+    "type": "gare",
+    "latitude": 44.13,
+    "longitude": 4.08,
+    "city": "Alès",
+    "department": "Gard",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775915",
+    "name": "Béziers Saint-Aphrodise",
+    "type": "gare",
+    "latitude": 43.34,
+    "longitude": 3.21,
+    "city": "Béziers",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775916",
+    "name": "Sète Centre",
+    "type": "gare",
+    "latitude": 43.4,
+    "longitude": 3.69,
+    "city": "Sète",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775917",
+    "name": "Le Crès",
+    "type": "gare",
+    "latitude": 43.65,
+    "longitude": 3.94,
+    "city": "Le Crès",
+    "department": "Hérault",
+    "networks": [
+      "TaM",
+      "Tram"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775918",
+    "name": "Palavas-les-Flots",
+    "type": "gare",
+    "latitude": 43.53,
+    "longitude": 3.93,
+    "city": "Palavas",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775919",
+    "name": "Nîmes Pont-du-Gard",
+    "type": "gare",
+    "latitude": 43.95,
+    "longitude": 4.53,
+    "city": "Vers-Pont-du-Gard",
+    "department": "Gard",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775920",
+    "name": "Arles",
+    "type": "gare",
+    "latitude": 43.68,
+    "longitude": 4.63,
+    "city": "Arles",
+    "department": "Bouches-du-Rhône",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775921",
+    "name": "Carpentras",
+    "type": "gare",
+    "latitude": 44.05,
+    "longitude": 5.05,
+    "city": "Carpentras",
+    "department": "Vaucluse",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775922",
+    "name": "Orange",
+    "type": "gare",
+    "latitude": 44.13,
+    "longitude": 4.81,
+    "city": "Orange",
+    "department": "Vaucluse",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775923",
+    "name": "Céret",
+    "type": "gare",
+    "latitude": 42.49,
+    "longitude": 2.75,
+    "city": "Céret",
+    "department": "Pyrénées-Orientales",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775924",
+    "name": "Prades-Molitg-les-Bains",
+    "type": "gare",
+    "latitude": 42.62,
+    "longitude": 2.42,
+    "city": "Prades",
+    "department": "Pyrénées-Orientales",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775925",
+    "name": "Latour-de-Carol",
+    "type": "gare",
+    "latitude": 42.46,
+    "longitude": 1.9,
+    "city": "Latour-de-Carol",
+    "department": "Pyrénées-Orientales",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775926",
+    "name": "Lourdes",
+    "type": "gare",
+    "latitude": 43.1,
+    "longitude": -0.05,
+    "city": "Lourdes",
+    "department": "Hautes-Pyrénées",
+    "networks": [
+      "TER",
+      "TGV"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775927",
+    "name": "Bagnères-de-Bigorre",
+    "type": "gare",
+    "latitude": 43.07,
+    "longitude": 0.15,
+    "city": "Bagnères-de-Bigorre",
+    "department": "Hautes-Pyrénées",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775928",
+    "name": "Saint-Gaudens",
+    "type": "gare",
+    "latitude": 43.11,
+    "longitude": 0.73,
+    "city": "Saint-Gaudens",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775929",
+    "name": "Montréjeau-Gourdan-Polignan",
+    "type": "gare",
+    "latitude": 43.08,
+    "longitude": 0.57,
+    "city": "Montréjeau",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775930",
+    "name": "Luchon",
+    "type": "gare",
+    "latitude": 42.79,
+    "longitude": 0.59,
+    "city": "Luchon",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775931",
+    "name": "Pamiers",
+    "type": "gare",
+    "latitude": 43.12,
+    "longitude": 1.61,
+    "city": "Pamiers",
+    "department": "Ariège",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775932",
+    "name": "Saverdun",
+    "type": "gare",
+    "latitude": 43.24,
+    "longitude": 1.57,
+    "city": "Saverdun",
+    "department": "Ariège",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775933",
+    "name": "Mazamet",
+    "type": "gare",
+    "latitude": 43.49,
+    "longitude": 2.37,
+    "city": "Mazamet",
+    "department": "Tarn",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775934",
+    "name": "Castres",
+    "type": "gare",
+    "latitude": 43.6,
+    "longitude": 2.24,
+    "city": "Castres",
+    "department": "Tarn",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775935",
+    "name": "Gaillac",
+    "type": "gare",
+    "latitude": 43.9,
+    "longitude": 1.9,
+    "city": "Gaillac",
+    "department": "Tarn",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775936",
+    "name": "Carmaux",
+    "type": "gare",
+    "latitude": 44.05,
+    "longitude": 2.16,
+    "city": "Carmaux",
+    "department": "Tarn",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775937",
+    "name": "Gourdon",
+    "type": "gare",
+    "latitude": 44.74,
+    "longitude": 1.38,
+    "city": "Gourdon",
+    "department": "Lot",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775938",
+    "name": "Souillac",
+    "type": "gare",
+    "latitude": 44.89,
+    "longitude": 1.48,
+    "city": "Souillac",
+    "department": "Lot",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775939",
+    "name": "Gramat",
+    "type": "gare",
+    "latitude": 44.78,
+    "longitude": 1.73,
+    "city": "Gramat",
+    "department": "Lot",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775940",
+    "name": "Capdenac",
+    "type": "gare",
+    "latitude": 44.58,
+    "longitude": 2.07,
+    "city": "Capdenac",
+    "department": "Lot",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775941",
+    "name": "Decazeville",
+    "type": "gare",
+    "latitude": 44.39,
+    "longitude": 2.26,
+    "city": "Decazeville",
+    "department": "Aveyron",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775942",
+    "name": "Espalion",
+    "type": "gare",
+    "latitude": 44.52,
+    "longitude": 2.76,
+    "city": "Espalion",
+    "department": "Aveyron",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775943",
+    "name": "Millau Centre",
+    "type": "gare",
+    "latitude": 44.1,
+    "longitude": 3.08,
+    "city": "Millau",
+    "department": "Aveyron",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775944",
+    "name": "Florac",
+    "type": "gare",
+    "latitude": 44.33,
+    "longitude": 3.59,
+    "city": "Florac",
+    "department": "Lozère",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775945",
+    "name": "Marvejols",
+    "type": "gare",
+    "latitude": 44.55,
+    "longitude": 3.29,
+    "city": "Marvejols",
+    "department": "Lozère",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775946",
+    "name": "Langogne",
+    "type": "gare",
+    "latitude": 44.73,
+    "longitude": 3.85,
+    "city": "Langogne",
+    "department": "Lozère",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775947",
+    "name": "Le Puy-en-Velay",
+    "type": "gare",
+    "latitude": 45.04,
+    "longitude": 3.88,
+    "city": "Le Puy-en-Velay",
+    "department": "Haute-Loire",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775948",
+    "name": "Aigues-Mortes",
+    "type": "gare",
+    "latitude": 43.57,
+    "longitude": 4.19,
+    "city": "Aigues-Mortes",
+    "department": "Gard",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775949",
+    "name": "Sommières",
+    "type": "gare",
+    "latitude": 43.79,
+    "longitude": 4.09,
+    "city": "Sommières",
+    "department": "Gard",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775950",
+    "name": "Uzès",
+    "type": "gare",
+    "latitude": 44.01,
+    "longitude": 4.42,
+    "city": "Uzès",
+    "department": "Gard",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775951",
+    "name": "Gignac",
+    "type": "gare",
+    "latitude": 43.65,
+    "longitude": 3.55,
+    "city": "Gignac",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775952",
+    "name": "Lodève",
+    "type": "gare",
+    "latitude": 43.73,
+    "longitude": 3.32,
+    "city": "Lodève",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775953",
+    "name": "Clermont-l'Hérault",
+    "type": "gare",
+    "latitude": 43.63,
+    "longitude": 3.43,
+    "city": "Clermont-l'Hérault",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775954",
+    "name": "Bédarieux",
+    "type": "gare",
+    "latitude": 43.61,
+    "longitude": 3.16,
+    "city": "Bédarieux",
+    "department": "Hérault",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775955",
+    "name": "Toulouse St-Agne-SNCF",
+    "type": "gare",
+    "latitude": 43.601,
+    "longitude": 1.454,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER",
+      "Tisséo"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775956",
+    "name": "Toulouse St-Cyprien-Arènes",
+    "type": "gare",
+    "latitude": 43.599,
+    "longitude": 1.43,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER",
+      "Tisséo"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775957",
+    "name": "Toulouse Montaudran",
+    "type": "gare",
+    "latitude": 43.588,
+    "longitude": 1.47,
+    "city": "Toulouse",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775958",
+    "name": "Portet-Saint-Simon",
+    "type": "gare",
+    "latitude": 43.53,
+    "longitude": 1.4,
+    "city": "Portet-sur-Garonne",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER"
+    ]
+  },
+  {
+    "id": "stop_area:OIF:SA:8775959",
+    "name": "Labège-Innopole",
+    "type": "gare",
+    "latitude": 43.54,
+    "longitude": 1.52,
+    "city": "Labège",
+    "department": "Haute-Garonne",
+    "networks": [
+      "TER"
+    ]
+  }
+]

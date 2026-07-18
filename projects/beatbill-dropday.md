@@ -1,34 +1,27 @@
-# BeatBill & DropDay
+# BeatBill, DropDay & SplitPad
 
 **Apps React Native / Expo pour la scène musicale indépendante**
 
+Code : [`apps/BeatBill`](../apps/BeatBill) · [`apps/DropDay`](../apps/DropDay) · [`apps/SplitPad`](../apps/SplitPad)
+
 ## BeatBill — Facturation producteurs
 
-| | |
-|---|---|
-| Stack | Expo · React Native · TypeScript · expo-print · AsyncStorage |
-| Bundle ID | `com.cashthetrain.beatbill` |
-| Repo | https://github.com/PrpleRat/BeatBill |
-
 - Facture en 2 étapes + items audio pré-définis
-- PDF local, devis, récurrentes, contrats, rapports
+- PDF local, devis, récurrentes, rapports
 - Export JSON / CSV offline
 - Deep link depuis BeatDeal : `beatbill://invoice?...`
-- CI : `expo prebuild` → Xcode → TestFlight (**sans EAS**)
 
 ## DropDay — Planification de sorties
 
-| | |
-|---|---|
-| Stack | Expo SDK · Expo Router · notifications locales · RevenueCat |
-| Bundle ID | `com.cashthetrain.dropday` |
-
 - Timeline inversée de release
 - Budget promo, post-mortem, export PDF équipe
-- 100 % offline · achat Pro unique
+- Offline · achat Pro
+
+## SplitPad — Split sheets
+
+- Répartition master / publishing
+- Export vers BeatDeal
 
 ## Pourquoi c’est intéressant
 
-- Même niveau de **rigueur release** que les apps Swift
-- Preuve de polyvalence native + cross-platform
-- Deep linking entre apps de l’écosystème
+Polyvalence native + cross-platform, deep linking entre apps, même approche release que les apps Swift.

@@ -1,0 +1,71 @@
+# Build simulateur — racine du dépôt = ce dossier (project.yml à la racine).
+
+name: SleepLab iOS
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - "SleepLab/**"
+      - "SleepLabWidget/**"
+      - "project.yml"
+      - "ExportOptions.plist"
+      - ".github/workflows/**"
+  pull_request:
+    paths:
+      - "SleepLab/**"
+      - "SleepLabWidget/**"
+      - "project.yml"
+      - ".github/workflows/**"
+  workflow_dispatch:
+
+env:
+  XCODE_SCHEME: SleepLab
+  IOS_DEPLOYMENT_TARGET: "17.0"
+  XCODE_VERSION: "26.2"
+
+jobs:
+  build:
+    name: Build (simulateur)
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sélectionner Xcode 15.4
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: ${{ env.XCODE_VERSION }}
+
+      - name: Vérifier la structure du projet
+        run: |
+          test -f project.yml || (echo "project.yml introuvable à la racine du repo" && exit 1)
+          test -d SleepLab || (echo "Dossier sources SleepLab/ introuvable" && exit 1)
+          xcodebuild -version
+
+      - name: Générer les icônes app
+        run: python3 ci/generate-app-icons.py
+
+      - name: Installer XcodeGen
+        run: |
+          brew install xcodegen
+          xcodegen --version
+
+      - name: Générer le projet Xcode
+        run: xcodegen generate --spec project.yml
+
+      - name: Build app + widget (sans signature)
+        run: |
+          set -euo pipefail
+          xcodebuild build \
+            -project "SleepLab.xcodeproj" \
+            -scheme "${{ env.XCODE_SCHEME }}" \
+            -sdk iphonesimulator \
+            -destination "generic/platform=iOS Simulator" \
+            -configuration Debug \
+            IPHONEOS_DEPLOYMENT_TARGET="${{ env.IOS_DEPLOYMENT_TARGET }}" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM=""

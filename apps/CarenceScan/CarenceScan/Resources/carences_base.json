@@ -1,0 +1,1140 @@
+{
+  "version": "1.4.0",
+  "description": "Base de règles symptômes → carences / déséquilibres nutritionnels",
+  "last_updated": "2026-06-v1.3",
+
+  "symptomes": [
+    { "id": "gencives_douloureuses", "label": "Gencives douloureuses ou qui saignent", "categorie": "bouche" },
+    { "id": "coins_levres_craques", "label": "Coins des lèvres craquelés ou ouverts", "categorie": "bouche" },
+    { "id": "levres_seches", "label": "Lèvres sèches ou qui pèlent", "categorie": "bouche" },
+    { "id": "langue_douloureuse", "label": "Langue douloureuse, rouge ou lisse", "categorie": "bouche" },
+    { "id": "aphtes_frequents", "label": "Aphtes fréquents", "categorie": "bouche" },
+    { "id": "mauvaise_haleine", "label": "Mauvaise haleine persistante", "categorie": "bouche" },
+
+    { "id": "peau_seche_generalisee", "label": "Peau sèche généralisée", "categorie": "peau" },
+    { "id": "peau_seche_mains", "label": "Peau sèche ou craquelée sur les mains", "categorie": "peau" },
+    { "id": "peau_seche_oreilles", "label": "Peau sèche ou qui pèle derrière les oreilles", "categorie": "peau" },
+    { "id": "peau_grasse_acnee", "label": "Peau grasse ou acné persistante", "categorie": "peau" },
+    { "id": "plaies_lentes", "label": "Plaies qui cicatrisent lentement", "categorie": "peau" },
+    { "id": "crevasses_doigts", "label": "Crevasses ou doigts qui s'ouvrent", "categorie": "peau" },
+    { "id": "ecchymoses_faciles", "label": "Ecchymoses (bleus) qui apparaissent facilement", "categorie": "peau" },
+    { "id": "demangeaisons", "label": "Démangeaisons sans cause apparente", "categorie": "peau" },
+
+    { "id": "saignements_nez", "label": "Saignements de nez fréquents", "categorie": "nez_sinus" },
+    { "id": "plaies_nez", "label": "Plaies ou croûtes à l'intérieur du nez", "categorie": "nez_sinus" },
+    { "id": "encombrement_chronique", "label": "Nez bouché ou mucus chronique", "categorie": "nez_sinus" },
+
+    { "id": "fatigue_intense", "label": "Fatigue intense ou chronique", "categorie": "energie" },
+    { "id": "fatigue_matin", "label": "Fatigue surtout le matin au réveil", "categorie": "energie" },
+    { "id": "manque_motivation", "label": "Manque de motivation ou apathie", "categorie": "energie" },
+    { "id": "brouillard_mental", "label": "Brouillard mental / difficultés de concentration", "categorie": "energie" },
+    { "id": "somnolence_journee", "label": "Somnolence dans la journée", "categorie": "energie" },
+
+    { "id": "mauvais_sommeil", "label": "Mauvais sommeil ou insomnie", "categorie": "sommeil" },
+    { "id": "reveils_nocturnes", "label": "Réveils nocturnes fréquents", "categorie": "sommeil" },
+    { "id": "sommeil_non_reparateur", "label": "Sommeil non réparateur", "categorie": "sommeil" },
+    { "id": "endormissement_difficile", "label": "Difficultés à s'endormir", "categorie": "sommeil" },
+
+    { "id": "irritabilite", "label": "Irritabilité ou nervosité", "categorie": "humeur" },
+    { "id": "anxiete", "label": "Anxiété ou stress chronique", "categorie": "humeur" },
+    { "id": "tristesse_fond", "label": "Tristesse de fond ou humeur basse", "categorie": "humeur" },
+    { "id": "sautes_humeur", "label": "Sautes d'humeur fréquentes", "categorie": "humeur" },
+
+    { "id": "jambes_lourdes", "label": "Jambes lourdes ou crampes", "categorie": "membres" },
+    { "id": "crampes_nocturnes", "label": "Crampes nocturnes dans les jambes", "categorie": "membres" },
+    { "id": "fourmillements", "label": "Fourmillements dans les mains ou pieds", "categorie": "membres" },
+    { "id": "douleurs_articulaires", "label": "Douleurs articulaires diffuses", "categorie": "membres" },
+    { "id": "faiblesse_musculaire", "label": "Faiblesse musculaire", "categorie": "membres" },
+
+    { "id": "cheveux_cassants", "label": "Cheveux cassants ou chute de cheveux", "categorie": "cheveux_ongles" },
+    { "id": "ongles_cassants", "label": "Ongles cassants ou striés", "categorie": "cheveux_ongles" },
+    { "id": "ongles_blancs", "label": "Taches blanches sur les ongles", "categorie": "cheveux_ongles" },
+
+    { "id": "digestion_lente", "label": "Digestion lente ou ballonnements", "categorie": "digestion" },
+    { "id": "transit_irregular", "label": "Transit irrégulier (constipation ou diarrhée)", "categorie": "digestion" },
+    { "id": "nausees", "label": "Nausées fréquentes", "categorie": "digestion" },
+    { "id": "perte_appetit", "label": "Perte d'appétit", "categorie": "digestion" },
+    { "id": "fringales_sucre", "label": "Fringales de sucre ou envies compulsives", "categorie": "digestion" },
+
+    { "id": "mauvaise_odeur_transpiration", "label": "Mauvaise odeur de transpiration", "categorie": "autre" },
+    { "id": "sensibilite_froid", "label": "Sensibilité excessive au froid", "categorie": "autre" },
+    { "id": "palpitations", "label": "Palpitations cardiaques", "categorie": "autre" },
+    { "id": "vision_trouble", "label": "Vision qui baisse ou trouble en basse lumière", "categorie": "autre" },
+    { "id": "infections_frequentes", "label": "Infections ou rhumes fréquents", "categorie": "autre" },
+    { "id": "travail_nuit", "label": "Travail de nuit ou peu d'exposition au soleil", "categorie": "mode_de_vie" },
+    { "id": "alimentation_restrictive", "label": "Alimentation restrictive ou végétalienne", "categorie": "mode_de_vie" },
+    { "id": "alcool_frequent", "label": "Consommation d'alcool fréquente", "categorie": "mode_de_vie" },
+    { "id": "sport_intense", "label": "Sport intense ou quotidien", "categorie": "mode_de_vie" },
+    { "id": "stress_chronique", "label": "Stress chronique ou burn-out", "categorie": "mode_de_vie" }
+  ],
+
+  "medicaments_depleteurs": [
+    {
+      "id": "sertraline",
+      "label": "Sertraline (Zoloft) ou autre ISRS",
+      "carences_induites": ["magnesium", "vitamine_b6", "omega3"],
+      "note": "Les ISRS augmentent la consommation de magnésium et peuvent réduire l'absorption de B6"
+    },
+    {
+      "id": "metformine",
+      "label": "Metformine (diabète)",
+      "carences_induites": ["vitamine_b12", "vitamine_b9"],
+      "note": "Réduit l'absorption de B12 au niveau intestinal — surveillance obligatoire"
+    },
+    {
+      "id": "ipu",
+      "label": "Inhibiteurs de pompe à protons (oméprazole, pantoprazole)",
+      "carences_induites": ["vitamine_b12", "magnesium", "zinc", "fer", "vitamine_c"],
+      "note": "Réduisent l'acidité gastrique nécessaire à l'absorption de nombreux nutriments"
+    },
+    {
+      "id": "pilule",
+      "label": "Pilule contraceptive",
+      "carences_induites": ["vitamine_b6", "vitamine_b12", "vitamine_b9", "magnesium", "zinc", "vitamine_c"],
+      "note": "Augmente les besoins en vitamines B et en antioxydants"
+    },
+    {
+      "id": "corticoides",
+      "label": "Corticoïdes (cortisone, prednisone)",
+      "carences_induites": ["calcium", "vitamine_d", "magnesium", "zinc", "vitamine_c"],
+      "note": "Usage prolongé épuise plusieurs nutriments essentiels"
+    },
+    {
+      "id": "diuretiques",
+      "label": "Diurétiques (hypertension)",
+      "carences_induites": ["magnesium", "potassium", "zinc", "vitamine_b1"],
+      "note": "Augmentent l'élimination urinaire des minéraux"
+    },
+    {
+      "id": "antibiotiques",
+      "label": "Antibiotiques (usage récent ou fréquent)",
+      "carences_induites": ["vitamine_b9", "vitamine_k", "probiotiques"],
+      "note": "Détruisent la flore intestinale, réduisant la synthèse de certaines vitamines"
+    },
+    {
+      "id": "anticonvulsivants",
+      "label": "Antiépileptiques (valproate, carbamazépine)",
+      "carences_induites": ["vitamine_d", "vitamine_b9", "vitamine_b12", "calcium"],
+      "note": "Augmentent la dégradation des vitamines liposolubles"
+    }
+  ],
+
+  "carences": [
+    {
+      "id": "vitamine_c",
+      "nom": "Vitamine C",
+      "description": "Antioxydant essentiel, synthèse du collagène, immunité",
+      "symptomes_primaires": ["gencives_douloureuses", "plaies_lentes", "saignements_nez", "plaies_nez"],
+      "symptomes_secondaires": ["peau_seche_generalisee", "fatigue_intense", "ecchymoses_faciles", "infections_frequentes", "demangeaisons"],
+      "symptomes_contextuels": ["stress_chronique", "alcool_frequent", "alimentation_restrictive"],
+      "score_par_symptome": {
+        "gencives_douloureuses": 30,
+        "plaies_lentes": 25,
+        "saignements_nez": 20,
+        "plaies_nez": 20,
+        "ecchymoses_faciles": 20,
+        "peau_seche_generalisee": 10,
+        "fatigue_intense": 10,
+        "infections_frequentes": 15,
+        "demangeaisons": 8,
+        "stress_chronique": 10,
+        "alcool_frequent": 10,
+        "alimentation_restrictive": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 75,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["gencives_douloureuses", "ecchymoses_faciles", "plaies_lentes"], "bonus": 25 },
+        { "symptomes": ["gencives_douloureuses", "saignements_nez"], "bonus": 15 },
+        { "symptomes": ["peau_seche_generalisee", "plaies_nez", "fatigue_intense"], "bonus": 10 }
+      ],
+      "aliments_cles": ["Kiwis", "Poivrons rouges", "Oranges", "Fraises", "Persil frais", "Brocolis"],
+      "complement": {
+        "nom": "Vitamine C 500mg",
+        "posologie": "1 comprimé le matin à jeun",
+        "forme_recommandee": "Acide ascorbique ou ascorbate de sodium (moins acide)",
+        "prix_mois": "3-6 EUR",
+        "ou_acheter": "Pharmacie, Cevit 500mg ou générique",
+        "precautions": "Dépasser 1g/j peut provoquer des troubles digestifs"
+      },
+      "urgence": "haute"
+    },
+    {
+      "id": "zinc",
+      "nom": "Zinc",
+      "description": "Cicatrisation, immunité, goût, odorat, synthèse protéique",
+      "symptomes_primaires": ["crevasses_doigts", "plaies_lentes", "ongles_blancs", "mauvaise_odeur_transpiration"],
+      "symptomes_secondaires": ["coins_levres_craques", "peau_grasse_acnee", "infections_frequentes", "perte_appetit", "cheveux_cassants"],
+      "symptomes_contextuels": ["alimentation_restrictive", "alcool_frequent", "sport_intense"],
+      "score_par_symptome": {
+        "crevasses_doigts": 30,
+        "plaies_lentes": 25,
+        "ongles_blancs": 25,
+        "mauvaise_odeur_transpiration": 20,
+        "coins_levres_craques": 15,
+        "peau_grasse_acnee": 12,
+        "infections_frequentes": 15,
+        "perte_appetit": 10,
+        "cheveux_cassants": 10,
+        "alimentation_restrictive": 15,
+        "alcool_frequent": 10,
+        "sport_intense": 10
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["crevasses_doigts", "plaies_lentes", "ongles_blancs"], "bonus": 25 },
+        { "symptomes": ["mauvaise_odeur_transpiration", "peau_grasse_acnee"], "bonus": 15 },
+        { "symptomes": ["coins_levres_craques", "crevasses_doigts"], "bonus": 10 }
+      ],
+      "aliments_cles": ["Viande rouge", "Huîtres", "Graines de courge", "Oeufs", "Légumineuses"],
+      "complement": {
+        "nom": "Zinc bisglycinate ou gluconate 15mg",
+        "posologie": "1 comprimé au milieu d'un repas",
+        "forme_recommandee": "Bisglycinate (meilleure absorption) ou gluconate",
+        "prix_mois": "5-10 EUR",
+        "ou_acheter": "Pharmacie, Oligosol Zinc ou générique zinc gluconate 15mg",
+        "precautions": "À prendre au cours d'un repas. Ne pas dépasser 40mg/j. Prendre à distance du fer et du calcium"
+      },
+      "urgence": "haute"
+    },
+    {
+      "id": "vitamine_d",
+      "nom": "Vitamine D",
+      "description": "Immunité, santé osseuse, humeur, absorption du calcium",
+      "symptomes_primaires": ["fatigue_intense", "manque_motivation", "douleurs_articulaires", "infections_frequentes"],
+      "symptomes_secondaires": ["jambes_lourdes", "mauvais_sommeil", "tristesse_fond", "faiblesse_musculaire", "sensibilite_froid"],
+      "symptomes_contextuels": ["travail_nuit", "alimentation_restrictive"],
+      "score_par_symptome": {
+        "fatigue_intense": 20,
+        "manque_motivation": 20,
+        "douleurs_articulaires": 20,
+        "infections_frequentes": 20,
+        "jambes_lourdes": 15,
+        "mauvais_sommeil": 12,
+        "tristesse_fond": 15,
+        "faiblesse_musculaire": 15,
+        "sensibilite_froid": 12,
+        "travail_nuit": 30,
+        "alimentation_restrictive": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 75,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["travail_nuit", "fatigue_intense", "manque_motivation"], "bonus": 30 },
+        { "symptomes": ["tristesse_fond", "fatigue_intense", "sensibilite_froid"], "bonus": 20 },
+        { "symptomes": ["douleurs_articulaires", "faiblesse_musculaire", "jambes_lourdes"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Sardines", "Saumon", "Oeufs (jaune)", "Champignons exposés au soleil", "Huile de foie de morue"],
+      "complement": {
+        "nom": "Vitamine D3 + K2 en gouttes",
+        "posologie": "2000 UI/jour avec un repas gras (ou ampoule 100 000 UI 1x/mois)",
+        "forme_recommandee": "D3 (cholécalciférol) associée à K2 MK-7 pour l'orientation du calcium",
+        "prix_mois": "5-15 EUR",
+        "ou_acheter": "Pharmacie — D3+K2 gouttes ou Zyma D / Uvedose sur ordonnance",
+        "precautions": "Bilan sanguin (25-OH vitamine D) recommandé avant. Associer à la vitamine K2 pour éviter dépôts calciques"
+      },
+      "urgence": "haute"
+    },
+    {
+      "id": "magnesium",
+      "nom": "Magnésium",
+      "description": "Système nerveux, sommeil, énergie, contraction musculaire",
+      "symptomes_primaires": ["crampes_nocturnes", "irritabilite", "mauvais_sommeil", "anxiete"],
+      "symptomes_secondaires": ["fatigue_intense", "jambes_lourdes", "palpitations", "brouillard_mental", "sautes_humeur", "endormissement_difficile"],
+      "symptomes_contextuels": ["stress_chronique", "alcool_frequent", "sport_intense"],
+      "score_par_symptome": {
+        "crampes_nocturnes": 30,
+        "irritabilite": 25,
+        "mauvais_sommeil": 25,
+        "anxiete": 25,
+        "fatigue_intense": 15,
+        "jambes_lourdes": 15,
+        "palpitations": 20,
+        "brouillard_mental": 15,
+        "sautes_humeur": 15,
+        "endormissement_difficile": 20,
+        "stress_chronique": 20,
+        "alcool_frequent": 15,
+        "sport_intense": 15
+      },
+      "seuil_probable": 35,
+      "seuil_tres_probable": 60,
+      "seuil_quasi_certain": 80,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["crampes_nocturnes", "mauvais_sommeil", "irritabilite"], "bonus": 25 },
+        { "symptomes": ["anxiete", "palpitations", "endormissement_difficile"], "bonus": 20 },
+        { "symptomes": ["stress_chronique", "fatigue_intense", "brouillard_mental"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Amandes", "Chocolat noir 70%+", "Bananes", "Épinards", "Graines de courge", "Légumineuses"],
+      "complement": {
+        "nom": "Magnésium bisglycinate 300mg",
+        "posologie": "300mg le soir avant le coucher",
+        "forme_recommandee": "Bisglycinate ou malate (bien absorbés, non laxatifs). Éviter oxyde de magnésium",
+        "prix_mois": "8-15 EUR",
+        "ou_acheter": "Pharmacie ou parapharmacie — Magnévie B6, Mégamag ou bisglycinate générique",
+        "precautions": "Insuffisance rénale : avis médical obligatoire. Peut provoquer selles molles à forte dose"
+      },
+      "urgence": "haute"
+    },
+    {
+      "id": "vitamine_b2_b3",
+      "nom": "Vitamines B2 (Riboflavine) et B3 (Niacine)",
+      "description": "Métabolisme énergétique, santé de la peau et des muqueuses",
+      "symptomes_primaires": ["coins_levres_craques", "langue_douloureuse", "peau_seche_oreilles"],
+      "symptomes_secondaires": ["peau_seche_mains", "peau_grasse_acnee", "fatigue_intense", "brouillard_mental", "sensibilite_froid"],
+      "symptomes_contextuels": ["alcool_frequent", "alimentation_restrictive"],
+      "score_par_symptome": {
+        "coins_levres_craques": 35,
+        "langue_douloureuse": 30,
+        "peau_seche_oreilles": 25,
+        "peau_seche_mains": 15,
+        "peau_grasse_acnee": 12,
+        "fatigue_intense": 10,
+        "brouillard_mental": 10,
+        "sensibilite_froid": 10,
+        "alcool_frequent": 15,
+        "alimentation_restrictive": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 50,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["coins_levres_craques", "langue_douloureuse"], "bonus": 20 },
+        { "symptomes": ["coins_levres_craques", "peau_seche_oreilles", "peau_seche_mains"], "bonus": 20 },
+        { "symptomes": ["fatigue_intense", "peau_seche_generalisee", "brouillard_mental"], "bonus": 10 }
+      ],
+      "aliments_cles": ["Oeufs", "Champignons", "Thon en boîte", "Viande rouge", "Levure de bière"],
+      "complement": {
+        "nom": "Complexe B (B-Complex)",
+        "posologie": "1 comprimé le matin avec un repas",
+        "forme_recommandee": "Complexe B complet couvrant B1, B2, B3, B5, B6, B8, B9, B12",
+        "prix_mois": "8-12 EUR",
+        "ou_acheter": "Pharmacie — Bévitine complexe B, Azinc Forme & Vitalité ou générique",
+        "precautions": "Peut colorer l'urine en jaune-orangé (normal). Éviter le soir (effet stimulant)"
+      },
+      "urgence": "haute"
+    },
+    {
+      "id": "vitamine_k",
+      "nom": "Vitamine K",
+      "description": "Coagulation sanguine, santé osseuse, régulation du calcium",
+      "symptomes_primaires": ["saignements_nez", "gencives_douloureuses", "ecchymoses_faciles"],
+      "symptomes_secondaires": ["plaies_lentes", "douleurs_articulaires"],
+      "symptomes_contextuels": ["antibiotiques", "alimentation_restrictive"],
+      "score_par_symptome": {
+        "saignements_nez": 25,
+        "gencives_douloureuses": 20,
+        "ecchymoses_faciles": 30,
+        "plaies_lentes": 15,
+        "douleurs_articulaires": 10
+      },
+      "seuil_probable": 25,
+      "seuil_tres_probable": 50,
+      "seuil_quasi_certain": 65,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["saignements_nez", "ecchymoses_faciles", "gencives_douloureuses"], "bonus": 25 },
+        { "symptomes": ["saignements_nez", "ecchymoses_faciles"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Épinards", "Brocolis", "Choux", "Persil", "Laitue"],
+      "complement": {
+        "nom": "Vitamine K2 MK-7 (incluse dans D3+K2)",
+        "posologie": "90-120 µg/jour avec un repas gras",
+        "forme_recommandee": "Souvent combinée avec D3 — pas besoin de supplément séparé si vous prenez D3+K2",
+        "prix_mois": "Inclus dans le D3+K2",
+        "ou_acheter": "Pharmacie — D3+K2 gouttes ou capsules",
+        "precautions": "ATTENTION : contre-indiqué ou à adapter avec les anticoagulants (warfarine, Coumadine). Consulter le médecin"
+      },
+      "urgence": "moyenne"
+    },
+    {
+      "id": "omega3",
+      "nom": "Oméga-3 (EPA/DHA)",
+      "description": "Anti-inflammatoire, santé cardiovasculaire, cerveau, peau, humeur",
+      "symptomes_primaires": ["peau_seche_generalisee", "irritabilite", "brouillard_mental"],
+      "symptomes_secondaires": ["manque_motivation", "tristesse_fond", "demangeaisons", "douleurs_articulaires", "palpitations", "mauvais_sommeil"],
+      "symptomes_contextuels": ["alimentation_restrictive", "stress_chronique"],
+      "score_par_symptome": {
+        "peau_seche_generalisee": 25,
+        "irritabilite": 20,
+        "brouillard_mental": 20,
+        "manque_motivation": 15,
+        "tristesse_fond": 18,
+        "demangeaisons": 15,
+        "douleurs_articulaires": 15,
+        "palpitations": 12,
+        "mauvais_sommeil": 12,
+        "alimentation_restrictive": 20,
+        "stress_chronique": 10
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 50,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["peau_seche_generalisee", "irritabilite", "tristesse_fond"], "bonus": 20 },
+        { "symptomes": ["brouillard_mental", "manque_motivation", "mauvais_sommeil"], "bonus": 15 },
+        { "symptomes": ["douleurs_articulaires", "peau_seche_generalisee", "demangeaisons"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Sardines", "Maquereau", "Saumon", "Noix", "Graines de chia", "Huile de lin"],
+      "complement": {
+        "nom": "Huile de poisson EPA/DHA 1g",
+        "posologie": "2 capsules au cours d'un repas (matin ou midi)",
+        "forme_recommandee": "EPA+DHA minimum 500mg combinés par capsule. Forme triglycéride (meilleure absorption)",
+        "prix_mois": "10-20 EUR",
+        "ou_acheter": "Pharmacie ou parapharmacie — Isodisnatura, Isodis Natura, ou générique poisson",
+        "precautions": "Origine poissons sauvages préférable. Peut légèrement fluidifier le sang à forte dose"
+      },
+      "urgence": "moyenne"
+    },
+    {
+      "id": "vitamine_b1",
+      "nom": "Vitamine B1 (Thiamine)",
+      "description": "Métabolisme du glucose, système nerveux, production d'énergie",
+      "symptomes_primaires": ["mauvaise_odeur_transpiration", "fatigue_intense", "fourmillements"],
+      "symptomes_secondaires": ["irritabilite", "brouillard_mental", "mauvais_sommeil", "perte_appetit", "nausees"],
+      "symptomes_contextuels": ["alcool_frequent", "alimentation_restrictive", "stress_chronique"],
+      "score_par_symptome": {
+        "mauvaise_odeur_transpiration": 25,
+        "fatigue_intense": 20,
+        "fourmillements": 25,
+        "irritabilite": 15,
+        "brouillard_mental": 15,
+        "mauvais_sommeil": 12,
+        "perte_appetit": 15,
+        "nausees": 12,
+        "alcool_frequent": 30,
+        "alimentation_restrictive": 15,
+        "stress_chronique": 10
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["alcool_frequent", "fatigue_intense", "fourmillements"], "bonus": 30 },
+        { "symptomes": ["mauvaise_odeur_transpiration", "fatigue_intense", "irritabilite"], "bonus": 15 },
+        { "symptomes": ["fourmillements", "brouillard_mental", "perte_appetit"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Lentilles", "Viande de porc", "Oeufs", "Noix", "Levure de bière", "Céréales complètes"],
+      "complement": {
+        "nom": "Complexe B (B1 incluse)",
+        "posologie": "Incluse dans le complexe B — 1 comprimé le matin",
+        "forme_recommandee": "Complexe B complet — pas besoin de supplément B1 isolé sauf carence sévère",
+        "prix_mois": "Inclus dans le complexe B",
+        "ou_acheter": "Pharmacie — Bévitine complexe B",
+        "precautions": "Carence sévère (alcoolisme) : avis médical pour perfusion IV de thiamine"
+      },
+      "urgence": "moyenne"
+    },
+    {
+      "id": "fer",
+      "nom": "Fer / Ferritine",
+      "description": "Transport de l'oxygène, énergie, immunité, synthèse de sérotonine",
+      "symptomes_primaires": ["fatigue_intense", "encombrement_chronique", "jambes_lourdes"],
+      "symptomes_secondaires": ["brouillard_mental", "palpitations", "manque_motivation", "tristesse_fond", "sensibilite_froid", "cheveux_cassants", "ongles_cassants"],
+      "symptomes_contextuels": ["alimentation_restrictive", "sport_intense"],
+      "score_par_symptome": {
+        "fatigue_intense": 20,
+        "encombrement_chronique": 20,
+        "jambes_lourdes": 15,
+        "brouillard_mental": 15,
+        "palpitations": 20,
+        "manque_motivation": 15,
+        "tristesse_fond": 12,
+        "sensibilite_froid": 15,
+        "cheveux_cassants": 15,
+        "ongles_cassants": 12,
+        "alimentation_restrictive": 20,
+        "sport_intense": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 75,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["fatigue_intense", "palpitations", "sensibilite_froid"], "bonus": 25 },
+        { "symptomes": ["cheveux_cassants", "fatigue_intense", "brouillard_mental"], "bonus": 15 },
+        { "symptomes": ["encombrement_chronique", "fatigue_intense", "jambes_lourdes"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Viande rouge", "Lentilles + citron (pour l'absorption)", "Boudin noir", "Spiruline", "Oeufs"],
+      "complement": {
+        "nom": "FER — PRESCRIPTION MÉDICALE OBLIGATOIRE",
+        "posologie": "Selon bilan sanguin (ferritine + NFS)",
+        "forme_recommandee": "Ne pas acheter sans prise de sang. Surdosage dangereux",
+        "prix_mois": "Remboursé SS sur ordonnance",
+        "ou_acheter": "Pharmacie sur ordonnance uniquement",
+        "precautions": "OBLIGATOIRE : bilan sanguin ferritine + NFS avant toute supplémentation. Surdosage en fer = toxique"
+      },
+      "urgence": "médicale",
+      "prescription_obligatoire": true
+    },
+    {
+      "id": "vitamine_a",
+      "nom": "Vitamine A (Rétinol)",
+      "description": "Santé de la peau, vision, immunité, muqueuses",
+      "symptomes_primaires": ["vision_trouble", "plaies_nez", "peau_seche_generalisee"],
+      "symptomes_secondaires": ["infections_frequentes", "peau_seche_mains", "levres_seches", "demangeaisons"],
+      "symptomes_contextuels": ["alimentation_restrictive"],
+      "score_par_symptome": {
+        "vision_trouble": 35,
+        "plaies_nez": 20,
+        "peau_seche_generalisee": 20,
+        "infections_frequentes": 15,
+        "peau_seche_mains": 12,
+        "levres_seches": 10,
+        "demangeaisons": 10,
+        "alimentation_restrictive": 15
+      },
+      "seuil_probable": 25,
+      "seuil_tres_probable": 45,
+      "seuil_quasi_certain": 65,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["vision_trouble", "peau_seche_generalisee", "plaies_nez"], "bonus": 25 },
+        { "symptomes": ["peau_seche_generalisee", "infections_frequentes", "levres_seches"], "bonus": 12 }
+      ],
+      "aliments_cles": ["Carottes", "Patate douce", "Oeufs", "Foie de volaille", "Beurre", "Épinards"],
+      "complement": {
+        "nom": "Bêta-carotène (précurseur naturel et sûr)",
+        "posologie": "6-10 mg/jour de bêta-carotène — le corps convertit selon ses besoins",
+        "forme_recommandee": "Préférer le bêta-carotène au rétinol direct (pas de risque de surdosage)",
+        "prix_mois": "8-15 EUR",
+        "ou_acheter": "Pharmacie ou parapharmacie",
+        "precautions": "ATTENTION : rétinol direct (vitamine A préformée) toxique à haute dose. Fumeurs : éviter bêta-carotène en gélule à haute dose"
+      },
+      "urgence": "faible"
+    },
+    {
+      "id": "vitamine_b12",
+      "nom": "Vitamine B12 (Cobalamine)",
+      "description": "Système nerveux, production de globules rouges, énergie",
+      "symptomes_primaires": ["fourmillements", "fatigue_intense", "brouillard_mental"],
+      "symptomes_secondaires": ["tristesse_fond", "manque_motivation", "langue_douloureuse", "troubles_memoire", "irritabilite"],
+      "symptomes_contextuels": ["alimentation_restrictive", "alcool_frequent"],
+      "score_par_symptome": {
+        "fourmillements": 30,
+        "fatigue_intense": 20,
+        "brouillard_mental": 25,
+        "tristesse_fond": 15,
+        "manque_motivation": 15,
+        "langue_douloureuse": 20,
+        "irritabilite": 12,
+        "alimentation_restrictive": 30,
+        "alcool_frequent": 20
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 75,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["alimentation_restrictive", "fourmillements", "fatigue_intense"], "bonus": 30 },
+        { "symptomes": ["fourmillements", "brouillard_mental", "tristesse_fond"], "bonus": 20 },
+        { "symptomes": ["langue_douloureuse", "fatigue_intense", "irritabilite"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Viande rouge", "Sardines", "Oeufs", "Fromage", "Levure de bière enrichie"],
+      "complement": {
+        "nom": "Vitamine B12 méthylcobalamine",
+        "posologie": "1000 µg/jour — peut se prendre sous la langue (meilleure absorption)",
+        "forme_recommandee": "Méthylcobalamine (meilleure forme active) plutôt que cyanocobalamine",
+        "prix_mois": "5-12 EUR",
+        "ou_acheter": "Pharmacie — Bévitine B12 ou méthylcobalamine générique",
+        "precautions": "Végétaliens : supplémentation quasi-obligatoire. Personnes sous metformine : surveiller régulièrement"
+      },
+      "urgence": "haute"
+    },
+    {
+      "id": "vitamine_b6",
+      "nom": "Vitamine B6 (Pyridoxine)",
+      "description": "Synthèse de sérotonine et dopamine, système nerveux, immunité",
+      "symptomes_primaires": ["tristesse_fond", "irritabilite", "anxiete", "fourmillements"],
+      "symptomes_secondaires": ["mauvais_sommeil", "brouillard_mental", "nausees", "peau_seche_generalisee"],
+      "symptomes_contextuels": ["stress_chronique", "pilule", "alcool_frequent"],
+      "score_par_symptome": {
+        "tristesse_fond": 25,
+        "irritabilite": 20,
+        "anxiete": 20,
+        "fourmillements": 20,
+        "mauvais_sommeil": 15,
+        "brouillard_mental": 15,
+        "nausees": 12,
+        "peau_seche_generalisee": 10,
+        "stress_chronique": 15,
+        "alcool_frequent": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 50,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["tristesse_fond", "anxiete", "mauvais_sommeil"], "bonus": 20 },
+        { "symptomes": ["irritabilite", "fourmillements", "brouillard_mental"], "bonus": 15 },
+        { "symptomes": ["stress_chronique", "tristesse_fond", "fatigue_intense"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Poulet", "Thon", "Pommes de terre", "Bananes", "Graines de tournesol", "Pois chiches"],
+      "complement": {
+        "nom": "B6 (incluse dans le complexe B)",
+        "posologie": "Incluse dans le complexe B — 1 comprimé le matin",
+        "forme_recommandee": "Pyridoxal-5-phosphate (P5P) — forme active directement utilisable",
+        "prix_mois": "Inclus dans le complexe B",
+        "ou_acheter": "Pharmacie — complexe B ou B6 isolée si besoin",
+        "precautions": "Surdosage prolongé (>100mg/j) peut causer neuropathies. Rester dans les doses recommandées"
+      },
+      "urgence": "moyenne"
+    },
+    {
+      "id": "vitamine_b9",
+      "nom": "Vitamine B9 (Acide folique / Folates)",
+      "description": "Division cellulaire, système nerveux, production de globules rouges",
+      "symptomes_primaires": ["fatigue_intense", "aphtes_frequents", "langue_douloureuse"],
+      "symptomes_secondaires": ["tristesse_fond", "brouillard_mental", "irritabilite", "perte_appetit"],
+      "symptomes_contextuels": ["alcool_frequent", "alimentation_restrictive"],
+      "score_par_symptome": {
+        "fatigue_intense": 20,
+        "aphtes_frequents": 30,
+        "langue_douloureuse": 25,
+        "tristesse_fond": 15,
+        "brouillard_mental": 15,
+        "irritabilite": 12,
+        "perte_appetit": 10,
+        "alcool_frequent": 25,
+        "alimentation_restrictive": 20
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 50,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["aphtes_frequents", "langue_douloureuse", "fatigue_intense"], "bonus": 25 },
+        { "symptomes": ["alcool_frequent", "fatigue_intense", "tristesse_fond"], "bonus": 20 }
+      ],
+      "aliments_cles": ["Épinards", "Asperges", "Lentilles", "Pois chiches", "Avocat", "Levure de bière"],
+      "complement": {
+        "nom": "Acide folique 400µg (inclus dans complexe B)",
+        "posologie": "400µg/jour — inclus dans le complexe B",
+        "forme_recommandee": "Méthylfolate (5-MTHF) pour les personnes avec mutation MTHFR",
+        "prix_mois": "Inclus dans le complexe B",
+        "ou_acheter": "Pharmacie — complexe B ou folates isolés",
+        "precautions": "Grossesse : supplémentation systématique recommandée. Peut masquer une carence B12"
+      },
+      "urgence": "moyenne"
+    },
+    {
+      "id": "tryptophane",
+      "nom": "Tryptophane (acide aminé)",
+      "description": "Précurseur de la sérotonine et de la mélatonine — humeur et sommeil",
+      "symptomes_primaires": ["tristesse_fond", "endormissement_difficile", "anxiete"],
+      "symptomes_secondaires": ["irritabilite", "fringales_sucre", "brouillard_mental", "reveils_nocturnes"],
+      "symptomes_contextuels": ["stress_chronique", "alimentation_restrictive"],
+      "score_par_symptome": {
+        "tristesse_fond": 25,
+        "endormissement_difficile": 25,
+        "anxiete": 20,
+        "irritabilite": 15,
+        "fringales_sucre": 20,
+        "brouillard_mental": 12,
+        "reveils_nocturnes": 20,
+        "stress_chronique": 15,
+        "alimentation_restrictive": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["tristesse_fond", "endormissement_difficile", "fringales_sucre"], "bonus": 25 },
+        { "symptomes": ["anxiete", "reveils_nocturnes", "irritabilite"], "bonus": 20 }
+      ],
+      "aliments_cles": ["Dinde", "Oeufs", "Bananes", "Chocolat noir", "Graines de courge", "Fromage"],
+      "complement": {
+        "nom": "5-HTP (précurseur direct de la sérotonine)",
+        "posologie": "50-100mg le soir avant le coucher",
+        "forme_recommandee": "5-HTP extrait de Griffonia simplicifolia",
+        "prix_mois": "10-20 EUR",
+        "ou_acheter": "Parapharmacie ou magasin bio — Solgar, Now Foods",
+        "precautions": "NE PAS COMBINER avec des antidépresseurs ISRS (sertraline, etc.) sans avis médical — risque de syndrome sérotoninergique"
+      },
+      "urgence": "attention_medicaments",
+      "interactions_medicaments": ["sertraline", "tous_ISRS", "IMAO"]
+    },
+    {
+      "id": "probiotiques",
+      "nom": "Probiotiques / Microbiote",
+      "description": "Équilibre de la flore intestinale, immunité, absorption des nutriments, humeur",
+      "symptomes_primaires": ["digestion_lente", "transit_irregular", "infections_frequentes"],
+      "symptomes_secondaires": ["ballonnements", "nausees", "fatigue_intense", "brouillard_mental", "tristesse_fond", "demangeaisons"],
+      "symptomes_contextuels": ["alcool_frequent", "stress_chronique", "antibiotiques"],
+      "score_par_symptome": {
+        "digestion_lente": 30,
+        "transit_irregular": 30,
+        "infections_frequentes": 25,
+        "nausees": 15,
+        "fatigue_intense": 12,
+        "brouillard_mental": 12,
+        "tristesse_fond": 10,
+        "demangeaisons": 10,
+        "alcool_frequent": 15,
+        "stress_chronique": 15,
+        "antibiotiques": 40
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 75,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["antibiotiques", "digestion_lente", "transit_irregular"], "bonus": 35 },
+        { "symptomes": ["digestion_lente", "infections_frequentes", "fatigue_intense"], "bonus": 20 },
+        { "symptomes": ["transit_irregular", "brouillard_mental", "tristesse_fond"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Yaourt nature", "Kéfir", "Choucroute crue", "Kimchi", "Kombucha", "Miso"],
+      "complement": {
+        "nom": "Probiotiques multi-souches",
+        "posologie": "1 gélule le matin à jeun — cure de 1 à 3 mois",
+        "forme_recommandee": "Minimum 10 milliards UFC, multi-souches (Lactobacillus + Bifidobacterium)",
+        "prix_mois": "15-30 EUR",
+        "ou_acheter": "Pharmacie — Lactibiane, Ergyphilus ou Bion Microbiote",
+        "precautions": "Immunodépression sévère : avis médical. Peut provoquer ballonnements temporaires les premiers jours"
+      },
+      "urgence": "moyenne"
+    },
+    {
+      "id": "selenium",
+      "nom": "Sélénium",
+      "description": "Antioxydant, thyroïde, immunité, protection cellulaire",
+      "symptomes_primaires": ["fatigue_intense", "cheveux_cassants", "infections_frequentes"],
+      "symptomes_secondaires": ["manque_motivation", "brouillard_mental", "sensibilite_froid", "ongles_cassants"],
+      "symptomes_contextuels": ["alimentation_restrictive"],
+      "score_par_symptome": {
+        "fatigue_intense": 20,
+        "cheveux_cassants": 25,
+        "infections_frequentes": 20,
+        "manque_motivation": 15,
+        "brouillard_mental": 15,
+        "sensibilite_froid": 20,
+        "ongles_cassants": 15,
+        "alimentation_restrictive": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["fatigue_intense", "sensibilite_froid", "cheveux_cassants"], "bonus": 20 },
+        { "symptomes": ["infections_frequentes", "fatigue_intense", "brouillard_mental"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Noix du Brésil (2/jour suffisent)", "Thon", "Sardines", "Oeufs", "Champignons"],
+      "complement": {
+        "nom": "Sélénium 55-100µg",
+        "posologie": "55-100µg/jour (ne pas dépasser 200µg)",
+        "forme_recommandee": "Sélénométhionine (meilleure absorption)",
+        "prix_mois": "5-10 EUR",
+        "ou_acheter": "Pharmacie ou parapharmacie",
+        "precautions": "NE PAS DÉPASSER 400µg/j — toxique à haute dose. 2 noix du Brésil/jour = apport suffisant"
+      },
+      "urgence": "faible"
+    },
+    {
+      "id": "iode",
+      "nom": "Iode",
+      "description": "Synthèse des hormones thyroïdiennes, métabolisme, développement neurologique",
+      "symptomes_primaires": ["sensibilite_froid", "fatigue_intense", "prise_de_poids"],
+      "symptomes_secondaires": ["cheveux_cassants", "brouillard_mental", "manque_motivation", "mauvais_sommeil"],
+      "symptomes_contextuels": ["alimentation_restrictive"],
+      "score_par_symptome": {
+        "sensibilite_froid": 25,
+        "fatigue_intense": 20,
+        "cheveux_cassants": 20,
+        "brouillard_mental": 20,
+        "manque_motivation": 15,
+        "mauvais_sommeil": 12,
+        "alimentation_restrictive": 15
+      },
+      "seuil_probable": 30,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["sensibilite_froid", "fatigue_intense", "cheveux_cassants"], "bonus": 25 },
+        { "symptomes": ["brouillard_mental", "manque_motivation", "fatigue_intense"], "bonus": 15 }
+      ],
+      "aliments_cles": ["Sel iodé", "Algues (nori, kombu)", "Crevettes", "Cabillaud", "Yaourt nature"],
+      "complement": {
+        "nom": "Iode 150µg (souvent inclus dans multivitamines)",
+        "posologie": "150µg/jour — utiliser sel iodé en priorité",
+        "forme_recommandee": "Via l'alimentation ou multivitamines. Supplémentation isolée déconseillée sans bilan thyroïdien",
+        "prix_mois": "Inclus dans multivitamines ou coût nul (sel iodé)",
+        "ou_acheter": "Sel iodé en supermarché",
+        "precautions": "ATTENTION : surdosage peut aggraver les problèmes thyroïdiens. Bilan TSH recommandé si symptômes thyroïdiens"
+      },
+      "urgence": "faible"
+    },
+    {
+      "id": "glutamine",
+      "nom": "L-Glutamine (acide aminé)",
+      "description": "Intégrité intestinale, récupération musculaire, immunité",
+      "symptomes_primaires": ["digestion_lente", "transit_irregular", "infections_frequentes"],
+      "symptomes_secondaires": ["faiblesse_musculaire", "fatigue_intense", "brouillard_mental"],
+      "symptomes_contextuels": ["sport_intense", "stress_chronique", "alcool_frequent"],
+      "score_par_symptome": {
+        "digestion_lente": 25,
+        "transit_irregular": 20,
+        "infections_frequentes": 20,
+        "faiblesse_musculaire": 15,
+        "fatigue_intense": 12,
+        "brouillard_mental": 12,
+        "sport_intense": 20,
+        "stress_chronique": 15,
+        "alcool_frequent": 15
+      },
+      "seuil_probable": 35,
+      "seuil_tres_probable": 55,
+      "seuil_quasi_certain": 70,
+      "combinaisons_amplificatrices": [
+        { "symptomes": ["sport_intense", "fatigue_intense", "faiblesse_musculaire"], "bonus": 20 },
+        { "symptomes": ["digestion_lente", "transit_irregular", "infections_frequentes"], "bonus": 20 }
+      ],
+      "aliments_cles": ["Viande", "Poisson", "Oeufs", "Produits laitiers", "Légumineuses"],
+      "complement": {
+        "nom": "L-Glutamine en poudre 5g",
+        "posologie": "5g le matin à jeun dans un verre d'eau froide",
+        "forme_recommandee": "Poudre pure — économique et efficace",
+        "prix_mois": "10-20 EUR",
+        "ou_acheter": "Parapharmacie, magasin sport ou bio — Now Foods, Solgar",
+        "precautions": "Éviter si antécédents de cancer (la glutamine peut nourrir certaines cellules tumorales)"
+      },
+      "urgence": "faible"
+    }
+  ],
+
+  "regles_combinatoires_speciales": [
+    {
+      "id": "combo_scorbut_leger",
+      "label": "Tableau scorbutique partiel",
+      "description": "Combinaison évoquant un déficit sévère en vitamine C",
+      "symptomes_requis": ["gencives_douloureuses", "ecchymoses_faciles", "plaies_lentes"],
+      "carences_amplifiees": ["vitamine_c"],
+      "bonus_score": 40,
+      "message_alerte": "La combinaison gencives + bleus + cicatrisation lente est très évocatrice d'une carence marquée en vitamine C. Priorité absolue."
+    },
+    {
+      "id": "combo_nevrite_b",
+      "label": "Tableau névritique vitamines B",
+      "description": "Symptômes nerveux évoquant des carences combinées en vitamines B",
+      "symptomes_requis": ["fourmillements", "brouillard_mental", "fatigue_intense"],
+      "carences_amplifiees": ["vitamine_b1", "vitamine_b12", "vitamine_b6"],
+      "bonus_score": 30,
+      "message_alerte": "Les fourmillements associés à la fatigue et au brouillard mental indiquent potentiellement plusieurs carences en vitamines B. Un bilan sanguin B12 est recommandé."
+    },
+    {
+      "id": "combo_humeur_serotonine",
+      "label": "Tableau déficit sérotoninergique",
+      "description": "Symptômes évoquant un manque de précurseurs de la sérotonine",
+      "symptomes_requis": ["tristesse_fond", "fringales_sucre", "mauvais_sommeil"],
+      "carences_amplifiees": ["tryptophane", "vitamine_b6", "magnesium", "omega3"],
+      "bonus_score": 20,
+      "message_alerte": "Tristesse, fringales sucrées et mauvais sommeil forment un tableau cohérent avec un déficit en précurseurs de la sérotonine. Consulter un médecin avant toute supplémentation si vous prenez des antidépresseurs."
+    },
+    {
+      "id": "combo_thyroide",
+      "label": "Tableau évocateur de dysfonction thyroïdienne",
+      "description": "Combinaison pouvant évoquer une hypothyroïdie — nécessite bilan médical",
+      "symptomes_requis": ["sensibilite_froid", "fatigue_intense", "cheveux_cassants", "brouillard_mental"],
+      "carences_amplifiees": ["iode", "selenium", "vitamine_d"],
+      "bonus_score": 15,
+      "message_alerte": "⚠️ Cette combinaison de symptômes peut évoquer une hypothyroïdie en plus des carences. Un bilan TSH est fortement recommandé avant toute supplémentation.",
+      "bilan_medical_requis": true
+    },
+    {
+      "id": "combo_anemie",
+      "label": "Tableau anémique",
+      "description": "Symptômes évoquant une anémie par carence en fer ou B12",
+      "symptomes_requis": ["fatigue_intense", "palpitations", "brouillard_mental"],
+      "carences_amplifiees": ["fer", "vitamine_b12", "vitamine_b9"],
+      "bonus_score": 25,
+      "message_alerte": "⚠️ Cette combinaison peut évoquer une anémie. Un bilan sanguin (NFS + ferritine + B12) est obligatoire avant toute supplémentation en fer.",
+      "bilan_medical_requis": true
+    },
+    {
+      "id": "combo_peau_muqueuses",
+      "label": "Syndrome cutanéo-muqueux",
+      "description": "Atteintes multiples de la peau et des muqueuses",
+      "symptomes_requis": ["coins_levres_craques", "peau_seche_oreilles", "gencives_douloureuses"],
+      "carences_amplifiees": ["vitamine_b2_b3", "vitamine_c", "zinc"],
+      "bonus_score": 25,
+      "message_alerte": "Les atteintes simultanées de la bouche, des oreilles et des gencives forment un tableau classique de carences combinées en vitamines B, C et zinc."
+    },
+    {
+      "id": "combo_microbiote_epuise",
+      "label": "Microbiote épuisé",
+      "description": "Signe d'une dysbiose intestinale pouvant aggraver toutes les carences",
+      "symptomes_requis": ["digestion_lente", "transit_irregular", "infections_frequentes"],
+      "carences_amplifiees": ["probiotiques", "vitamine_b9", "vitamine_k"],
+      "bonus_score": 20,
+      "message_alerte": "Un intestin déséquilibré réduit l'absorption de tous les nutriments. Rétablir le microbiote est une priorité pour que les autres suppléments fonctionnent."
+    }
+  ],
+
+  "soins_locaux": [
+    {
+      "id": "cicaplast_levres",
+      "nom": "Cicaplast lèvres La Roche-Posay",
+      "utilisation": "Coins des lèvres + lèvres sèches — plusieurs fois par jour",
+      "prix": "6-9 EUR",
+      "symptomes_cibles": ["coins_levres_craques", "levres_seches"]
+    },
+    {
+      "id": "bepanthen",
+      "nom": "Bepanthen crème",
+      "utilisation": "Crevasses des doigts — soir après exposition à l'eau",
+      "prix": "5-8 EUR",
+      "symptomes_cibles": ["crevasses_doigts", "peau_seche_mains"]
+    },
+    {
+      "id": "creme_uree",
+      "nom": "Crème à l'urée 10-20% (Eucerin, Aderma)",
+      "utilisation": "Mains abîmées — soir avec gants coton par-dessus",
+      "prix": "8-15 EUR",
+      "symptomes_cibles": ["peau_seche_mains", "crevasses_doigts", "peau_seche_generalisee"]
+    },
+    {
+      "id": "spray_nasal",
+      "nom": "Physiomer / Humer spray nasal",
+      "utilisation": "Plaies nez — 2-3x/jour pour nettoyer et hydrater",
+      "prix": "6-10 EUR",
+      "symptomes_cibles": ["plaies_nez", "encombrement_chronique", "saignements_nez"]
+    },
+    {
+      "id": "bain_bouche",
+      "nom": "Paroex / Eludril bain de bouche",
+      "utilisation": "Gencives douloureuses — 1 semaine maximum",
+      "prix": "5-8 EUR",
+      "symptomes_cibles": ["gencives_douloureuses", "aphtes_frequents"]
+    },
+    {
+      "id": "gants_nitrile",
+      "nom": "Gants en nitrile",
+      "utilisation": "Protection pendant travaux humides",
+      "prix": "5-8 EUR/boite",
+      "symptomes_cibles": ["crevasses_doigts", "peau_seche_mains"]
+    },
+    {
+      "id": "gants_coton",
+      "nom": "Gants en coton",
+      "utilisation": "La nuit par-dessus la crème à l'urée",
+      "prix": "3-5 EUR",
+      "symptomes_cibles": ["peau_seche_mains", "crevasses_doigts"]
+    },
+    {
+      "id": "creme_apaisante",
+      "nom": "Crème apaisante corps (Avène Trixéra, Cetaphil)",
+      "utilisation": "Peau sèche généralisée — après douche sur peau humide",
+      "prix": "10-20 EUR",
+      "symptomes_cibles": ["peau_seche_generalisee", "demangeaisons"]
+    }
+  ],
+
+  "bilans_sanguins_recommandes": [
+    {
+      "id": "bilan_base",
+      "label": "Bilan de base (partiellement remboursé SS)",
+      "analyses": ["Vitamine D (25-OH)", "Ferritine", "NFS (numération formule sanguine)", "Zinc sérique", "Vitamine B12"],
+      "indication": "À demander en priorité si score fer ou B12 élevé",
+      "remboursement": "Partiel selon prescription médicale"
+    },
+    {
+      "id": "bilan_thyroide",
+      "label": "Bilan thyroïdien",
+      "analyses": ["TSH", "T3 libre", "T4 libre", "Anticorps anti-TPO"],
+      "indication": "Si sensibilité au froid + fatigue + cheveux cassants + brouillard mental",
+      "remboursement": "Remboursé sur ordonnance"
+    },
+    {
+      "id": "bilan_complet",
+      "label": "Bilan complet",
+      "analyses": ["Vitamine D", "Ferritine", "NFS", "Zinc", "B12", "B9 (folates)", "Magnésium érythrocytaire", "CRP (inflammation)", "TSH"],
+      "indication": "Bilan idéal si symptômes multiples",
+      "remboursement": "Variable — certains non remboursés sans prescription justifiée"
+    }
+  ],
+
+  "contextes_medicaux": [
+    {
+      "id": "depression_anxiete",
+      "label": "Dépression ou anxiété chronique",
+      "emoji": "🧠",
+      "description": "Diagnostiquée ou suspectée",
+      "symptomes_confondus": ["fatigue_intense", "manque_motivation", "tristesse_fond", "brouillard_mental", "mauvais_sommeil", "irritabilite", "anxiete", "perte_appetit", "somnolence_journee"],
+      "coefficient_reduction": 0.6,
+      "carences_aggravees": ["magnesium", "omega3", "vitamine_d", "vitamine_b6", "zinc"],
+      "bonus_aggravation": 15,
+      "message_confond": "Ces symptômes peuvent relever de la dépression/anxiété plutôt que d'une carence nutritionnelle.",
+      "explication_confond": "L'épisode dépressif majeur et les troubles anxieux chroniques produisent des symptômes physiques qui recouvrent ceux des carences : fatigue persistante, troubles du sommeil, ralentissement des idées (« brouillard mental »), perte d'appétit, irritabilité. Ces signes font partie des critères diagnostiques officiels (DSM-5 / CIM-11), indépendamment d'un déficit nutritif. C'est pourquoi l'app réduit le score carence quand ce contexte est actif — sans exclure qu'une carence réelle coexiste.",
+      "sources_confond": [
+        { "label": "OMS — Dépression (fiche officielle)", "url": "https://www.who.int/news-room/fact-sheets/detail/depression" },
+        { "label": "HAS — Troubles dépressifs de l'adulte", "url": "https://www.has-sante.fr/jcms/c_985154/fr/troubles-depressifs-de-l-adulte" }
+      ],
+      "message_aggrave": "La dépression/anxiété peut augmenter le risque ou aggraver une carence en {carence}.",
+      "explications_aggrave": {
+        "magnesium": {
+          "explication": "Le stress psychologique chronique active l'axe hypothalamo-hypophyso-surrénalien (cortisol) et augmente les pertes urinaires de magnésium. En parallèle, la dépression réduit souvent l'appétit et la qualité alimentaire. À l'inverse, une hypomagnésémie diminue l'activité GABAergique et amplifie l'hyperréactivité nerveuse, aggravant sommeil et anxiété — une relation bidirectionnelle documentée.",
+          "sources": [
+            { "label": "Linus Pauling Institute — Magnésium", "url": "https://lpi.oregonstate.edu/mic/minerals/magnesium" },
+            { "label": "Revue : magnésium et dépression (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/28445426/" }
+          ]
+        },
+        "omega3": {
+          "explication": "Les personnes en dépression présentent fréquemment un index oméga-3 (EPA/DHA) plus bas. Les méta-analyses montrent un bénéfice modeste mais réel de l'EPA en complément du traitement antidépresseur. Une alimentation pauvre en poissons gras ou une inflammation de bas grade liée au stress peuvent aggraver ce déficit.",
+          "sources": [
+            { "label": "Méta-analyse EPA et dépression (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/31309688/" },
+            { "label": "NIH Office of Dietary Supplements — Oméga-3", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/" }
+          ]
+        },
+        "vitamine_d": {
+          "explication": "La vitamine D possède des récepteurs (VDR) dans des régions cérébrales impliquées dans l'humeur. De nombreuses études observationnelles associent un taux bas de 25-OH-D à un risque accru de dépression, notamment en cas de faible exposition solaire (troubles affectifs saisonniers). La dépression peut aussi réduire les sorties et donc la synthèse cutanée.",
+          "sources": [
+            { "label": "Méta-analyse vitamine D et dépression (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/26710629/" },
+            { "label": "Endocrine Society — Vitamine D", "url": "https://www.endocrine.org/clinical-practice-guidelines/vitamin-d" }
+          ]
+        },
+        "vitamine_b6": {
+          "explication": "La vitamine B6 (pyridoxal-5-phosphate) est cofacteur de la conversion du tryptophane en sérotonine, neurotransmetteur central dans la régulation de l'humeur. Un déficit en B6 — fréquent en cas d'alimentation déséquilibrée ou de certains traitements — peut mimer ou amplifier des symptômes dépressifs (fatigue, irritabilité, troubles du sommeil).",
+          "sources": [
+            { "label": "Linus Pauling Institute — Vitamine B6", "url": "https://lpi.oregonstate.edu/mic/vitamins/vitamin-B6" },
+            { "label": "Revue : vitamines B et santé mentale (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/30014101/" }
+          ]
+        },
+        "zinc": {
+          "explication": "Le zinc sérique est souvent plus bas chez les personnes dépressives. Le zinc module les récepteurs NMDA/GABA et les voies inflammatoires (hypothèse cytokinique de la dépression). Stress chronique, alimentation pauvre et inflammation peuvent aggraver une carence en zinc, elle-même associée à une symptomatologie anxio-dépressive.",
+          "sources": [
+            { "label": "Méta-analyse zinc et dépression (PubMed)", "url": "https://pubmed.ncbi.nlm.nih.gov/25092978/" },
+            { "label": "Linus Pauling Institute — Zinc", "url": "https://lpi.oregonstate.edu/mic/minerals/zinc" }
+          ]
+        }
+      },
+      "conseil": "Mentionnez ce bilan à votre médecin — certaines carences aggravent les symptômes dépressifs et peuvent être corrigées en parallèle du traitement psychologique ou médicamenteux, après bilan sanguin."
+    },
+    {
+      "id": "hypothyroidie",
+      "label": "Hypothyroïdie (suspectée ou diagnostiquée)",
+      "emoji": "🦋",
+      "description": "Thyroïde lente, traitement en cours ou bilan non fait",
+      "symptomes_confondus": ["fatigue_intense", "sensibilite_froid", "cheveux_cassants", "brouillard_mental", "manque_motivation", "mauvais_sommeil", "jambes_lourdes"],
+      "coefficient_reduction": 0.6,
+      "carences_aggravees": ["iode", "selenium", "fer", "vitamine_d", "zinc"],
+      "bonus_aggravation": 15,
+      "message_confond": "Peut être lié à la thyroïde plutôt qu'à une carence nutritionnelle.",
+      "message_aggrave": "L'hypothyroïdie peut aggraver ou masquer une carence en {carence}.",
+      "conseil": "Un bilan TSH est recommandé. Certaines carences (iode, sélénium) peuvent affecter la thyroïde.",
+      "bilan_recommande": "TSH, T3 libre, T4 libre"
+    },
+    {
+      "id": "anemie_connue",
+      "label": "Anémie connue ou suspectée",
+      "emoji": "🩸",
+      "description": "Fatigue, pâleur, essoufflement sans cause claire",
+      "symptomes_confondus": ["fatigue_intense", "palpitations", "brouillard_mental", "sensibilite_froid", "jambes_lourdes", "manque_motivation"],
+      "coefficient_reduction": 0.65,
+      "carences_aggravees": ["fer", "vitamine_b12", "vitamine_b9"],
+      "bonus_aggravation": 20,
+      "message_confond": "Typique de l'anémie — une prise de sang (NFS + ferritine) est nécessaire pour confirmer.",
+      "message_aggrave": "L'anémie est souvent causée par une carence en {carence}.",
+      "conseil": "NFS + ferritine + B12 avant toute supplémentation en fer.",
+      "bilan_recommande": "NFS, ferritine, B12",
+      "bilan_obligatoire": true
+    },
+    {
+      "id": "diabete",
+      "label": "Diabète ou résistance à l'insuline",
+      "emoji": "🍬",
+      "description": "Diabète type 1 ou 2, prédiabète, ou fringales/fatigue post-repas",
+      "symptomes_confondus": ["fatigue_intense", "brouillard_mental", "fringales_sucre", "somnolence_journee", "vision_trouble", "fourmillements"],
+      "coefficient_reduction": 0.6,
+      "carences_aggravees": ["magnesium", "zinc", "vitamine_d", "vitamine_b1"],
+      "bonus_aggravation": 15,
+      "message_confond": "Peut être lié à la glycémie plutôt qu'à une carence.",
+      "message_aggrave": "Le diabète augmente les pertes urinaires de {carence}.",
+      "conseil": "Si vous n'avez pas de suivi glycémique récent, un bilan HbA1c peut être utile."
+    },
+    {
+      "id": "troubles_digestifs",
+      "label": "Troubles digestifs chroniques",
+      "emoji": "🫃",
+      "description": "Colon irritable, Crohn, SIBO, reflux chronique",
+      "symptomes_confondus": ["fatigue_intense", "brouillard_mental", "digestion_lente", "transit_irregular", "nausees", "perte_appetit"],
+      "coefficient_reduction": 0.7,
+      "carences_aggravees": ["fer", "vitamine_b12", "vitamine_d", "zinc", "magnesium", "vitamine_b9", "probiotiques"],
+      "bonus_aggravation": 20,
+      "message_confond": "Peut être lié à vos troubles digestifs plutôt qu'à une carence isolée.",
+      "message_aggrave": "Vos troubles digestifs réduisent l'absorption de {carence} — la supplémentation est d'autant plus importante.",
+      "conseil": "Privilégiez les formes bien absorbées : bisglycinate pour le magnésium, méthylcobalamine pour la B12, bisglycinate pour le zinc."
+    },
+    {
+      "id": "stress_burnout",
+      "label": "Stress chronique ou burn-out",
+      "emoji": "🔥",
+      "description": "Surcharge prolongée, épuisement professionnel",
+      "symptomes_confondus": ["fatigue_intense", "mauvais_sommeil", "irritabilite", "brouillard_mental", "manque_motivation", "anxiete", "palpitations", "endormissement_difficile"],
+      "coefficient_reduction": 0.65,
+      "carences_aggravees": ["magnesium", "vitamine_c", "vitamine_b6", "zinc", "omega3"],
+      "bonus_aggravation": 15,
+      "message_confond": "Peut être lié au stress chronique plutôt qu'à une carence.",
+      "message_aggrave": "Le stress chronique épuise rapidement les réserves de {carence}.",
+      "conseil": "Le stress est un des plus grands consommateurs de magnésium et de vitamine C. Corriger ces carences peut aider à mieux gérer le stress."
+    },
+    {
+      "id": "menopause",
+      "label": "Ménopause ou périménopause",
+      "emoji": "🌡️",
+      "description": "Transition hormonale naturelle ou médicale",
+      "symptomes_confondus": ["mauvais_sommeil", "irritabilite", "fatigue_intense", "sautes_humeur", "sensibilite_froid", "peau_seche_generalisee", "cheveux_cassants"],
+      "coefficient_reduction": 0.65,
+      "carences_aggravees": ["vitamine_d", "magnesium", "omega3", "fer"],
+      "bonus_aggravation": 15,
+      "message_confond": "Fréquent lors de la ménopause — pas nécessairement une carence.",
+      "message_aggrave": "La ménopause augmente les besoins en {carence}.",
+      "conseil": "Vitamine D + magnésium + calcium sont essentiels pour la santé osseuse pendant cette période."
+    },
+    {
+      "id": "fatigue_chronique",
+      "label": "Syndrome de fatigue chronique (SFC)",
+      "emoji": "😴",
+      "description": "Fatigue invalidante depuis plus de 6 mois sans cause identifiée",
+      "symptomes_confondus": ["fatigue_intense", "brouillard_mental", "douleurs_articulaires", "mauvais_sommeil", "manque_motivation", "faiblesse_musculaire"],
+      "coefficient_reduction": 0.5,
+      "carences_aggravees": ["vitamine_d", "magnesium", "vitamine_b12", "omega3"],
+      "bonus_aggravation": 15,
+      "message_confond": "Peut faire partie du SFC — les carences seules ne l'expliquent pas entièrement.",
+      "message_aggrave": "Le SFC est souvent associé à une carence en {carence} qui aggrave les symptômes.",
+      "conseil": "Le SFC nécessite un suivi médical spécialisé. Corriger les carences associées peut améliorer la qualité de vie."
+    },
+    {
+      "id": "intolerance_alimentaire",
+      "label": "Allergie ou intolérance alimentaire",
+      "emoji": "🌾",
+      "description": "Gluten, lactose, histamine ou autre intolérance connue",
+      "symptomes_confondus": ["digestion_lente", "transit_irregular", "demangeaisons", "fatigue_intense", "brouillard_mental", "nausees"],
+      "coefficient_reduction": 0.65,
+      "carences_aggravees": ["fer", "vitamine_d", "vitamine_b9", "zinc", "magnesium"],
+      "bonus_aggravation": 15,
+      "message_confond": "Peut être une réaction à un aliment plutôt qu'une carence.",
+      "message_aggrave": "L'éviction de certains groupes alimentaires peut créer une carence en {carence}.",
+      "conseil": "Un régime d'éviction sans suivi peut créer des carences secondaires. Compensez systématiquement les nutriments des groupes évités."
+    },
+    {
+      "id": "infection_recente",
+      "label": "Infection ou maladie récente",
+      "emoji": "🤒",
+      "description": "COVID long, grippe, infection dans les 3 derniers mois",
+      "symptomes_confondus": ["fatigue_intense", "brouillard_mental", "manque_motivation", "douleurs_articulaires", "mauvais_sommeil"],
+      "coefficient_reduction": 0.7,
+      "carences_aggravees": ["vitamine_c", "zinc", "vitamine_d", "selenium", "probiotiques"],
+      "bonus_aggravation": 15,
+      "message_confond": "Peut être une séquelle de votre infection récente.",
+      "message_aggrave": "Les infections épuisent les réserves de {carence} — la supplémentation aide à la récupération.",
+      "conseil": "Le COVID long est associé à des carences en vitamine D, zinc et B12. Une supplémentation ciblée peut accélérer la récupération."
+    }
+  ],
+
+  "avertissements": {
+    "general": "Ce document est un outil d'orientation basé sur des symptômes déclarés. Il ne constitue pas un diagnostic médical. Consultez un professionnel de santé avant toute supplémentation.",
+    "medicaments": "Si vous prenez des médicaments sur ordonnance, consultez systématiquement votre médecin ou pharmacien avant d'ajouter des compléments alimentaires.",
+    "interactions_critiques": [
+      "5-HTP ou tryptophane + ISRS (sertraline, fluoxétine...) → risque de syndrome sérotoninergique",
+      "Vitamine K + anticoagulants (warfarine) → peut modifier l'effet anticoagulant",
+      "Fer + autres minéraux → à prendre à distance du zinc, calcium, magnésium",
+      "Haute dose vitamine A (rétinol) → tératogène, toxique en surdosage"
+    ]
+  }
+}

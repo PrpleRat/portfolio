@@ -1,0 +1,50 @@
+# Xcode
+build/
+DerivedData/
+*.xcuserstate
+*.xcuserdatad
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+
+# Carthage
+Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# CI généré (install-signing / refresh-profiles)
+ci/Release-App.xcconfig
+ExportOptions-ci.plist
+output/
+
+# Secrets
+*.p12
+*.mobileprovision
+.env
+.env.*
+
+# IDE
+.idea/
+*.swp
+*~

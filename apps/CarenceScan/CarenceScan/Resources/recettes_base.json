@@ -1,0 +1,962 @@
+{
+  "version": "1.0.0",
+  "description": "Base de recettes indexées par aliments clés de carences",
+  "note": "Chaque recette couvre au minimum 2 aliments liés à des carences. Score de couverture calculé dynamiquement.",
+
+  "compatibilites_culinaires": {
+    "description": "Paires d'ingrédients culinairement compatibles pour le matching",
+    "paires_valides": [
+      ["oeufs", "epinards"], ["oeufs", "champignons"], ["oeufs", "lentilles"],
+      ["oeufs", "pommes_de_terre"], ["oeufs", "thon"], ["oeufs", "saumon"],
+      ["oeufs", "poivrons"], ["oeufs", "brocolis"],
+      ["poulet", "pommes_de_terre"], ["poulet", "brocolis"], ["poulet", "epinards"],
+      ["poulet", "champignons"], ["poulet", "lentilles"], ["poulet", "carottes"],
+      ["thon", "pommes_de_terre"], ["thon", "lentilles"], ["thon", "avocat"],
+      ["thon", "poivrons"], ["thon", "epinards"],
+      ["saumon", "epinards"], ["saumon", "brocolis"], ["saumon", "lentilles"],
+      ["saumon", "avocat"], ["saumon", "pommes_de_terre"],
+      ["sardines", "pommes_de_terre"], ["sardines", "lentilles"], ["sardines", "epinards"],
+      ["lentilles", "carottes"], ["lentilles", "epinards"], ["lentilles", "pommes_de_terre"],
+      ["lentilles", "champignons"], ["lentilles", "brocolis"],
+      ["epinards", "champignons"], ["epinards", "brocolis"], ["epinards", "carottes"],
+      ["epinards", "amandes"], ["epinards", "noix"],
+      ["chocolat_noir", "amandes"], ["chocolat_noir", "bananes"], ["chocolat_noir", "noix"],
+      ["bananes", "amandes"], ["bananes", "noix"],
+      ["noix", "amandes"], ["noix", "graines_courge"],
+      ["viande_rouge", "epinards"], ["viande_rouge", "champignons"],
+      ["viande_rouge", "lentilles"], ["viande_rouge", "brocolis"],
+      ["foie_volaille", "epinards"], ["foie_volaille", "carottes"],
+      ["carottes", "pommes_de_terre"], ["carottes", "brocolis"],
+      ["avocat", "oeufs"], ["avocat", "epinards"], ["avocat", "saumon"],
+      ["kiwis", "bananes"], ["kiwis", "fraises"], ["oranges", "fraises"],
+      ["yaourt", "bananes"], ["yaourt", "kiwis"], ["yaourt", "fraises"],
+      ["pois_chiches", "epinards"], ["pois_chiches", "carottes"], ["pois_chiches", "avocat"],
+      ["maquereau", "pommes_de_terre"], ["maquereau", "lentilles"]
+    ],
+    "paires_incompatibles": [
+      ["sardines", "chocolat_noir"], ["thon", "chocolat_noir"],
+      ["viande_rouge", "kiwis"], ["saumon", "bananes"],
+      ["foie_volaille", "chocolat_noir"], ["maquereau", "fraises"]
+    ]
+  },
+
+  "recettes": [
+    {
+      "id": "omelette_epinards_champignons",
+      "titre": "Omelette épinards & champignons",
+      "emoji": "🍳",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs", "epinards", "champignons"],
+      "carences_couvertes": ["vitamine_c", "zinc", "vitamine_b2_b3", "fer", "vitamine_d", "magnesium"],
+      "ingredients_complets": [
+        "4 œufs", "100g d'épinards frais", "150g de champignons",
+        "1 gousse d'ail", "Huile d'olive", "Sel, poivre", "Herbes de Provence"
+      ],
+      "etapes": [
+        "Faire revenir les champignons émincés dans un filet d'huile d'olive 5 min à feu vif.",
+        "Ajouter les épinards et l'ail haché, faire tomber 2 min.",
+        "Battre les œufs avec sel et poivre, verser sur les légumes.",
+        "Cuire à feu moyen jusqu'à ce que l'omelette soit prise. Replier et servir."
+      ],
+      "conseil_nutrition": "Manger avec un filet de citron pour booster l'absorption du fer des épinards.",
+      "score_base": 6
+    },
+    {
+      "id": "salade_nicoise_revisitee",
+      "titre": "Salade niçoise revisitée",
+      "emoji": "🥗",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["thon", "oeufs", "pommes_de_terre", "poivrons"],
+      "carences_couvertes": ["vitamine_b12", "vitamine_b6", "zinc", "vitamine_c", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "2 boîtes de thon en conserve", "3 œufs durs", "300g de pommes de terre",
+        "1 poivron rouge", "Tomates cerises", "Olives noires",
+        "Vinaigrette : huile d'olive, citron, moutarde"
+      ],
+      "etapes": [
+        "Cuire les pommes de terre en robe des champs 20 min, laisser refroidir.",
+        "Cuire les œufs durs 10 min, écaler et couper en quartiers.",
+        "Couper le poivron en lanières, les pommes de terre en rondelles.",
+        "Assembler tous les ingrédients, arroser de vinaigrette citron."
+      ],
+      "conseil_nutrition": "Le poivron rouge apporte de la vitamine C qui améliore l'absorption du fer du thon.",
+      "score_base": 8
+    },
+    {
+      "id": "lentilles_epinards_cumin",
+      "titre": "Lentilles aux épinards & cumin",
+      "emoji": "🫘",
+      "temps": "30 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["lentilles", "epinards", "carottes"],
+      "carences_couvertes": ["fer", "vitamine_b9", "vitamine_b1", "magnesium", "vitamine_c", "zinc"],
+      "ingredients_complets": [
+        "300g de lentilles vertes", "200g d'épinards frais", "2 carottes",
+        "1 oignon", "2 gousses d'ail", "1 cuillère à café de cumin",
+        "Jus d'1 citron", "Huile d'olive", "Sel, poivre"
+      ],
+      "etapes": [
+        "Rincer les lentilles. Faire revenir oignon et ail haché 3 min.",
+        "Ajouter les lentilles et les carottes en dés, couvrir d'eau. Cuire 25 min.",
+        "En fin de cuisson, ajouter les épinards et le cumin. Mélanger 2 min.",
+        "Presser le citron au moment de servir pour maximiser l'absorption du fer."
+      ],
+      "conseil_nutrition": "Le citron est indispensable : la vitamine C triple l'absorption du fer des lentilles.",
+      "score_base": 9
+    },
+    {
+      "id": "poulet_brocolis_sesame",
+      "titre": "Poulet sauté brocolis & sésame",
+      "emoji": "🥦",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["poulet", "brocolis", "graines_courge"],
+      "carences_couvertes": ["vitamine_b6", "vitamine_c", "zinc", "magnesium", "vitamine_k"],
+      "ingredients_complets": [
+        "2 blancs de poulet", "1 brocoli", "2 cuillères à soupe de graines de sésame",
+        "1 cuillère à soupe de graines de courge", "Sauce soja", "Gingembre frais",
+        "Ail", "Huile de sésame"
+      ],
+      "etapes": [
+        "Couper le poulet en lamelles, faire mariner 10 min dans sauce soja + gingembre.",
+        "Faire revenir le poulet à feu vif 5 min. Réserver.",
+        "Faire sauter le brocoli en fleurettes 5 min. Ajouter l'ail.",
+        "Réunir poulet et brocolis, parsemer de graines. Filet d'huile de sésame."
+      ],
+      "conseil_nutrition": "Le brocoli apporte vitamine C et K. Les graines de courge sont riches en zinc et magnésium.",
+      "score_base": 7
+    },
+    {
+      "id": "saumon_epinards_citron",
+      "titre": "Pavé de saumon sur lit d'épinards",
+      "emoji": "🐟",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["saumon", "epinards", "avocat"],
+      "carences_couvertes": ["omega3", "vitamine_d", "fer", "vitamine_b12", "vitamine_b9", "magnesium"],
+      "ingredients_complets": [
+        "2 pavés de saumon", "200g d'épinards frais", "1 avocat",
+        "1 citron", "Huile d'olive", "Aneth", "Sel, poivre"
+      ],
+      "etapes": [
+        "Cuire le saumon à la poêle 4 min de chaque côté avec huile d'olive.",
+        "Dans la même poêle, faire tomber les épinards avec ail 2 min.",
+        "Dresser les épinards, poser le saumon dessus.",
+        "Accompagner d'avocat en tranches, citron et aneth."
+      ],
+      "conseil_nutrition": "Combo optimal : saumon (oméga-3 + D + B12) + épinards (fer + B9) + avocat (graisses saines).",
+      "score_base": 10
+    },
+    {
+      "id": "curry_pois_chiches_epinards",
+      "titre": "Curry pois chiches & épinards",
+      "emoji": "🍛",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["pois_chiches", "epinards", "carottes"],
+      "carences_couvertes": ["fer", "vitamine_b9", "zinc", "magnesium", "vitamine_c", "probiotiques"],
+      "ingredients_complets": [
+        "1 boîte de pois chiches", "200g d'épinards frais", "2 carottes",
+        "1 oignon", "400ml de lait de coco", "2 cuillères à café de curry",
+        "Curcuma", "Gingembre", "Tomates concassées", "Jus de citron"
+      ],
+      "etapes": [
+        "Faire revenir oignon, gingembre et épices dans l'huile 3 min.",
+        "Ajouter carottes en dés et tomates, cuire 5 min.",
+        "Incorporer pois chiches et lait de coco. Mijoter 15 min.",
+        "Ajouter épinards en fin de cuisson. Citron avant de servir."
+      ],
+      "conseil_nutrition": "Recette végétarienne complète : associer avec du riz complet pour les acides aminés manquants.",
+      "score_base": 8
+    },
+    {
+      "id": "oeufs_cocotte_saumon",
+      "titre": "Œufs cocotte au saumon fumé",
+      "emoji": "🥚",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs", "saumon"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_b12", "zinc", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "4 œufs", "100g de saumon fumé", "4 cuillères à soupe de crème fraîche",
+        "Ciboulette", "Sel, poivre", "Pain complet pour accompagner"
+      ],
+      "etapes": [
+        "Préchauffer le four à 180°C.",
+        "Déposer le saumon fumé au fond de ramequins beurrés.",
+        "Ajouter 2 cuillères de crème, casser 2 œufs dessus.",
+        "Cuire au bain-marie 12-15 min. Parsemer de ciboulette."
+      ],
+      "conseil_nutrition": "Riche en vitamine D et oméga-3 sans aucun effort. Le pain complet ajoute des vitamines B.",
+      "score_base": 7
+    },
+    {
+      "id": "poele_foie_volaille_oignons",
+      "titre": "Foie de volaille aux oignons caramélisés",
+      "emoji": "🍖",
+      "temps": "20 min",
+      "difficulte": "Moyen",
+      "portions": 2,
+      "ingredients_cles": ["foie_volaille", "oeufs", "carottes"],
+      "carences_couvertes": ["fer", "vitamine_a", "vitamine_b12", "zinc", "vitamine_b9", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "300g de foie de volaille", "2 oignons", "2 carottes",
+        "50ml de vinaigre balsamique", "Thym", "Beurre", "Sel, poivre",
+        "Persil frais"
+      ],
+      "etapes": [
+        "Faire caraméliser les oignons émincés dans le beurre 10 min à feu doux.",
+        "Monter le feu, saisir les foies 2 min de chaque côté.",
+        "Déglacer au vinaigre balsamique. Ajouter les carottes râpées.",
+        "Parsemer de persil frais. Servir chaud."
+      ],
+      "conseil_nutrition": "Le foie de volaille est l'aliment le plus dense en fer héminique et en vitamines B. À consommer 1-2x/semaine max.",
+      "score_base": 9
+    },
+    {
+      "id": "buddha_bowl_complet",
+      "titre": "Buddha bowl anti-carences",
+      "emoji": "🥙",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs", "epinards", "avocat", "graines_courge", "carottes"],
+      "carences_couvertes": ["fer", "zinc", "omega3", "vitamine_b9", "magnesium", "vitamine_c", "vitamine_a"],
+      "ingredients_complets": [
+        "2 œufs mollets", "100g d'épinards", "1 avocat", "2 carottes râpées",
+        "2 cuillères à soupe de graines de courge", "1 boîte de pois chiches rôtis",
+        "Riz complet cuit", "Sauce tahini : tahini + citron + ail + eau"
+      ],
+      "etapes": [
+        "Cuire le riz complet. Cuire les œufs mollets 6 min dans l'eau bouillante.",
+        "Rôtir les pois chiches égouttés avec paprika à 200°C pendant 20 min.",
+        "Assembler dans un bol : riz, épinards, carottes, avocat, pois chiches.",
+        "Poser l'œuf coupé, parsemer de graines, napper de sauce tahini."
+      ],
+      "conseil_nutrition": "Le bowl le plus complet : couvre fer, zinc, B9, oméga-3, vitamine C en un seul repas.",
+      "score_base": 10
+    },
+    {
+      "id": "soupe_lentilles_carotte_gingembre",
+      "titre": "Soupe lentilles corail, carotte & gingembre",
+      "emoji": "🍲",
+      "temps": "30 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["lentilles", "carottes"],
+      "carences_couvertes": ["fer", "vitamine_b1", "vitamine_b9", "vitamine_a", "magnesium"],
+      "ingredients_complets": [
+        "250g de lentilles corail", "4 carottes", "1 oignon",
+        "2cm de gingembre frais", "1 cuillère à café de curcuma",
+        "400ml de lait de coco", "Bouillon légumes", "Citron", "Coriandre"
+      ],
+      "etapes": [
+        "Faire revenir oignon et gingembre râpé dans l'huile 3 min.",
+        "Ajouter lentilles, carottes en rondelles, curcuma et bouillon.",
+        "Cuire 20 min à feu moyen jusqu'à ce que les lentilles soient fondantes.",
+        "Mixer, ajouter lait de coco, rectifier l'assaisonnement. Citron + coriandre."
+      ],
+      "conseil_nutrition": "Le curcuma est anti-inflammatoire. Le citron boost l'absorption du fer des lentilles.",
+      "score_base": 7
+    },
+    {
+      "id": "steak_epinards_ail",
+      "titre": "Steak de bœuf aux épinards à l'ail",
+      "emoji": "🥩",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["viande_rouge", "epinards"],
+      "carences_couvertes": ["fer", "zinc", "vitamine_b12", "vitamine_b6", "vitamine_b2_b3", "magnesium"],
+      "ingredients_complets": [
+        "2 steaks de bœuf (rumsteck ou bavette)", "200g d'épinards frais",
+        "3 gousses d'ail", "Beurre", "Thym", "Sel, poivre"
+      ],
+      "etapes": [
+        "Saisir les steaks dans le beurre 2-3 min de chaque côté selon cuisson désirée.",
+        "Laisser reposer les steaks 5 min enveloppés dans aluminium.",
+        "Dans la même poêle, faire revenir l'ail haché, ajouter les épinards.",
+        "Cuire les épinards 2 min. Servir avec le steak."
+      ],
+      "conseil_nutrition": "Le bœuf est la meilleure source de zinc et de fer héminique (le plus absorbable). À privilégier si carence en fer avérée.",
+      "score_base": 8
+    },
+    {
+      "id": "tartines_avocat_oeuf_poche",
+      "titre": "Tartines avocat & œuf poché",
+      "emoji": "🥑",
+      "temps": "15 min",
+      "difficulte": "Moyen",
+      "portions": 2,
+      "ingredients_cles": ["avocat", "oeufs"],
+      "carences_couvertes": ["vitamine_b9", "vitamine_b2_b3", "omega3", "zinc", "vitamine_d"],
+      "ingredients_complets": [
+        "2 avocats mûrs", "4 œufs", "Pain complet",
+        "Jus de citron", "Graines de sésame", "Flocons de piment",
+        "Sel, poivre"
+      ],
+      "etapes": [
+        "Porter à ébullition de l'eau vinaigrée. Créer un tourbillon et y plonger l'œuf.",
+        "Cuire l'œuf poché 3 min. Égoutter sur papier absorbant.",
+        "Écraser l'avocat avec citron, sel, poivre sur pain toasté.",
+        "Poser l'œuf poché, parsemer de graines de sésame et piment."
+      ],
+      "conseil_nutrition": "L'avocat est riche en folates (B9) et en bonnes graisses qui améliorent l'absorption des vitamines liposolubles.",
+      "score_base": 7
+    },
+    {
+      "id": "rillettes_sardines_citron",
+      "titre": "Rillettes de sardines au citron & herbes",
+      "emoji": "🐟",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["sardines", "oeufs"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_b12", "calcium", "zinc"],
+      "ingredients_complets": [
+        "2 boîtes de sardines à l'huile d'olive", "1 œuf dur",
+        "2 cuillères à soupe de fromage frais", "Jus d'1 citron",
+        "Ciboulette fraîche", "Aneth", "Poivre", "Pain complet"
+      ],
+      "etapes": [
+        "Écraser les sardines égouttées à la fourchette.",
+        "Ajouter l'œuf dur écrasé et le fromage frais.",
+        "Incorporer citron, herbes fraîches, poivre.",
+        "Réfrigérer 30 min. Servir sur pain complet toasté."
+      ],
+      "conseil_nutrition": "Les sardines entières (avec les arêtes) sont aussi une source de calcium. Une des meilleures sources d'oméga-3 et vitamine D.",
+      "score_base": 8
+    },
+    {
+      "id": "wok_maquereau_brocoli",
+      "titre": "Wok de maquereau & brocoli au gingembre",
+      "emoji": "🫛",
+      "temps": "20 min",
+      "difficulte": "Moyen",
+      "portions": 2,
+      "ingredients_cles": ["maquereau", "brocolis"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_c", "vitamine_k", "vitamine_b12"],
+      "ingredients_complets": [
+        "2 filets de maquereau frais", "1 brocoli", "2 carottes",
+        "Gingembre frais", "Sauce soja", "Sésame", "Citron vert",
+        "Ail", "Huile de sésame"
+      ],
+      "etapes": [
+        "Faire mariner le maquereau en morceaux dans sauce soja + gingembre 10 min.",
+        "Faire sauter le brocoli et les carottes au wok 5 min à feu vif.",
+        "Ajouter le maquereau, cuire 3-4 min en remuant délicatement.",
+        "Finir avec sésame, citron vert et huile de sésame."
+      ],
+      "conseil_nutrition": "Le maquereau est encore plus riche en oméga-3 que le saumon. Le brocoli apporte vitamines C et K.",
+      "score_base": 8
+    },
+    {
+      "id": "salade_thon_pommes_de_terre_haricots",
+      "titre": "Salade tiède thon, pommes de terre & haricots verts",
+      "emoji": "🥗",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["thon", "pommes_de_terre"],
+      "carences_couvertes": ["vitamine_b6", "vitamine_b12", "vitamine_b2_b3", "zinc", "magnesium"],
+      "ingredients_complets": [
+        "2 boîtes de thon", "400g de pommes de terre", "200g de haricots verts",
+        "Oignons rouges", "Câpres", "Vinaigrette moutarde",
+        "Persil frais", "Sel, poivre"
+      ],
+      "etapes": [
+        "Cuire les pommes de terre 20 min et les haricots verts 8 min.",
+        "Couper les pommes de terre en rondelles, égoutter le thon.",
+        "Mélanger tous les ingrédients encore tièdes.",
+        "Arroser de vinaigrette moutarde, parsemer de persil."
+      ],
+      "conseil_nutrition": "Le thon en boîte est une source économique de B12 et B6. Les pommes de terre entières avec la peau gardent leurs minéraux.",
+      "score_base": 7
+    },
+    {
+      "id": "muesli_noix_banane_yaourt",
+      "titre": "Muesli maison noix, banane & yaourt",
+      "emoji": "🥣",
+      "temps": "5 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": ["noix", "bananes", "yaourt"],
+      "carences_couvertes": ["omega3", "magnesium", "vitamine_b6", "zinc", "probiotiques", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "200g de yaourt nature", "1 banane", "30g de noix",
+        "30g d'amandes", "2 cuillères à soupe de graines de courge",
+        "Flocons d'avoine", "Miel (optionnel)"
+      ],
+      "etapes": [
+        "Verser le yaourt dans un bol.",
+        "Couper la banane en rondelles, disposer sur le yaourt.",
+        "Parsemer de noix grossièrement concassées, amandes et graines.",
+        "Ajouter les flocons d'avoine. Filet de miel optionnel."
+      ],
+      "conseil_nutrition": "Petit-déjeuner anti-carences : oméga-3 (noix), magnésium (amandes + graines), probiotiques (yaourt), B6 (banane).",
+      "score_base": 8
+    },
+    {
+      "id": "smoothie_epinards_kiwi_banane",
+      "titre": "Smoothie vert épinards, kiwi & banane",
+      "emoji": "🥤",
+      "temps": "5 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": ["epinards", "kiwis", "bananes"],
+      "carences_couvertes": ["vitamine_c", "fer", "vitamine_b9", "vitamine_k", "magnesium", "vitamine_b6"],
+      "ingredients_complets": [
+        "2 poignées d'épinards frais", "2 kiwis",
+        "1 banane", "250ml de lait végétal (amande ou avoine)",
+        "Jus de citron", "Gingembre (optionnel)"
+      ],
+      "etapes": [
+        "Peler les kiwis et la banane.",
+        "Mettre tous les ingrédients dans le blender.",
+        "Mixer 1 min jusqu'à consistance lisse.",
+        "Ajouter un peu de citron pour la vitamine C. Boire immédiatement."
+      ],
+      "conseil_nutrition": "La vitamine C du kiwi booste l'absorption du fer des épinards. À boire à jeun pour maximiser les effets.",
+      "score_base": 7
+    },
+    {
+      "id": "poulet_champignons_creme",
+      "titre": "Poulet aux champignons & sauce légère",
+      "emoji": "🍗",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["poulet", "champignons"],
+      "carences_couvertes": ["vitamine_b6", "vitamine_b2_b3", "vitamine_d", "zinc", "selenium"],
+      "ingredients_complets": [
+        "2 blancs de poulet", "300g de champignons de Paris",
+        "1 échalote", "100ml de crème légère", "Vin blanc",
+        "Thym", "Persil", "Beurre", "Sel, poivre"
+      ],
+      "etapes": [
+        "Faire dorer les blancs de poulet dans le beurre 5 min de chaque côté.",
+        "Retirer le poulet. Faire revenir l'échalote et les champignons 5 min.",
+        "Déglacer au vin blanc, réduire 2 min. Ajouter la crème et le thym.",
+        "Remettre le poulet, cuire 10 min à feu doux. Parsemer de persil."
+      ],
+      "conseil_nutrition": "Les champignons exposés au soleil sont une source rare de vitamine D végétale. Le poulet apporte la B6 nécessaire à la sérotonine.",
+      "score_base": 7
+    },
+    {
+      "id": "poisson_blanc_carottes_vapeur",
+      "titre": "Cabillaud vapeur & carottes au citron",
+      "emoji": "🐡",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["carottes", "oeufs"],
+      "carences_couvertes": ["vitamine_a", "vitamine_b12", "iode", "selenium", "vitamine_d"],
+      "ingredients_complets": [
+        "2 filets de cabillaud", "4 carottes", "1 citron",
+        "Huile d'olive", "Aneth", "Sel, poivre"
+      ],
+      "etapes": [
+        "Cuire les carottes en rondelles à la vapeur 15 min.",
+        "Cuire le cabillaud à la vapeur 8-10 min.",
+        "Assaisonner les carottes avec huile d'olive, citron et aneth.",
+        "Dresser le poisson sur les carottes, arroser de jus de citron."
+      ],
+      "conseil_nutrition": "Le cabillaud est riche en iode et sélénium. La carotte cuite est mieux absorbée avec des graisses.",
+      "score_base": 6
+    },
+    {
+      "id": "tarte_epinards_chevre_noix",
+      "titre": "Tarte épinards, chèvre & noix",
+      "emoji": "🥧",
+      "temps": "45 min",
+      "difficulte": "Moyen",
+      "portions": 4,
+      "ingredients_cles": ["epinards", "oeufs", "noix"],
+      "carences_couvertes": ["fer", "vitamine_b9", "omega3", "zinc", "vitamine_k", "calcium"],
+      "ingredients_complets": [
+        "1 pâte brisée", "400g d'épinards", "100g de chèvre frais",
+        "3 œufs", "150ml de crème", "60g de noix",
+        "Muscade", "Sel, poivre"
+      ],
+      "etapes": [
+        "Préchauffer four à 180°C. Foncer un moule de la pâte.",
+        "Faire tomber les épinards à la poêle. Presser pour enlever l'eau.",
+        "Mélanger œufs, crème, muscade. Incorporer épinards et chèvre émietté.",
+        "Verser sur la pâte, parsemer de noix. Cuire 35 min."
+      ],
+      "conseil_nutrition": "Les noix apportent des oméga-3 végétaux. Le chèvre est une bonne source de calcium et de zinc.",
+      "score_base": 8
+    },
+    {
+      "id": "bowl_sardines_avocat_riz",
+      "titre": "Bowl sardines & avocat sur riz complet",
+      "emoji": "🐠",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": ["sardines", "avocat"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_b12", "vitamine_b9", "selenium"],
+      "ingredients_complets": [
+        "1 boîte de sardines à l'huile d'olive", "1 avocat",
+        "Riz complet cuit", "Concombre", "Graines de sésame",
+        "Sauce soja", "Citron vert"
+      ],
+      "etapes": [
+        "Disposer le riz dans un bol.",
+        "Égoutter les sardines, émietter sur le riz.",
+        "Ajouter l'avocat en tranches et le concombre.",
+        "Assaisonner avec sauce soja, citron vert et sésame."
+      ],
+      "conseil_nutrition": "Repas rapide ultra-complet : sardines (D + oméga-3 + B12) + avocat (B9 + bonnes graisses) + riz complet (B1).",
+      "score_base": 8
+    },
+    {
+      "id": "oeufs_brouilles_saumon_ciboulette",
+      "titre": "Œufs brouillés au saumon fumé",
+      "emoji": "🥚",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs", "saumon"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_b12", "zinc", "vitamine_b2_b3", "selenium"],
+      "ingredients_complets": [
+        "4 œufs", "80g de saumon fumé", "2 cuillères à soupe de crème",
+        "Ciboulette fraîche", "Beurre", "Sel, poivre", "Pain complet"
+      ],
+      "etapes": [
+        "Battre les œufs avec la crème, sel et poivre.",
+        "Cuire à feu très doux dans du beurre en remuant constamment.",
+        "Retirer du feu quand encore légèrement baveux.",
+        "Ajouter le saumon fumé en morceaux et la ciboulette. Servir sur pain complet."
+      ],
+      "conseil_nutrition": "Cuire les œufs à feu doux préserve mieux les nutriments. Le saumon fumé double l'apport en oméga-3.",
+      "score_base": 8
+    },
+    {
+      "id": "veloute_brocoli_amandes",
+      "titre": "Velouté de brocoli aux amandes grillées",
+      "emoji": "🥦",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["brocolis", "amandes"],
+      "carences_couvertes": ["vitamine_c", "vitamine_k", "magnesium", "vitamine_b2_b3", "zinc", "calcium"],
+      "ingredients_complets": [
+        "1 brocoli", "50g d'amandes effilées", "1 oignon",
+        "1 pomme de terre", "750ml de bouillon légumes",
+        "100ml de crème légère", "Huile d'olive", "Sel, poivre"
+      ],
+      "etapes": [
+        "Faire revenir l'oignon haché dans l'huile 3 min.",
+        "Ajouter brocoli en fleurettes et pomme de terre en dés.",
+        "Couvrir de bouillon, cuire 15 min. Mixer avec la crème.",
+        "Faire griller les amandes à sec. Servir le velouté parsemé d'amandes."
+      ],
+      "conseil_nutrition": "Le brocoli perd de la vitamine C à la cuisson — compenser avec un filet de citron au service.",
+      "score_base": 7
+    },
+    {
+      "id": "granola_graines_chocolat",
+      "titre": "Granola graines & chocolat noir",
+      "emoji": "🍫",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 8,
+      "ingredients_cles": ["graines_courge", "amandes", "chocolat_noir"],
+      "carences_couvertes": ["magnesium", "zinc", "omega3", "vitamine_b2_b3", "fer"],
+      "ingredients_complets": [
+        "300g de flocons d'avoine", "100g d'amandes", "80g de graines de courge",
+        "50g de graines de sésame", "100g de chocolat noir 70% en pépites",
+        "3 cuillères à soupe de miel", "4 cuillères à soupe d'huile de coco",
+        "Cannelle", "Vanille"
+      ],
+      "etapes": [
+        "Préchauffer four à 170°C. Mélanger flocons, amandes, graines, épices.",
+        "Incorporer miel et huile de coco fondus. Mélanger bien.",
+        "Étaler sur plaque, cuire 20 min en remuant à mi-cuisson.",
+        "Refroidir complètement avant d'ajouter le chocolat en pépites."
+      ],
+      "conseil_nutrition": "Le chocolat noir 70%+ est riche en magnésium et en fer. Les graines de courge sont la meilleure source végétale de zinc.",
+      "score_base": 7
+    },
+    {
+      "id": "soupe_miso_tofu_algues",
+      "titre": "Soupe miso, tofu & algues",
+      "emoji": "🍜",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs"],
+      "carences_couvertes": ["iode", "probiotiques", "zinc", "vitamine_b12", "selenium"],
+      "ingredients_complets": [
+        "2 cuillères à soupe de pâte miso", "150g de tofu ferme",
+        "Algues wakamé séchées", "2 oignons verts",
+        "500ml d'eau chaude (non bouillante)", "Sauce soja"
+      ],
+      "etapes": [
+        "Réhydrater les algues 5 min dans l'eau froide.",
+        "Dissoudre le miso dans l'eau chaude (ne pas faire bouillir pour préserver les probiotiques).",
+        "Couper le tofu en dés, ajouter dans la soupe avec les algues.",
+        "Parsemer d'oignons verts. Assaisonner avec sauce soja."
+      ],
+      "conseil_nutrition": "Les algues sont la meilleure source d'iode. Le miso contient des probiotiques. Ne jamais faire bouillir le miso.",
+      "score_base": 6
+    },
+    {
+      "id": "poulet_lentilles_curry",
+      "titre": "Poulet & lentilles au curry",
+      "emoji": "🍛",
+      "temps": "35 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["poulet", "lentilles"],
+      "carences_couvertes": ["vitamine_b6", "fer", "vitamine_b1", "zinc", "magnesium", "vitamine_b9"],
+      "ingredients_complets": [
+        "500g de poulet en morceaux", "200g de lentilles corail",
+        "1 boîte de tomates concassées", "1 oignon", "2 gousses d'ail",
+        "Curry, curcuma, gingembre", "Lait de coco", "Coriandre", "Citron"
+      ],
+      "etapes": [
+        "Faire dorer le poulet en morceaux 5 min. Réserver.",
+        "Faire revenir oignon, ail et épices 3 min.",
+        "Ajouter lentilles, tomates et lait de coco. Remettre le poulet.",
+        "Mijoter 25 min. Citron + coriandre avant de servir."
+      ],
+      "conseil_nutrition": "Combinaison idéale : protéines complètes (poulet) + fer non héminique (lentilles) + vitamine C (tomates) pour une absorption optimale.",
+      "score_base": 9
+    },
+    {
+      "id": "fraises_yaourt_noix_miel",
+      "titre": "Fraises au yaourt, noix & miel",
+      "emoji": "🍓",
+      "temps": "5 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": ["fraises", "yaourt", "noix"],
+      "carences_couvertes": ["vitamine_c", "probiotiques", "omega3", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "200g de fraises", "150g de yaourt grec",
+        "30g de noix", "1 cuillère à soupe de miel",
+        "Menthe fraîche (optionnel)"
+      ],
+      "etapes": [
+        "Laver et couper les fraises en deux.",
+        "Verser le yaourt dans un bol.",
+        "Disposer les fraises, parsemer de noix concassées.",
+        "Arroser de miel, décorer de menthe."
+      ],
+      "conseil_nutrition": "Les fraises contiennent autant de vitamine C que les oranges. Le yaourt grec apporte 2x plus de protéines et de probiotiques.",
+      "score_base": 6
+    },
+    {
+      "id": "oeufs_durs_carottes_rapees",
+      "titre": "Œufs durs & carottes râpées au cumin",
+      "emoji": "🥕",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs", "carottes"],
+      "carences_couvertes": ["vitamine_a", "vitamine_b2_b3", "zinc", "vitamine_d", "vitamine_b12"],
+      "ingredients_complets": [
+        "4 œufs", "4 carottes", "1 citron",
+        "1 cuillère à café de cumin", "Huile d'olive",
+        "Persil frais", "Sel, poivre"
+      ],
+      "etapes": [
+        "Cuire les œufs durs 10 min. Refroidir, écaler, couper en quartiers.",
+        "Râper les carottes grossièrement.",
+        "Assaisonner les carottes avec citron, cumin, huile d'olive.",
+        "Dresser avec les œufs. Parsemer de persil."
+      ],
+      "conseil_nutrition": "La carotte râpée avec de l'huile d'olive permet une bien meilleure absorption du bêta-carotène (vitamine A).",
+      "score_base": 6
+    },
+    {
+      "id": "pasta_saumon_epinards",
+      "titre": "Pasta saumon, épinards & citron",
+      "emoji": "🍝",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["saumon", "epinards"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_b12", "fer", "vitamine_b9", "magnesium"],
+      "ingredients_complets": [
+        "200g de pâtes complètes", "200g de saumon fumé ou frais",
+        "150g d'épinards", "1 citron", "Ail", "Huile d'olive",
+        "Parmesan", "Poivre"
+      ],
+      "etapes": [
+        "Cuire les pâtes al dente. Réserver 1 tasse d'eau de cuisson.",
+        "Faire revenir l'ail dans l'huile, ajouter les épinards 2 min.",
+        "Ajouter le saumon en morceaux et les pâtes égouttées.",
+        "Incorporer eau de cuisson + jus de citron pour lier. Parmesan, poivre."
+      ],
+      "conseil_nutrition": "Les pâtes complètes apportent les vitamines B restantes. Plat complet oméga-3 + fer en 20 min.",
+      "score_base": 8
+    },
+    {
+      "id": "riz_champignons_oeuf_asie",
+      "titre": "Riz sauté aux champignons & œuf à l'asiatique",
+      "emoji": "🍚",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs", "champignons"],
+      "carences_couvertes": ["vitamine_b2_b3", "vitamine_d", "zinc", "selenium", "vitamine_b6"],
+      "ingredients_complets": [
+        "2 bols de riz cuit (idéalement de la veille)", "200g de champignons",
+        "2 œufs", "Oignons verts", "Gingembre",
+        "Sauce soja", "Huile de sésame", "Sésame"
+      ],
+      "etapes": [
+        "Faire sauter les champignons à feu vif 5 min dans l'huile.",
+        "Pousser sur le côté, brouiller les œufs dans la poêle.",
+        "Ajouter le riz froid, mélanger le tout à feu vif.",
+        "Sauce soja, gingembre râpé, finir avec huile de sésame et sésame."
+      ],
+      "conseil_nutrition": "Le riz de la veille a un index glycémique plus bas. Les champignons sont une source unique de vitamine D végétale.",
+      "score_base": 6
+    },
+    {
+      "id": "velouté_carotte_lentilles_coco",
+      "titre": "Velouté carottes, lentilles & coco",
+      "emoji": "🍵",
+      "temps": "30 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["carottes", "lentilles"],
+      "carences_couvertes": ["vitamine_a", "fer", "vitamine_b1", "vitamine_b9", "magnesium"],
+      "ingredients_complets": [
+        "5 carottes", "150g de lentilles corail", "1 boîte de lait de coco",
+        "1 oignon", "Gingembre frais", "Curcuma",
+        "Bouillon légumes", "Coriandre", "Citron"
+      ],
+      "etapes": [
+        "Faire revenir oignon et gingembre 3 min.",
+        "Ajouter carottes en rondelles, lentilles, curcuma et bouillon.",
+        "Cuire 20 min. Ajouter lait de coco et mixer.",
+        "Servir avec coriandre fraîche et citron."
+      ],
+      "conseil_nutrition": "Le lait de coco aide à l'absorption du bêta-carotène des carottes. Les lentilles apportent le fer et la B1.",
+      "score_base": 7
+    },
+    {
+      "id": "tartare_saumon_avocat",
+      "titre": "Tartare saumon & avocat",
+      "emoji": "🥑",
+      "temps": "15 min",
+      "difficulte": "Moyen",
+      "portions": 2,
+      "ingredients_cles": ["saumon", "avocat"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_b12", "vitamine_b9", "selenium"],
+      "ingredients_complets": [
+        "300g de saumon très frais", "2 avocats",
+        "1 citron vert", "Sauce soja", "Gingembre râpé",
+        "Graines de sésame", "Aneth ou coriandre"
+      ],
+      "etapes": [
+        "Couper le saumon en petits dés. Assaisonner citron vert + sauce soja + gingembre.",
+        "Écraser grossièrement l'avocat, assaisonner de citron et sel.",
+        "Dresser en cercle : avocat à la base, saumon au-dessus.",
+        "Parsemer de sésame et herbes fraîches."
+      ],
+      "conseil_nutrition": "Utiliser du saumon label AMAP ou bio pour maximiser les oméga-3 et réduire les contaminants.",
+      "score_base": 9
+    },
+    {
+      "id": "gateau_chocolat_amandes",
+      "titre": "Gâteau fondant chocolat noir & amandes",
+      "emoji": "🍰",
+      "temps": "35 min",
+      "difficulte": "Moyen",
+      "portions": 8,
+      "ingredients_cles": ["chocolat_noir", "oeufs", "amandes"],
+      "carences_couvertes": ["magnesium", "fer", "zinc", "vitamine_b2_b3", "selenium"],
+      "ingredients_complets": [
+        "200g de chocolat noir 70%", "100g de beurre",
+        "3 œufs", "80g de poudre d'amandes", "60g de sucre",
+        "1 cuillère à café de vanille", "Pincée de sel"
+      ],
+      "etapes": [
+        "Préchauffer four à 180°C. Faire fondre chocolat + beurre au bain-marie.",
+        "Battre œufs + sucre jusqu'à blanchiment. Incorporer le chocolat fondu.",
+        "Ajouter poudre d'amandes, vanille et sel. Mélanger.",
+        "Verser dans moule beurré. Cuire 20-22 min. Cœur doit rester fondant."
+      ],
+      "conseil_nutrition": "Dessert sain : chocolat noir (magnésium + fer) + amandes (magnésium + calcium). Choisir 70%+ minimum.",
+      "score_base": 7
+    },
+    {
+      "id": "bol_acai_banane_granola",
+      "titre": "Bol açaï, banane & granola",
+      "emoji": "🫐",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": ["bananes", "graines_courge", "amandes"],
+      "carences_couvertes": ["magnesium", "zinc", "vitamine_b6", "omega3", "fer"],
+      "ingredients_complets": [
+        "100g de purée d'açaï congelée", "1 banane",
+        "Lait végétal (avoine ou amande)", "Granola maison",
+        "Graines de courge", "Amandes effilées", "Miel"
+      ],
+      "etapes": [
+        "Mixer açaï + moitié de la banane + lait végétal jusqu'à consistance crémeuse.",
+        "Verser dans un bol.",
+        "Disposer la banane en rondelles, le granola, les graines et amandes.",
+        "Finir avec un filet de miel."
+      ],
+      "conseil_nutrition": "L'açaï est riche en antioxydants et en oméga-9. Associé aux graines, le petit-déjeuner le plus dense nutritionnellement.",
+      "score_base": 7
+    },
+    {
+      "id": "porc_lentilles_moutarde",
+      "titre": "Filet de porc & lentilles à la moutarde",
+      "emoji": "🥩",
+      "temps": "35 min",
+      "difficulte": "Moyen",
+      "portions": 4,
+      "ingredients_cles": ["viande_rouge", "lentilles"],
+      "carences_couvertes": ["vitamine_b1", "fer", "zinc", "vitamine_b6", "vitamine_b9", "magnesium"],
+      "ingredients_complets": [
+        "600g de filet de porc", "300g de lentilles vertes",
+        "2 cuillères à soupe de moutarde à l'ancienne",
+        "1 oignon", "Thym", "Laurier", "Vin blanc",
+        "Crème légère", "Sel, poivre"
+      ],
+      "etapes": [
+        "Cuire les lentilles avec oignon, thym et laurier 25 min.",
+        "Faire dorer le porc en morceaux 5 min de chaque côté.",
+        "Déglacer au vin blanc, ajouter moutarde et crème.",
+        "Mijoter 10 min. Servir sur le lit de lentilles."
+      ],
+      "conseil_nutrition": "Le porc est la principale source alimentaire de vitamine B1 (thiamine). Les lentilles apportent le fer et la B9.",
+      "score_base": 8
+    },
+    {
+      "id": "salade_maquereau_pomme",
+      "titre": "Salade de maquereau fumé & pomme",
+      "emoji": "🥗",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["maquereau", "noix"],
+      "carences_couvertes": ["omega3", "vitamine_d", "vitamine_b12", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "200g de maquereau fumé", "2 pommes",
+        "50g de noix", "Salade verte",
+        "Yaourt grec", "Citron", "Moutarde", "Aneth"
+      ],
+      "etapes": [
+        "Émietter le maquereau fumé grossièrement.",
+        "Couper les pommes en dés. Préparer la salade.",
+        "Sauce : yaourt + citron + moutarde + aneth.",
+        "Assembler et arroser de sauce. Parsemer de noix."
+      ],
+      "conseil_nutrition": "Le maquereau fumé est déjà cuit et prêt à l'emploi. Très riche en oméga-3, vitamine D et B12 en 10 min.",
+      "score_base": 7
+    },
+    {
+      "id": "pancakes_banane_avoine_noix",
+      "titre": "Pancakes banane, avoine & noix",
+      "emoji": "🥞",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["bananes", "oeufs", "noix"],
+      "carences_couvertes": ["vitamine_b6", "magnesium", "omega3", "zinc", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "2 bananes mûres", "2 œufs", "80g de flocons d'avoine",
+        "30g de noix concassées", "1 cuillère à café de cannelle",
+        "Huile de coco"
+      ],
+      "etapes": [
+        "Écraser les bananes à la fourchette jusqu'à texture lisse.",
+        "Incorporer les œufs battus, les flocons et la cannelle.",
+        "Cuire des petites galettes dans l'huile de coco 2 min de chaque côté.",
+        "Servir parsemé de noix concassées. Option : filet de sirop d'érable."
+      ],
+      "conseil_nutrition": "Sans farine ni sucre ajouté. La banane remplace le sucre et apporte potassium + B6.",
+      "score_base": 6
+    },
+    {
+      "id": "taboulé_persil_pois_chiches",
+      "titre": "Taboulé persil, pois chiches & citron",
+      "emoji": "🌿",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": ["pois_chiches", "carottes"],
+      "carences_couvertes": ["vitamine_c", "vitamine_b9", "fer", "zinc", "magnesium"],
+      "ingredients_complets": [
+        "200g de semoule fine", "1 boîte de pois chiches",
+        "2 bouquets de persil plat", "2 tomates",
+        "1 concombre", "Jus de 2 citrons",
+        "Huile d'olive", "Menthe", "Sel"
+      ],
+      "etapes": [
+        "Hydrater la semoule avec de l'eau bouillante salée 5 min. Égrener.",
+        "Ciseler finement le persil et la menthe (en grande quantité).",
+        "Couper tomates, concombre et pois chiches.",
+        "Mélanger tout avec citron et huile d'olive généreuse. Laisser reposer 30 min."
+      ],
+      "conseil_nutrition": "Le persil est l'aliment le plus riche en vitamine C après le poivron. À ne pas utiliser qu'en garniture !",
+      "score_base": 7
+    },
+    {
+      "id": "shakshuka_poivrons_epinards",
+      "titre": "Shakshuka poivrons & épinards",
+      "emoji": "🍳",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": ["oeufs", "poivrons", "epinards"],
+      "carences_couvertes": ["vitamine_c", "vitamine_b2_b3", "zinc", "fer", "vitamine_b9", "vitamine_k"],
+      "ingredients_complets": [
+        "4 œufs", "2 poivrons rouges", "100g d'épinards",
+        "1 boîte de tomates concassées", "Oignon", "Ail",
+        "Cumin, paprika fumé, curcuma", "Feta (optionnel)", "Persil"
+      ],
+      "etapes": [
+        "Faire revenir oignon, ail et poivrons en dés 8 min.",
+        "Ajouter tomates et épices. Cuire 10 min pour réduire.",
+        "Incorporer les épinards, mélanger 2 min.",
+        "Faire des puits, y casser les œufs. Couvrir et cuire 5-7 min."
+      ],
+      "conseil_nutrition": "Le poivron rouge est LA source la plus riche en vitamine C. La sauce tomate améliore l'absorption du fer des épinards.",
+      "score_base": 9
+    },
+    {
+      "id": "kefir_smoothie_baies",
+      "titre": "Smoothie kéfir, baies & graines de chia",
+      "emoji": "🫐",
+      "temps": "5 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": ["yaourt", "fraises"],
+      "carences_couvertes": ["probiotiques", "vitamine_c", "omega3", "calcium", "vitamine_b2_b3"],
+      "ingredients_complets": [
+        "200ml de kéfir", "100g de fraises", "50g de myrtilles",
+        "1 cuillère à soupe de graines de chia",
+        "1 banane", "Miel"
+      ],
+      "etapes": [
+        "Mettre tous les ingrédients dans le blender.",
+        "Mixer 30 secondes jusqu'à consistance lisse.",
+        "Verser dans un verre.",
+        "Laisser reposer 2 min (les graines de chia gonflent)."
+      ],
+      "conseil_nutrition": "Le kéfir est plus riche en probiotiques que le yaourt. Les graines de chia apportent des oméga-3 végétaux.",
+      "score_base": 7
+    }
+  ]
+}

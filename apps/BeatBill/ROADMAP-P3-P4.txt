@@ -1,0 +1,45 @@
+BeatBill — Features Priorité 3 & 4 (à implémenter plus tard)
+============================================================
+
+PRIORITÉ 3 — Niveau compta pro
+------------------------------
+
+1. Export comptable (FEC, format expert-comptable)
+   - Export CSV/FEC compatible logiciels comptables français
+   - Colonnes : journal, compte, libellé, débit, crédit, date, pièce
+
+2. Suivi TVA trimestrielle
+   - Écran dédié : TVA collectée par trimestre (T1–T4)
+   - Récap par taux (0%, 5,5%, 10%, 20%)
+   - Export pour déclaration
+
+3. Relance email pré-rédigée
+   - Bouton « Envoyer par email » avec mailto: + corps pré-rempli
+   - Pièce jointe PDF si possible (limitation iOS mailto)
+
+4. Signature client
+   - Canvas signature sur devis/facture
+   - Horodatage + empreinte dans le PDF
+
+5. iCloud backup auto
+   - Sauvegarde automatique périodique via iCloud Drive (expo-file-system + document picker)
+   - Restauration silencieuse au premier lancement
+
+
+PRIORITÉ 4 — Premium (justifier 9,99 €+)
+----------------------------------------
+
+1. Dashboard web (export sync)
+   - Option cloud chiffrée end-to-end (opt-in, hors scope offline actuel)
+
+2. Multi-profils
+   - Plusieurs alias studio / producteurs sur un même appareil
+   - Switch profil dans Réglages
+
+3. Widget iOS
+   - Montant en attente + dernière facture sur écran d'accueil
+   - WidgetExtension Swift ou expo-widgets
+
+4. Intégration PayPal / Stripe
+   - Lien de paiement cliquable dans le PDF et l'email
+   - Deep link retour statut payé

@@ -1,0 +1,51 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Segoe UI, Arial, sans-serif;
+  background: #020617;
+  color: #e2e8f0;
+}
+.app { max-width: 1400px; margin: 0 auto; padding: 16px; display: grid; gap: 12px; }
+.card { background: #0f172a; border: 1px solid #334155; border-radius: 12px; padding: 12px; }
+.layout { display: grid; grid-template-columns: 340px 1fr; gap: 12px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 8px; }
+.hint { margin-top: 8px; font-size: 12px; color: #93c5fd; }
+button, input[type="file"] {
+  background: #1e293b; color: #e2e8f0; border: 1px solid #475569;
+  border-radius: 8px; padding: 8px 10px;
+}
+label { display: block; font-size: 12px; margin-top: 8px; }
+input[type="range"] { width: 100%; }
+.bar { height: 10px; background: #1e293b; border-radius: 999px; overflow: hidden; }
+#confidenceBar { height: 100%; width: 0%; background: #22c55e; }
+.cheat { padding-left: 18px; font-size: 13px; line-height: 1.5; }
+.canvasWrap { position: relative; min-height: 720px; }
+#editorCanvas { width: 100%; height: auto; display: block; background: #020617; border-radius: 10px; }
+.debugCam {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 420px;
+  max-width: calc(100% - 20px);
+  border: 1px solid #475569;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #020617;
+}
+#camPreview, #debugCanvas {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+#camPreview {
+  filter: contrast(1.15) saturate(1.1) brightness(1.05);
+}
+#debugCanvas {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+@media (max-width: 1024px) {
+  .layout { grid-template-columns: 1fr; }
+  .debugCam { width: 320px; }
+}

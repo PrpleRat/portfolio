@@ -1,0 +1,62 @@
+name: RAS
+options:
+  bundleIdPrefix: com.ras
+  deploymentTarget:
+    iOS: "17.0"
+  xcodeVersion: "26.2"
+  generateEmptyDirectories: true
+
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    TARGETED_DEVICE_FAMILY: "1"
+    DEVELOPMENT_TEAM: "YOUR_TEAM_ID"
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+  configs:
+    Release:
+      CODE_SIGN_STYLE: Manual
+      CODE_SIGN_IDENTITY: Apple Distribution
+
+targets:
+  RAS:
+    type: application
+    platform: iOS
+    configFiles:
+      Release: ci/Release-App.xcconfig
+    sources:
+      - path: RAS
+        excludes:
+          - "**/*.md"
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ras.fusee
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_FILE: RAS/Info.plist
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ENABLE_PREVIEWS: YES
+
+  RASTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - RASTests
+    dependencies:
+      - target: RAS
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ras.fusee.tests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/RAS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RAS"
+
+schemes:
+  RAS:
+    build:
+      targets:
+        RAS: all
+        RASTests: [test]
+    run:
+      config: Debug
+    test:
+      targets:
+        - RASTests

@@ -4,3 +4,16 @@ Thumbs.db
 *.env
 .env.*
 !.env.example
+**/node_modules/
+**/.expo/
+**/.next/
+**/__pycache__/
+*.p8
+*.p12
+*.mobileprovision
+*.pem
+*.key
+AuthKey*
+credentials.json
+GoogleService-Info.plist
+ExportOptions.plist

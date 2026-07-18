@@ -1,0 +1,20 @@
+/* Chaînes localisables TrajOc — français */
+
+"tab.route" = "Itinéraire";
+"tab.nearby" = "À proximité";
+"tab.favorites" = "Favoris";
+"tab.settings" = "Réglages";
+
+"search.departure" = "Départ";
+"search.arrival" = "Arrivée";
+"search.calculate" = "Calculer l'itinéraire";
+"search.searching" = "Recherche des itinéraires…";
+
+"error.network" = "Une erreur réseau s'est produite. Réessaie.";
+"error.no_route" = "Aucun itinéraire trouvé.";
+
+"nearby.title" = "À proximité";
+"settings.about" = "À propos";
+
+"widget.title" = "TrajOc";
+"widget.calculate" = "Calculer maintenant";

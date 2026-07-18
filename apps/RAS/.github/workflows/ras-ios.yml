@@ -1,0 +1,71 @@
+# Build simulateur — manuel uniquement (sans signature).
+
+name: RAS iOS
+
+on:
+  workflow_dispatch:
+
+env:
+  XCODE_SCHEME: RAS
+  IOS_DEPLOYMENT_TARGET: "17.0"
+  XCODE_VERSION: "26.2"
+
+jobs:
+  build:
+    name: Build (simulateur)
+    runs-on: macos-15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Sélectionner Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: ${{ env.XCODE_VERSION }}
+
+      - name: Vérifier la structure
+        run: |
+          test -f project.yml
+          test -d RAS
+          xcodebuild -version
+
+      - name: Générer les icônes app
+        run: python3 ci/generate-app-icons.py
+
+      - name: Installer XcodeGen
+        run: |
+          brew install xcodegen
+          xcodegen --version
+
+      - name: Préparer xcconfig Release (stub)
+        run: bash ci/ensure-release-xcconfig.sh
+
+      - name: Générer le projet Xcode
+        run: xcodegen generate --spec project.yml
+
+      - name: Build (simulateur, sans signature)
+        run: |
+          set -euo pipefail
+          LOG="${RUNNER_TEMP}/xcode-build.log"
+          set +e
+          xcodebuild build \
+            -project "RAS.xcodeproj" \
+            -scheme "${{ env.XCODE_SCHEME }}" \
+            -sdk iphonesimulator \
+            -destination "generic/platform=iOS Simulator" \
+            -configuration Debug \
+            IPHONEOS_DEPLOYMENT_TARGET="${{ env.IOS_DEPLOYMENT_TARGET }}" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            DEVELOPMENT_TEAM="" \
+            2>&1 | tee "$LOG"
+          STATUS=${PIPESTATUS[0]}
+          set -e
+          if [ "$STATUS" -ne 0 ]; then
+            echo "::group::Erreurs de compilation Swift"
+            grep -E "error:" "$LOG" | tail -80 || true
+            echo "::endgroup::"
+            exit "$STATUS"
+          fi

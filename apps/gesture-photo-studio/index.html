@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gesture Photo Studio - Standalone</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="card">
+        <h1>Gesture Photo Studio</h1>
+        <p>Version standalone Windows: double-clic sur <code>index.html</code>.</p>
+        <div class="row">
+          <input id="fileInput" type="file" accept="image/*" />
+          <button id="toggleCam">Activer caméra</button>
+          <button id="toggleDemo">Mode démo</button>
+          <button id="startCalibration">Calibration auto</button>
+          <button id="undoBtn">Undo</button>
+          <button id="redoBtn">Redo</button>
+          <button id="resetBtn">Reset</button>
+        </div>
+        <p id="calibrationStatus" class="hint">Calibration: non lancée</p>
+      </header>
+
+      <section class="layout">
+        <aside class="card side">
+          <h2>Onboarding rapide</h2>
+          <ol>
+            <li>1) Autoriser webcam</li>
+            <li>2) Calibrer main dominante</li>
+            <li>3) Apprendre: index, pinch index, poing</li>
+            <li>4) Mini test: clic + zoom + lock</li>
+          </ol>
+
+          <h3>HUD</h3>
+          <p>Geste: <strong id="gestureLabel">none</strong></p>
+          <p>Combo: <strong id="comboLabel">aucun</strong></p>
+          <div class="bar"><div id="confidenceBar"></div></div>
+          <p>Confiance: <span id="confidenceLabel">0%</span></p>
+          <p>Curseur: <span id="cursorLabel">0.50, 0.50</span></p>
+
+          <h3>Cheat sheet gestes</h3>
+          <ul class="cheat">
+            <li>Index seul: curseur</li>
+            <li>Dwell 700ms: clic</li>
+            <li>Pouce+index: zoom/pan</li>
+            <li>Pouce+majeur: rotation</li>
+            <li>Pouce+annulaire: luminosité/contraste</li>
+            <li>Poing: lock/unlock</li>
+          </ul>
+
+          <h3>Réglages</h3>
+          <label>Luminosité <input id="brightness" type="range" min="-1" max="1" step="0.01" value="0" /></label>
+          <label>Contraste <input id="contrast" type="range" min="0.2" max="2.5" step="0.01" value="1" /></label>
+          <label>Saturation <input id="saturation" type="range" min="0" max="2.5" step="0.01" value="1" /></label>
+          <label>Exposition <input id="exposure" type="range" min="-0.5" max="0.5" step="0.01" value="0" /></label>
+          <label>Température <input id="temperature" type="range" min="-1" max="1" step="0.01" value="0" /></label>
+          <label>Netteté <input id="sharpness" type="range" min="0" max="1" step="0.01" value="0" /></label>
+
+          <h3>Debug tracking</h3>
+          <label>Sensibilité mouvement <input id="motionSensitivity" type="range" min="0.4" max="1.8" step="0.01" value="1" /></label>
+          <label>Stabilité (lissage) <input id="stability" type="range" min="0.1" max="0.7" step="0.01" value="0.35" /></label>
+          <label>Confiance min <input id="minConfidence" type="range" min="0.35" max="0.8" step="0.01" value="0.52" /></label>
+        </aside>
+
+        <section class="card canvasWrap">
+          <canvas id="editorCanvas" width="1280" height="720" aria-label="Zone de retouche"></canvas>
+          <div class="debugCam">
+            <video id="camPreview" autoplay muted playsinline></video>
+            <canvas id="debugCanvas" width="640" height="360" aria-label="Debug main"></canvas>
+          </div>
+        </section>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>

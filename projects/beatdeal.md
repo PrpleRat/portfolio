@@ -6,8 +6,8 @@
 |---|---|
 | Stack | Swift · SwiftUI · UIKit (PDF) · UserDefaults |
 | Modèle | App payante App Store · 100 % offline |
-| Bundle ID | `com.cashthetrain.beatdeal` |
-| Repo | https://github.com/PrpleRat/BeatDeal |
+| Code | [`apps/BeatDeal`](../apps/BeatDeal) |
+| Repo public | https://github.com/PrpleRat/BeatDeal |
 | iOS | 17+ |
 
 ## Problème résolu

@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Photo Space Cleaner",
+    "slug": "PhotoSpaceCleaner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "scheme": "photospacecleaner",
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Photo Space Cleaner a besoin d'accéder à tes photos et vidéos pour afficher leur taille et te permettre de les supprimer.",
+        "NSPhotoLibraryAddUsageDescription": "Photo Space Cleaner peut enregistrer des modifications dans ta photothèque."
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A0A0F",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "permissions": [
+        "READ_MEDIA_IMAGES",
+        "READ_MEDIA_VIDEO"
+      ],
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-media-library",
+        {
+          "photosPermission": "Photo Space Cleaner a besoin d'accéder à tes photos et vidéos pour afficher leur taille et te permettre de les supprimer.",
+          "savePhotosPermission": "Photo Space Cleaner peut enregistrer des modifications dans ta photothèque."
+        }
+      ],
+      "expo-video"
+    ]
+  }
+}

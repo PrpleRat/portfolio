@@ -1,0 +1,385 @@
+[
+  {
+    "id": "sardines",
+    "nom": "Sardines",
+    "emoji": "🐟",
+    "categorie": "poissonsFruitsMer",
+    "carences_couvertes": [
+      "omega3",
+      "vitamine_d",
+      "vitamine_b12",
+      "calcium"
+    ],
+    "portion_type": "1 boîte (100g)"
+  },
+  {
+    "id": "saumon",
+    "nom": "Saumon",
+    "emoji": "🐠",
+    "categorie": "poissonsFruitsMer",
+    "carences_couvertes": [
+      "omega3",
+      "vitamine_d",
+      "vitamine_b12",
+      "selenium"
+    ],
+    "portion_type": "1 pavé (150g)"
+  },
+  {
+    "id": "maquereau",
+    "nom": "Maquereau",
+    "emoji": "🐡",
+    "categorie": "poissonsFruitsMer",
+    "carences_couvertes": [
+      "omega3",
+      "vitamine_d",
+      "vitamine_b12",
+      "vitamine_b2_b3"
+    ],
+    "portion_type": "1 filet (130g)"
+  },
+  {
+    "id": "thon",
+    "nom": "Thon en boîte",
+    "emoji": "🥫",
+    "categorie": "poissonsFruitsMer",
+    "carences_couvertes": [
+      "vitamine_b12",
+      "vitamine_b6",
+      "vitamine_b2_b3",
+      "selenium"
+    ],
+    "portion_type": "1 boîte (130g)"
+  },
+  {
+    "id": "oeufs",
+    "nom": "Œufs",
+    "emoji": "🥚",
+    "categorie": "viandesOeufs",
+    "carences_couvertes": [
+      "vitamine_d",
+      "vitamine_b12",
+      "zinc",
+      "selenium",
+      "vitamine_b2_b3"
+    ],
+    "portion_type": "2 œufs"
+  },
+  {
+    "id": "viande_rouge",
+    "nom": "Viande rouge (bœuf/agneau)",
+    "emoji": "🥩",
+    "categorie": "viandesOeufs",
+    "carences_couvertes": [
+      "fer",
+      "zinc",
+      "vitamine_b12",
+      "vitamine_b6",
+      "vitamine_b2_b3"
+    ],
+    "portion_type": "1 portion (150g)"
+  },
+  {
+    "id": "poulet",
+    "nom": "Poulet / Dinde",
+    "emoji": "🍗",
+    "categorie": "viandesOeufs",
+    "carences_couvertes": [
+      "vitamine_b6",
+      "zinc",
+      "vitamine_b2_b3",
+      "tryptophane"
+    ],
+    "portion_type": "1 blanc (150g)"
+  },
+  {
+    "id": "foie_volaille",
+    "nom": "Foie de volaille",
+    "emoji": "🫀",
+    "categorie": "viandesOeufs",
+    "carences_couvertes": [
+      "fer",
+      "vitamine_a",
+      "vitamine_b12",
+      "zinc",
+      "vitamine_b9",
+      "vitamine_b2_b3"
+    ],
+    "portion_type": "1 portion (100g)"
+  },
+  {
+    "id": "epinards",
+    "nom": "Épinards",
+    "emoji": "🥬",
+    "categorie": "legumesVerts",
+    "carences_couvertes": [
+      "fer",
+      "vitamine_b9",
+      "vitamine_k",
+      "magnesium",
+      "vitamine_c"
+    ],
+    "portion_type": "1 grosse poignée (80g)"
+  },
+  {
+    "id": "brocolis",
+    "nom": "Brocoli",
+    "emoji": "🥦",
+    "categorie": "legumesVerts",
+    "carences_couvertes": [
+      "vitamine_c",
+      "vitamine_k",
+      "vitamine_b9",
+      "vitamine_b6"
+    ],
+    "portion_type": "1/2 brocoli (150g)"
+  },
+  {
+    "id": "poivrons",
+    "nom": "Poivron rouge",
+    "emoji": "🫑",
+    "categorie": "legumesVerts",
+    "carences_couvertes": [
+      "vitamine_c",
+      "vitamine_a",
+      "vitamine_b6"
+    ],
+    "portion_type": "1 poivron (150g)"
+  },
+  {
+    "id": "carottes",
+    "nom": "Carottes",
+    "emoji": "🥕",
+    "categorie": "legumesVerts",
+    "carences_couvertes": [
+      "vitamine_a",
+      "vitamine_b9"
+    ],
+    "portion_type": "2 carottes (150g)"
+  },
+  {
+    "id": "champignons",
+    "nom": "Champignons",
+    "emoji": "🍄",
+    "categorie": "legumesVerts",
+    "carences_couvertes": [
+      "vitamine_d",
+      "vitamine_b2_b3",
+      "zinc",
+      "selenium"
+    ],
+    "portion_type": "1 portion (100g)"
+  },
+  {
+    "id": "avocat",
+    "nom": "Avocat",
+    "emoji": "🥑",
+    "categorie": "legumesVerts",
+    "carences_couvertes": [
+      "vitamine_b9",
+      "vitamine_k",
+      "omega3",
+      "magnesium"
+    ],
+    "portion_type": "1/2 avocat"
+  },
+  {
+    "id": "lentilles",
+    "nom": "Lentilles",
+    "emoji": "🫘",
+    "categorie": "legumineuses",
+    "carences_couvertes": [
+      "fer",
+      "vitamine_b1",
+      "vitamine_b9",
+      "magnesium",
+      "zinc"
+    ],
+    "portion_type": "1 portion cuite (200g)"
+  },
+  {
+    "id": "pois_chiches",
+    "nom": "Pois chiches",
+    "emoji": "🟡",
+    "categorie": "legumineuses",
+    "carences_couvertes": [
+      "fer",
+      "zinc",
+      "vitamine_b6",
+      "vitamine_b9",
+      "magnesium"
+    ],
+    "portion_type": "1 portion (150g)"
+  },
+  {
+    "id": "amandes",
+    "nom": "Amandes",
+    "emoji": "🌰",
+    "categorie": "oleagineuxGraines",
+    "carences_couvertes": [
+      "magnesium",
+      "calcium",
+      "vitamine_e",
+      "zinc"
+    ],
+    "portion_type": "1 petite poignée (30g)"
+  },
+  {
+    "id": "noix",
+    "nom": "Noix",
+    "emoji": "🥜",
+    "categorie": "oleagineuxGraines",
+    "carences_couvertes": [
+      "omega3",
+      "magnesium",
+      "zinc",
+      "vitamine_b6"
+    ],
+    "portion_type": "5-6 noix (30g)"
+  },
+  {
+    "id": "graines_courge",
+    "nom": "Graines de courge",
+    "emoji": "🌱",
+    "categorie": "oleagineuxGraines",
+    "carences_couvertes": [
+      "zinc",
+      "magnesium",
+      "omega3",
+      "fer"
+    ],
+    "portion_type": "2 cuillères à soupe (30g)"
+  },
+  {
+    "id": "chocolat_noir",
+    "nom": "Chocolat noir 70%+",
+    "emoji": "🍫",
+    "categorie": "oleagineuxGraines",
+    "carences_couvertes": [
+      "magnesium",
+      "fer",
+      "zinc"
+    ],
+    "portion_type": "2-3 carrés (30g)"
+  },
+  {
+    "id": "kiwis",
+    "nom": "Kiwi",
+    "emoji": "🥝",
+    "categorie": "fruitsVitamineC",
+    "carences_couvertes": [
+      "vitamine_c",
+      "vitamine_k",
+      "vitamine_b9"
+    ],
+    "portion_type": "2 kiwis"
+  },
+  {
+    "id": "fraises",
+    "nom": "Fraises",
+    "emoji": "🍓",
+    "categorie": "fruitsVitamineC",
+    "carences_couvertes": [
+      "vitamine_c",
+      "vitamine_b9"
+    ],
+    "portion_type": "1 bol (150g)"
+  },
+  {
+    "id": "oranges",
+    "nom": "Orange",
+    "emoji": "🍊",
+    "categorie": "fruitsVitamineC",
+    "carences_couvertes": [
+      "vitamine_c",
+      "vitamine_b9"
+    ],
+    "portion_type": "1 orange"
+  },
+  {
+    "id": "bananes",
+    "nom": "Banane",
+    "emoji": "🍌",
+    "categorie": "fruitsVitamineC",
+    "carences_couvertes": [
+      "vitamine_b6",
+      "magnesium",
+      "tryptophane"
+    ],
+    "portion_type": "1 banane"
+  },
+  {
+    "id": "yaourt",
+    "nom": "Yaourt / Kéfir",
+    "emoji": "🥛",
+    "categorie": "produitsLaitiers",
+    "carences_couvertes": [
+      "calcium",
+      "probiotiques",
+      "vitamine_b2_b3",
+      "zinc"
+    ],
+    "portion_type": "1 pot (150g)"
+  },
+  {
+    "id": "sardines_aretes",
+    "nom": "Sardines entières (avec arêtes)",
+    "emoji": "🐟",
+    "categorie": "poissonsFruitsMer",
+    "carences_couvertes": [
+      "omega3",
+      "vitamine_d",
+      "vitamine_b12",
+      "calcium"
+    ],
+    "portion_type": "1 boîte (100g)"
+  },
+  {
+    "id": "algues",
+    "nom": "Algues (nori, wakamé, kombu)",
+    "emoji": "🌿",
+    "categorie": "autresAliments",
+    "carences_couvertes": [
+      "iode",
+      "magnesium",
+      "vitamine_b12"
+    ],
+    "portion_type": "1 portion (10g)"
+  },
+  {
+    "id": "foie_morue",
+    "nom": "Huile de foie de morue",
+    "emoji": "🧴",
+    "categorie": "autresAliments",
+    "carences_couvertes": [
+      "vitamine_d",
+      "omega3",
+      "vitamine_a"
+    ],
+    "portion_type": "1 cuillère à soupe"
+  },
+  {
+    "id": "noix_bresil",
+    "nom": "Noix du Brésil",
+    "emoji": "🌰",
+    "categorie": "oleagineuxGraines",
+    "carences_couvertes": [
+      "selenium",
+      "magnesium",
+      "zinc"
+    ],
+    "portion_type": "2 noix (10g)"
+  },
+  {
+    "id": "pommes_de_terre",
+    "nom": "Pomme de terre (avec peau)",
+    "emoji": "🥔",
+    "categorie": "autresAliments",
+    "carences_couvertes": [
+      "vitamine_b6",
+      "vitamine_c",
+      "magnesium"
+    ],
+    "portion_type": "2 pommes de terre (200g)"
+  }
+]

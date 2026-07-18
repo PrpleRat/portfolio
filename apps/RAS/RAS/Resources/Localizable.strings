@@ -1,0 +1,11 @@
+/* RAS — Fusée de détresse */
+"app.name" = "RAS";
+"app.tagline" = "Fusée de détresse";
+"app.full_title" = "RAS — Fusée de détresse";
+"home.no_session" = "Aucune session active";
+"home.start" = "Démarrer une session";
+"checkin.title" = "Vérification requise";
+"checkin.success" = "RAS enregistré";
+"setup.title" = "Nouvelle session";
+"history.empty" = "Aucun historique";
+"about.disclaimer" = "Outil de bien-être personnel — ne remplace pas un équipement de secours homologué.";

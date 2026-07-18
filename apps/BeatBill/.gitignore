@@ -1,0 +1,34 @@
+node_modules/
+.expo/
+dist/
+web-build/
+
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+qr-code.html
+
+.env
+.env.*
+.env.local
+
+# Native (générés par expo prebuild dans CI — ne pas committer)
+ios/
+android/
+ExportOptions-ci.plist
+ci/Release-App.xcconfig
+
+# macOS / IDE
+.DS_Store
+.idea/
+*.swp
+*~
+
+# @generated expo-cli
+expo-env.d.ts

@@ -1,0 +1,1208 @@
+{
+  "recettes_supplementaires": [
+    {
+      "id": "boeuf_brocoli_gingembre",
+      "titre": "Bœuf sauté au brocoli & gingembre",
+      "emoji": "🥩",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "viande_rouge",
+        "brocolis",
+        "graines_courge"
+      ],
+      "carences_couvertes": [
+        "fer",
+        "zinc",
+        "vitamine_c",
+        "vitamine_k",
+        "vitamine_b12",
+        "magnesium"
+      ],
+      "ingredients_complets": [
+        "300g de bœuf (rumsteck)",
+        "1 brocoli",
+        "2 cs graines de courge",
+        "Gingembre frais",
+        "Sauce soja",
+        "Ail",
+        "Huile de sésame"
+      ],
+      "etapes": [
+        "Couper le bœuf en fines lamelles, mariner 10 min dans sauce soja + gingembre.",
+        "Saisir le bœuf à feu très vif 3 min. Réserver.",
+        "Faire sauter le brocoli en fleurettes 5 min avec l'ail.",
+        "Réunir, parsemer de graines de courge, filet d'huile de sésame."
+      ],
+      "conseil_nutrition": "Le bœuf apporte du fer héminique (le plus absorbable) et le brocoli ajoute de la vitamine C pour maximiser cette absorption.",
+      "score_base": 9
+    },
+    {
+      "id": "wrap_thon_avocat_epinards",
+      "titre": "Wrap thon, avocat & épinards",
+      "emoji": "🌯",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "thon",
+        "avocat",
+        "epinards"
+      ],
+      "carences_couvertes": [
+        "omega3",
+        "vitamine_b12",
+        "vitamine_b6",
+        "vitamine_b9",
+        "fer",
+        "vitamine_d"
+      ],
+      "ingredients_complets": [
+        "2 tortillas complètes",
+        "2 boîtes de thon",
+        "1 avocat",
+        "Épinards frais",
+        "Citron",
+        "Moutarde",
+        "Sel, poivre"
+      ],
+      "etapes": [
+        "Égoutter le thon, mélanger avec moutarde et citron.",
+        "Écraser l'avocat grossièrement avec sel et citron.",
+        "Étaler l'avocat sur la tortilla, ajouter épinards, thon.",
+        "Rouler serré, couper en diagonale."
+      ],
+      "conseil_nutrition": "Les graisses de l'avocat améliorent l'absorption de la vitamine K des épinards. Repas complet en 10 min.",
+      "score_base": 8
+    },
+    {
+      "id": "soupe_miso_champignons_tofu",
+      "titre": "Soupe miso, champignons & tofu",
+      "emoji": "🍜",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "champignons",
+        "oeufs"
+      ],
+      "carences_couvertes": [
+        "vitamine_d",
+        "vitamine_b2_b3",
+        "zinc",
+        "probiotiques",
+        "selenium",
+        "iode"
+      ],
+      "ingredients_complets": [
+        "2 cs pâte miso",
+        "200g champignons shiitake",
+        "150g tofu ferme",
+        "Algues wakamé",
+        "Oignons verts",
+        "500ml eau chaude"
+      ],
+      "etapes": [
+        "Réhydrater les algues 5 min.",
+        "Faire revenir les champignons 5 min.",
+        "Dissoudre le miso dans l'eau chaude (pas bouillante).",
+        "Ajouter tofu en dés, champignons, algues. Parsemer d'oignons verts."
+      ],
+      "conseil_nutrition": "Les champignons shiitake exposés au soleil sont une source rare de vitamine D végétale. Ne jamais faire bouillir le miso : ça détruit les probiotiques.",
+      "score_base": 7
+    },
+    {
+      "id": "frittata_poivrons_epinards",
+      "titre": "Frittata poivrons, épinards & feta",
+      "emoji": "🍳",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "oeufs",
+        "poivrons",
+        "epinards"
+      ],
+      "carences_couvertes": [
+        "vitamine_c",
+        "vitamine_b2_b3",
+        "zinc",
+        "fer",
+        "vitamine_b9",
+        "vitamine_k",
+        "calcium"
+      ],
+      "ingredients_complets": [
+        "6 œufs",
+        "2 poivrons rouges",
+        "150g épinards",
+        "80g feta",
+        "Oignon",
+        "Ail",
+        "Huile d'olive",
+        "Herbes de Provence"
+      ],
+      "etapes": [
+        "Préchauffer four à 180°C.",
+        "Faire revenir oignon, ail, poivrons 8 min. Ajouter épinards 2 min.",
+        "Verser les œufs battus, mélanger. Parsemer de feta.",
+        "Cuire à la poêle allant au four 5 min sur le feu, puis 10 min au four."
+      ],
+      "conseil_nutrition": "La frittata se mange chaude ou froide — parfaite en meal prep. Le poivron rouge contient 3x plus de vitamine C que l'orange.",
+      "score_base": 9
+    },
+    {
+      "id": "salade_epinards_fraises_noix",
+      "titre": "Salade épinards, fraises & noix",
+      "emoji": "🥗",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "epinards",
+        "fraises",
+        "noix"
+      ],
+      "carences_couvertes": [
+        "fer",
+        "vitamine_c",
+        "vitamine_k",
+        "omega3",
+        "vitamine_b9",
+        "magnesium"
+      ],
+      "ingredients_complets": [
+        "150g épinards frais",
+        "200g fraises",
+        "50g noix",
+        "Vinaigrette: huile de noix + vinaigre balsamique + moutarde",
+        "Parmesan râpé"
+      ],
+      "etapes": [
+        "Laver épinards et fraises, couper les fraises en quartiers.",
+        "Concasser grossièrement les noix.",
+        "Préparer la vinaigrette à l'huile de noix.",
+        "Assembler, arroser de vinaigrette, parsemer de parmesan."
+      ],
+      "conseil_nutrition": "La vitamine C des fraises triple l'absorption du fer non-héminique des épinards. L'huile de noix apporte des oméga-3 végétaux.",
+      "score_base": 8
+    },
+    {
+      "id": "quinoa_saumon_avocat",
+      "titre": "Bowl quinoa, saumon & avocat",
+      "emoji": "🥣",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "saumon",
+        "avocat"
+      ],
+      "carences_couvertes": [
+        "omega3",
+        "vitamine_d",
+        "vitamine_b12",
+        "vitamine_b9",
+        "magnesium",
+        "selenium"
+      ],
+      "ingredients_complets": [
+        "200g saumon frais",
+        "150g quinoa",
+        "1 avocat",
+        "Concombre",
+        "Graines de sésame",
+        "Sauce soja",
+        "Citron vert",
+        "Coriandre"
+      ],
+      "etapes": [
+        "Cuire le quinoa 15 min dans 2 volumes d'eau.",
+        "Cuire le saumon à la poêle 4 min de chaque côté.",
+        "Émincer l'avocat et le concombre.",
+        "Assembler en bowl, assaisonner sauce soja + citron vert + sésame."
+      ],
+      "conseil_nutrition": "Le quinoa est une protéine complète (tous les acides aminés essentiels) + source de magnésium. Associé au saumon, le bowl est ultra-complet.",
+      "score_base": 9
+    },
+    {
+      "id": "poulet_patate_douce_curcuma",
+      "titre": "Poulet & patate douce au curcuma",
+      "emoji": "🍗",
+      "temps": "35 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "poulet",
+        "carottes"
+      ],
+      "carences_couvertes": [
+        "vitamine_a",
+        "vitamine_b6",
+        "vitamine_c",
+        "magnesium",
+        "zinc"
+      ],
+      "ingredients_complets": [
+        "4 cuisses de poulet",
+        "2 patates douces",
+        "2 carottes",
+        "Curcuma, gingembre, cumin",
+        "Huile d'olive",
+        "Ail",
+        "Bouillon",
+        "Coriandre"
+      ],
+      "etapes": [
+        "Préchauffer four à 200°C.",
+        "Couper patates douces et carottes en gros dés, enrober d'huile et épices.",
+        "Poser le poulet dessus, saler, poivrer.",
+        "Cuire 30-35 min en retournant à mi-cuisson. Parsemer de coriandre."
+      ],
+      "conseil_nutrition": "La patate douce est 4x plus riche en bêta-carotène que la carotte. Le curcuma est anti-inflammatoire et améliore l'absorption des oméga-3.",
+      "score_base": 8
+    },
+    {
+      "id": "omelette_thon_tomates",
+      "titre": "Omelette thon & tomates",
+      "emoji": "🍳",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "oeufs",
+        "thon"
+      ],
+      "carences_couvertes": [
+        "vitamine_b12",
+        "vitamine_b6",
+        "vitamine_b2_b3",
+        "zinc",
+        "selenium",
+        "vitamine_d"
+      ],
+      "ingredients_complets": [
+        "4 œufs",
+        "1 boîte de thon",
+        "2 tomates",
+        "Basilic",
+        "Huile d'olive",
+        "Sel, poivre"
+      ],
+      "etapes": [
+        "Égoutter le thon. Couper les tomates en dés.",
+        "Battre les œufs avec sel et poivre.",
+        "Cuire l'omelette à feu moyen, ajouter thon et tomates.",
+        "Replier, garnir de basilic frais."
+      ],
+      "conseil_nutrition": "Rapide et riche : 4 œufs + thon couvrent environ 100% des besoins journaliers en B12. La tomate apporte du lycopène anti-oxydant.",
+      "score_base": 7
+    },
+    {
+      "id": "risotto_champignons_parmesan",
+      "titre": "Risotto champignons & parmesan",
+      "emoji": "🍚",
+      "temps": "35 min",
+      "difficulte": "Moyen",
+      "portions": 4,
+      "ingredients_cles": [
+        "champignons"
+      ],
+      "carences_couvertes": [
+        "vitamine_b2_b3",
+        "vitamine_d",
+        "zinc",
+        "selenium",
+        "calcium"
+      ],
+      "ingredients_complets": [
+        "300g riz arborio",
+        "400g champignons mélangés",
+        "1 oignon",
+        "150ml vin blanc",
+        "1L bouillon chaud",
+        "80g parmesan",
+        "Beurre",
+        "Thym"
+      ],
+      "etapes": [
+        "Faire revenir champignons et oignon dans le beurre 8 min.",
+        "Ajouter le riz, nacrer 2 min. Déglacer au vin blanc.",
+        "Incorporer le bouillon louche par louche en remuant constamment.",
+        "Hors feu, incorporer le parmesan. Mantecare 2 min."
+      ],
+      "conseil_nutrition": "Le parmesan est la source de calcium la plus concentrée par gramme. Les champignons mélangés (shiitake, oyster) maximisent la vitamine D.",
+      "score_base": 7
+    },
+    {
+      "id": "soupe_lentilles_tomates_cumin",
+      "titre": "Soupe lentilles, tomates & cumin",
+      "emoji": "🍲",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "lentilles"
+      ],
+      "carences_couvertes": [
+        "fer",
+        "vitamine_b1",
+        "vitamine_b9",
+        "magnesium",
+        "zinc"
+      ],
+      "ingredients_complets": [
+        "300g lentilles vertes",
+        "400g tomates concassées",
+        "1 oignon",
+        "3 gousses d'ail",
+        "Cumin, coriandre moulue, paprika",
+        "Bouillon légumes",
+        "Citron",
+        "Persil"
+      ],
+      "etapes": [
+        "Faire revenir oignon, ail et épices 3 min.",
+        "Ajouter lentilles rincées et tomates, couvrir de bouillon.",
+        "Cuire 20 min à feu moyen.",
+        "Citron + persil frais avant de servir. Mixer partiellement pour une texture crémeuse."
+      ],
+      "conseil_nutrition": "Le jus de citron est indispensable : il multiplie par 3 l'absorption du fer des lentilles. Ne jamais l'oublier.",
+      "score_base": 8
+    },
+    {
+      "id": "tartines_sardines_tomates",
+      "titre": "Tartines sardines & tomates confites",
+      "emoji": "🐟",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "sardines"
+      ],
+      "carences_couvertes": [
+        "omega3",
+        "vitamine_d",
+        "vitamine_b12",
+        "calcium",
+        "selenium"
+      ],
+      "ingredients_complets": [
+        "2 boîtes sardines à l'huile d'olive",
+        "Pain complet",
+        "Tomates cerises",
+        "Basilic",
+        "Câpres",
+        "Citron",
+        "Poivre"
+      ],
+      "etapes": [
+        "Toaster le pain complet.",
+        "Écraser grossièrement les sardines à la fourchette avec un peu d'huile.",
+        "Disposer sur le pain, garnir de tomates cerises et câpres.",
+        "Citron, basilic, poivre. Servir immédiatement."
+      ],
+      "conseil_nutrition": "Les sardines en conserve entières (avec arêtes) apportent autant de calcium que le lait. Source d'oméga-3 la plus économique.",
+      "score_base": 7
+    },
+    {
+      "id": "poulet_epinards_sesame",
+      "titre": "Salade tiède poulet, épinards & sésame",
+      "emoji": "🥗",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "poulet",
+        "epinards"
+      ],
+      "carences_couvertes": [
+        "vitamine_b6",
+        "fer",
+        "vitamine_b9",
+        "zinc",
+        "vitamine_k",
+        "magnesium"
+      ],
+      "ingredients_complets": [
+        "2 blancs de poulet",
+        "200g épinards frais",
+        "2 cs graines de sésame",
+        "Sauce: huile de sésame + sauce soja + gingembre + miel",
+        "Ail"
+      ],
+      "etapes": [
+        "Griller le poulet 6 min de chaque côté, laisser reposer, trancher.",
+        "Faire revenir épinards et ail dans l'huile 2 min.",
+        "Préparer la sauce en mélangeant tous les ingrédients.",
+        "Dresser épinards + poulet, napper de sauce, parsemer de sésame."
+      ],
+      "conseil_nutrition": "Le sésame est riche en calcium et en zinc. La vitamine C naturellement présente dans les épinards aide l'absorption du fer.",
+      "score_base": 8
+    },
+    {
+      "id": "pain_perdu_cannelle_banane",
+      "titre": "Pain perdu à la banane & cannelle",
+      "emoji": "🍞",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "oeufs",
+        "bananes"
+      ],
+      "carences_couvertes": [
+        "vitamine_b6",
+        "vitamine_b2_b3",
+        "magnesium",
+        "zinc",
+        "vitamine_d"
+      ],
+      "ingredients_complets": [
+        "4 tranches pain complet",
+        "2 œufs",
+        "100ml lait",
+        "2 bananes",
+        "Cannelle",
+        "Miel",
+        "Beurre"
+      ],
+      "etapes": [
+        "Battre œufs + lait + cannelle.",
+        "Tremper le pain dans le mélange.",
+        "Cuire dans le beurre 2 min de chaque côté.",
+        "Servir avec banane en rondelles et miel."
+      ],
+      "conseil_nutrition": "La banane mûre est la meilleure source alimentaire de B6. La cannelle régule la glycémie et potentialise l'absorption du magnésium.",
+      "score_base": 6
+    },
+    {
+      "id": "maquereau_pomme_celeri",
+      "titre": "Salade maquereau, pomme & céleri",
+      "emoji": "🐠",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "maquereau",
+        "noix"
+      ],
+      "carences_couvertes": [
+        "omega3",
+        "vitamine_d",
+        "vitamine_b12",
+        "vitamine_b2_b3"
+      ],
+      "ingredients_complets": [
+        "200g maquereau fumé",
+        "2 pommes",
+        "3 branches céleri",
+        "50g noix",
+        "Yaourt grec",
+        "Moutarde",
+        "Citron",
+        "Aneth"
+      ],
+      "etapes": [
+        "Émietter le maquereau fumé.",
+        "Couper pommes et céleri en petits dés.",
+        "Mélanger yaourt + moutarde + citron + aneth pour la sauce.",
+        "Assembler et mélanger délicatement."
+      ],
+      "conseil_nutrition": "Le céleri est riche en vitamine K. Le maquereau fumé ne nécessite aucune cuisson — recette la plus rapide du programme.",
+      "score_base": 7
+    },
+    {
+      "id": "porridge_avoine_graines_noix",
+      "titre": "Porridge avoine, graines & fruits",
+      "emoji": "🥣",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": [
+        "amandes",
+        "graines_courge",
+        "bananes"
+      ],
+      "carences_couvertes": [
+        "magnesium",
+        "zinc",
+        "vitamine_b1",
+        "omega3",
+        "fer"
+      ],
+      "ingredients_complets": [
+        "80g flocons d'avoine",
+        "250ml lait (ou végétal)",
+        "1 banane",
+        "30g amandes",
+        "2 cs graines de courge",
+        "1 cs graines de lin",
+        "Cannelle",
+        "Miel"
+      ],
+      "etapes": [
+        "Cuire les flocons dans le lait 5 min en remuant.",
+        "Ajouter la banane écrasée et la cannelle.",
+        "Verser dans un bol.",
+        "Parsemer d'amandes, graines de courge et lin, miel."
+      ],
+      "conseil_nutrition": "Les graines de lin moulues sont la source végétale la plus concentrée en oméga-3. À ajouter systématiquement aux porridges.",
+      "score_base": 8
+    },
+    {
+      "id": "salade_pois_chiches_feta_menthe",
+      "titre": "Salade pois chiches, feta & menthe",
+      "emoji": "🫘",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "pois_chiches"
+      ],
+      "carences_couvertes": [
+        "fer",
+        "vitamine_b9",
+        "zinc",
+        "magnesium",
+        "calcium",
+        "vitamine_b6"
+      ],
+      "ingredients_complets": [
+        "2 boîtes pois chiches",
+        "150g feta",
+        "Tomates cerises",
+        "Concombre",
+        "Menthe fraîche",
+        "Jus de citron",
+        "Huile d'olive",
+        "Cumin"
+      ],
+      "etapes": [
+        "Égoutter et rincer les pois chiches.",
+        "Couper feta, tomates et concombre en dés.",
+        "Ciseler la menthe.",
+        "Mélanger avec citron, huile d'olive, cumin. Saler, poivrer."
+      ],
+      "conseil_nutrition": "Les pois chiches sont la meilleure source de zinc végétal. La feta apporte du calcium. À manger avec du citron pour le fer.",
+      "score_base": 7
+    },
+    {
+      "id": "soupe_poireaux_pommes_de_terre",
+      "titre": "Velouté de poireaux & pommes de terre",
+      "emoji": "🥣",
+      "temps": "30 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "pommes_de_terre"
+      ],
+      "carences_couvertes": [
+        "vitamine_b6",
+        "vitamine_c",
+        "magnesium",
+        "vitamine_b9"
+      ],
+      "ingredients_complets": [
+        "4 poireaux",
+        "4 pommes de terre",
+        "1 oignon",
+        "750ml bouillon légumes",
+        "Crème légère",
+        "Noix de muscade",
+        "Ciboulette"
+      ],
+      "etapes": [
+        "Émincer poireaux et oignon, faire revenir dans l'huile 8 min.",
+        "Ajouter pommes de terre en dés et bouillon. Cuire 20 min.",
+        "Mixer avec la crème et la muscade.",
+        "Servir parsemé de ciboulette."
+      ],
+      "conseil_nutrition": "La pomme de terre cuite avec la peau conserve 90% de ses vitamines B6 et C. La mixer juste avant de servir préserve la vitamine C.",
+      "score_base": 6
+    },
+    {
+      "id": "carpaccio_saumon_agrumes",
+      "titre": "Carpaccio de saumon aux agrumes",
+      "emoji": "🍋",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "saumon"
+      ],
+      "carences_couvertes": [
+        "omega3",
+        "vitamine_d",
+        "vitamine_b12",
+        "vitamine_c",
+        "selenium"
+      ],
+      "ingredients_complets": [
+        "300g saumon très frais",
+        "1 orange",
+        "1 pamplemousse",
+        "Aneth",
+        "Câpres",
+        "Huile d'olive",
+        "Fleur de sel"
+      ],
+      "etapes": [
+        "Trancher le saumon très finement (ou demander au poissonnier).",
+        "Disposer en rosace sur l'assiette.",
+        "Peler les agrumes à vif, récupérer les suprêmes.",
+        "Disposer sur le saumon avec aneth, câpres, huile d'olive, fleur de sel."
+      ],
+      "conseil_nutrition": "La vitamine C des agrumes améliore l'absorption du fer du saumon. Plat sans cuisson — toutes les vitamines sont intactes.",
+      "score_base": 8
+    },
+    {
+      "id": "rösti_saumon_oeuf",
+      "titre": "Rösti aux épinards, saumon & œuf",
+      "emoji": "🥔",
+      "temps": "25 min",
+      "difficulte": "Moyen",
+      "portions": 2,
+      "ingredients_cles": [
+        "oeufs",
+        "saumon",
+        "epinards"
+      ],
+      "carences_couvertes": [
+        "omega3",
+        "vitamine_d",
+        "vitamine_b12",
+        "fer",
+        "vitamine_b9",
+        "zinc"
+      ],
+      "ingredients_complets": [
+        "400g pommes de terre râpées",
+        "2 œufs",
+        "100g saumon fumé",
+        "80g épinards",
+        "Beurre",
+        "Sel, poivre",
+        "Ciboulette"
+      ],
+      "etapes": [
+        "Presser les pommes de terre râpées dans un linge pour enlever l'eau.",
+        "Mélanger avec 1 œuf battu, sel, poivre.",
+        "Former des galettes, cuire dans le beurre 5 min de chaque côté.",
+        "Servir avec saumon fumé, épinards sautés et un œuf poché."
+      ],
+      "conseil_nutrition": "Triple combinaison anti-carences : pomme de terre (B6), saumon (D + oméga-3 + B12), épinards (fer + B9).",
+      "score_base": 9
+    },
+    {
+      "id": "boulettes_boeuf_sauce_tomate",
+      "titre": "Boulettes de bœuf & sauce tomate",
+      "emoji": "🍝",
+      "temps": "30 min",
+      "difficulte": "Moyen",
+      "portions": 4,
+      "ingredients_cles": [
+        "viande_rouge"
+      ],
+      "carences_couvertes": [
+        "fer",
+        "zinc",
+        "vitamine_b12",
+        "vitamine_b6",
+        "vitamine_b2_b3"
+      ],
+      "ingredients_complets": [
+        "500g bœuf haché",
+        "400g tomates concassées",
+        "1 oignon",
+        "Ail",
+        "Basilic",
+        "Origan",
+        "Œuf (liaison)",
+        "Chapelure",
+        "Parmesan"
+      ],
+      "etapes": [
+        "Mélanger bœuf + œuf + chapelure + parmesan + herbes. Former des boulettes.",
+        "Les faire dorer 5 min dans l'huile.",
+        "Faire revenir oignon + ail, ajouter tomates et épices.",
+        "Ajouter les boulettes, mijoter 20 min. Parsemer de basilic."
+      ],
+      "conseil_nutrition": "La sauce tomate cuite est riche en lycopène anti-oxydant. Associer à des pâtes complètes pour les vitamines B.",
+      "score_base": 8
+    },
+    {
+      "id": "salade_quinoa_pois_chiches_citron",
+      "titre": "Salade quinoa, pois chiches & citron",
+      "emoji": "🥗",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "pois_chiches",
+        "epinards"
+      ],
+      "carences_couvertes": [
+        "fer",
+        "vitamine_b9",
+        "zinc",
+        "magnesium",
+        "vitamine_c",
+        "vitamine_b6"
+      ],
+      "ingredients_complets": [
+        "200g quinoa",
+        "1 boîte pois chiches",
+        "100g épinards frais",
+        "Tomates cerises",
+        "Concombre",
+        "Jus de 2 citrons",
+        "Huile d'olive",
+        "Menthe",
+        "Persil"
+      ],
+      "etapes": [
+        "Cuire le quinoa 15 min, laisser refroidir.",
+        "Égoutter les pois chiches.",
+        "Mélanger tous les ingrédients.",
+        "Assaisonner généreusement avec citron, huile d'olive, herbes."
+      ],
+      "conseil_nutrition": "Salade de meal prep parfaite — se conserve 3 jours. Le citron préserve la vitamine C et booste l'absorption du fer.",
+      "score_base": 8
+    },
+    {
+      "id": "foie_morue_huile_citron",
+      "titre": "Salade de haricots verts & noisettes",
+      "emoji": "🫘",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "amandes"
+      ],
+      "carences_couvertes": [
+        "vitamine_e",
+        "magnesium",
+        "vitamine_k",
+        "vitamine_c",
+        "calcium"
+      ],
+      "ingredients_complets": [
+        "400g haricots verts frais",
+        "50g noisettes",
+        "Oignon rouge",
+        "Vinaigrette: huile de noisette + vinaigre de cidre + moutarde",
+        "Sel"
+      ],
+      "etapes": [
+        "Cuire les haricots verts al dente 8 min à l'eau bouillante.",
+        "Refroidir immédiatement dans l'eau glacée (fixe la couleur et vitamine C).",
+        "Faire griller les noisettes à sec 5 min.",
+        "Assembler avec oignon rouge émincé et vinaigrette."
+      ],
+      "conseil_nutrition": "L'eau glacée après cuisson est essentielle : elle préserve la couleur et double la vitamine C conservée.",
+      "score_base": 6
+    },
+    {
+      "id": "tartare_boeuf_jaune_oeuf",
+      "titre": "Tartare de bœuf & jaune d'œuf",
+      "emoji": "🥩",
+      "temps": "15 min",
+      "difficulte": "Moyen",
+      "portions": 2,
+      "ingredients_cles": [
+        "viande_rouge",
+        "oeufs"
+      ],
+      "carences_couvertes": [
+        "fer",
+        "zinc",
+        "vitamine_b12",
+        "vitamine_d",
+        "vitamine_b2_b3",
+        "selenium"
+      ],
+      "ingredients_complets": [
+        "300g bœuf très frais (demander au boucher)",
+        "2 jaunes d'œufs",
+        "Câpres",
+        "Cornichons",
+        "Oignon rouge",
+        "Moutarde",
+        "Sauce Worcestershire",
+        "Tabasco",
+        "Persil"
+      ],
+      "etapes": [
+        "Hacher finement le bœuf au couteau (ne jamais utiliser un bœuf haché du commerce).",
+        "Mélanger avec câpres hachées, cornichons, oignon, moutarde, sauces.",
+        "Former en dôme, creuser un puits au centre.",
+        "Déposer le jaune d'œuf. Persil, fleur de sel."
+      ],
+      "conseil_nutrition": "Le jaune d'œuf cru conserve 100% de la vitamine D. Le bœuf cru a un fer héminique encore plus absorbable. Utiliser du bœuf de qualité chez un boucher.",
+      "score_base": 9
+    },
+    {
+      "id": "chia_pudding_mangue_coco",
+      "titre": "Chia pudding mangue & coco",
+      "emoji": "🥭",
+      "temps": "5 min + 4h repos",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "graines_courge"
+      ],
+      "carences_couvertes": [
+        "omega3",
+        "magnesium",
+        "calcium",
+        "vitamine_c",
+        "fer"
+      ],
+      "ingredients_complets": [
+        "4 cs graines de chia",
+        "250ml lait de coco",
+        "1 mangue",
+        "Miel",
+        "Vanille",
+        "Noix de coco râpée"
+      ],
+      "etapes": [
+        "Mélanger chia + lait de coco + miel + vanille.",
+        "Réfrigérer minimum 4h (idéalement une nuit).",
+        "Au moment de servir, couper la mangue en dés.",
+        "Disposer sur le chia pudding, parsemer de noix de coco."
+      ],
+      "conseil_nutrition": "Les graines de chia absorbent 10x leur poids en eau et forment un gel qui ralentit l'absorption du sucre. Riches en oméga-3 et calcium.",
+      "score_base": 7
+    },
+    {
+      "id": "filet_porc_pommes_moutarde",
+      "titre": "Filet de porc, pommes & moutarde",
+      "emoji": "🍎",
+      "temps": "30 min",
+      "difficulte": "Moyen",
+      "portions": 4,
+      "ingredients_cles": [
+        "viande_rouge"
+      ],
+      "carences_couvertes": [
+        "vitamine_b1",
+        "zinc",
+        "vitamine_b6",
+        "vitamine_b12",
+        "magnesium"
+      ],
+      "ingredients_complets": [
+        "600g filet de porc",
+        "3 pommes",
+        "Moutarde à l'ancienne",
+        "Crème légère",
+        "Cidre brut",
+        "Thym",
+        "Beurre",
+        "Sel, poivre"
+      ],
+      "etapes": [
+        "Faire dorer le filet de porc 5 min de chaque côté dans le beurre.",
+        "Retirer le porc, faire revenir les pommes en quartiers 5 min.",
+        "Déglacer au cidre, ajouter moutarde et crème.",
+        "Remettre le porc, cuire 15 min à feu doux. Thym frais."
+      ],
+      "conseil_nutrition": "Le porc est la meilleure source alimentaire de vitamine B1 (thiamine). Les pommes apportent des polyphénols qui améliorent l'absorption des minéraux.",
+      "score_base": 8
+    },
+    {
+      "id": "gazpacho_poivrons_tomates",
+      "titre": "Gazpacho poivrons & tomates",
+      "emoji": "🍅",
+      "temps": "15 min + 2h frigo",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "poivrons"
+      ],
+      "carences_couvertes": [
+        "vitamine_c",
+        "vitamine_a",
+        "vitamine_k",
+        "vitamine_b9"
+      ],
+      "ingredients_complets": [
+        "2 poivrons rouges",
+        "600g tomates mûres",
+        "1 concombre",
+        "1 oignon rouge",
+        "2 gousses d'ail",
+        "Jus de citron",
+        "Huile d'olive extra vierge",
+        "Sel"
+      ],
+      "etapes": [
+        "Mixer tous les légumes crus avec ail et citron.",
+        "Incorporer l'huile d'olive en filet en mixant.",
+        "Saler, poivrer. Passer au chinois pour plus de finesse.",
+        "Réfrigérer 2h minimum. Servir avec croûtons."
+      ],
+      "conseil_nutrition": "Le gazpacho est cru — 100% de la vitamine C est préservée. Le poivron rouge cru contient 190mg de vitamine C pour 100g (3x les besoins journaliers).",
+      "score_base": 7
+    },
+    {
+      "id": "tian_legumes_provence",
+      "titre": "Tian de légumes à la provençale",
+      "emoji": "🫑",
+      "temps": "50 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "carottes",
+        "poivrons"
+      ],
+      "carences_couvertes": [
+        "vitamine_a",
+        "vitamine_c",
+        "vitamine_k",
+        "vitamine_b9",
+        "magnesium"
+      ],
+      "ingredients_complets": [
+        "2 courgettes",
+        "2 tomates",
+        "2 poivrons",
+        "2 carottes",
+        "Herbes de Provence",
+        "Ail",
+        "Huile d'olive",
+        "Parmesan"
+      ],
+      "etapes": [
+        "Préchauffer four à 180°C.",
+        "Couper tous les légumes en rondelles fines.",
+        "Disposer en alternance dans un plat huilé.",
+        "Arroser d'huile, ail haché, herbes, parmesan. Cuire 45 min."
+      ],
+      "conseil_nutrition": "La cuisson lente à basse température préserve mieux les vitamines que la cuisson rapide à haute température. L'huile d'olive améliore l'absorption du bêta-carotène.",
+      "score_base": 6
+    },
+    {
+      "id": "avocado_toast_oeuf_graines",
+      "titre": "Avocado toast, œuf & graines mélangées",
+      "emoji": "🥑",
+      "temps": "10 min",
+      "difficulte": "Facile",
+      "portions": 1,
+      "ingredients_cles": [
+        "avocat",
+        "oeufs",
+        "graines_courge"
+      ],
+      "carences_couvertes": [
+        "vitamine_b9",
+        "vitamine_b2_b3",
+        "zinc",
+        "magnesium",
+        "omega3",
+        "vitamine_d"
+      ],
+      "ingredients_complets": [
+        "1 avocat",
+        "2 œufs",
+        "Pain complet",
+        "Graines: courge + sésame + tournesol",
+        "Citron",
+        "Piment d'Espelette",
+        "Fleur de sel"
+      ],
+      "etapes": [
+        "Toaster le pain. Écraser l'avocat avec sel et citron.",
+        "Cuire les œufs au plat ou pochés.",
+        "Étaler l'avocat sur le pain.",
+        "Poser les œufs, parsemer de graines mélangées et piment."
+      ],
+      "conseil_nutrition": "Mélange de 3 graines = zinc (courge) + calcium (sésame) + vitamine E (tournesol). Le trio de graines couvre 5 carences différentes.",
+      "score_base": 8
+    },
+    {
+      "id": "salade_chou_kale_noix",
+      "titre": "Salade de kale, noix & cranberries",
+      "emoji": "🥬",
+      "temps": "15 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "noix",
+        "epinards"
+      ],
+      "carences_couvertes": [
+        "vitamine_k",
+        "vitamine_c",
+        "omega3",
+        "magnesium",
+        "vitamine_b9",
+        "calcium"
+      ],
+      "ingredients_complets": [
+        "150g kale (chou frisé)",
+        "50g noix",
+        "50g cranberries séchées",
+        "Parmesan",
+        "Vinaigrette: huile d'olive + citron + moutarde + miel"
+      ],
+      "etapes": [
+        "Déchirer le kale en petits morceaux, masser 2 min avec les mains (attendrit les fibres).",
+        "Faire griller les noix à sec.",
+        "Préparer la vinaigrette.",
+        "Assembler, ajouter cranberries, parmesan et noix."
+      ],
+      "conseil_nutrition": "Le kale est 3x plus riche en vitamine K que les épinards. Le massage manuel est indispensable — il décompose les fibres dures et améliore la digestibilité.",
+      "score_base": 7
+    },
+    {
+      "id": "gratin_brocoli_jambon_cru",
+      "titre": "Gratin brocoli, jambon & béchamel légère",
+      "emoji": "🥦",
+      "temps": "35 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "brocolis",
+        "oeufs"
+      ],
+      "carences_couvertes": [
+        "vitamine_c",
+        "vitamine_k",
+        "vitamine_b6",
+        "calcium",
+        "zinc",
+        "vitamine_b2_b3"
+      ],
+      "ingredients_complets": [
+        "1 brocoli",
+        "150g jambon blanc",
+        "3 œufs",
+        "250ml lait",
+        "Gruyère râpé",
+        "Beurre",
+        "Farine",
+        "Muscade"
+      ],
+      "etapes": [
+        "Cuire le brocoli al dente 5 min. Préchauffer four à 180°C.",
+        "Préparer une béchamel légère: beurre + farine + lait + muscade.",
+        "Incorporer les œufs battus hors feu.",
+        "Disposer brocoli et jambon, napper de béchamel, gruyère. Cuire 25 min."
+      ],
+      "conseil_nutrition": "Cuire le brocoli al dente (pas trop) préserve 50% plus de vitamine C que la cuisson classique.",
+      "score_base": 7
+    },
+    {
+      "id": "granola_bars_avoine_miel",
+      "titre": "Barres granola maison avoine & miel",
+      "emoji": "🍫",
+      "temps": "30 min",
+      "difficulte": "Facile",
+      "portions": 12,
+      "ingredients_cles": [
+        "amandes",
+        "graines_courge",
+        "noix"
+      ],
+      "carences_couvertes": [
+        "magnesium",
+        "zinc",
+        "omega3",
+        "vitamine_b1",
+        "fer"
+      ],
+      "ingredients_complets": [
+        "200g flocons d'avoine",
+        "80g amandes hachées",
+        "60g graines de courge",
+        "50g noix concassées",
+        "4 cs miel",
+        "3 cs huile de coco",
+        "Cannelle",
+        "Sel"
+      ],
+      "etapes": [
+        "Préchauffer four à 160°C.",
+        "Mélanger tous les ingrédients secs.",
+        "Incorporer miel et huile de coco fondus.",
+        "Tasser dans un moule, cuire 25 min. Laisser refroidir avant de couper."
+      ],
+      "conseil_nutrition": "En-cas idéal anti-carences : graines de courge (zinc) + amandes (magnésium) + noix (oméga-3). Se conserve 2 semaines.",
+      "score_base": 7
+    },
+    {
+      "id": "tilapia_citron_herbes",
+      "titre": "Tilapia citron-herbes & haricots verts",
+      "emoji": "🐟",
+      "temps": "20 min",
+      "difficulte": "Facile",
+      "portions": 2,
+      "ingredients_cles": [
+        "oeufs"
+      ],
+      "carences_couvertes": [
+        "vitamine_b12",
+        "iode",
+        "selenium",
+        "vitamine_d",
+        "vitamine_c",
+        "vitamine_k"
+      ],
+      "ingredients_complets": [
+        "2 filets de tilapia",
+        "300g haricots verts",
+        "1 citron",
+        "Persil + aneth",
+        "Huile d'olive",
+        "Ail",
+        "Sel, poivre"
+      ],
+      "etapes": [
+        "Cuire les haricots verts 7 min. Réserver.",
+        "Assaisonner le poisson avec citron, ail, herbes.",
+        "Cuire le tilapia à la poêle 3 min de chaque côté.",
+        "Servir avec les haricots verts, arroser de jus de citron."
+      ],
+      "conseil_nutrition": "Le tilapia est un poisson maigre très riche en protéines complètes et en iode. Économique et rapide.",
+      "score_base": 6
+    },
+    {
+      "id": "crepes_farine_sarrasin_oeuf",
+      "titre": "Crêpes sarrasin, œuf & fromage",
+      "emoji": "🥞",
+      "temps": "25 min",
+      "difficulte": "Facile",
+      "portions": 4,
+      "ingredients_cles": [
+        "oeufs"
+      ],
+      "carences_couvertes": [
+        "vitamine_b2_b3",
+        "zinc",
+        "magnesium",
+        "vitamine_d",
+        "vitamine_b12"
+      ],
+      "ingredients_complets": [
+        "200g farine de sarrasin",
+        "400ml eau",
+        "1 œuf (pâte) + 4 œufs (garniture)",
+        "Emmental râpé",
+        "Jambon ou champignons",
+        "Sel"
+      ],
+      "etapes": [
+        "Mélanger farine + eau + œuf + sel. Laisser reposer 30 min.",
+        "Cuire des crêpes fines dans une crêpière beurrée.",
+        "Garnir d'emmental râpé + œuf cassé directement sur la crêpe.",
+        "Ajouter jambon ou champignons. Plier en carré, servir chaud."
+      ],
+      "conseil_nutrition": "Le sarrasin (sans gluten) contient 2x plus de magnésium que le blé. Source de rutine, flavonoïde qui renforce les vaisseaux sanguins.",
+      "score_base": 7
+    }
+  ]
+}

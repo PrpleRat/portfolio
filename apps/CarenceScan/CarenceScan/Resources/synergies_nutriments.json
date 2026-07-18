@@ -1,0 +1,102 @@
+[
+  {
+    "id": "magnesium_vitamine_d",
+    "type": "synergie",
+    "nutriment_a": "magnesium",
+    "nutriment_b": "vitamine_d",
+    "force": "forte",
+    "message": "Le magnésium est indispensable à l'activation de la vitamine D. Sans magnésium suffisant, la vitamine D supplémentée est peu efficace.",
+    "source": "Zittermann et al. (2024, Eur J Nutrition) — RCT confirmé par 4 essais cliniques",
+    "conseil_pratique": "Prendre magnésium et vitamine D ensemble, idéalement le soir avec un repas gras."
+  },
+  {
+    "id": "vitamine_d_k2",
+    "type": "synergie",
+    "nutriment_a": "vitamine_d",
+    "nutriment_b": "vitamine_k",
+    "force": "forte",
+    "message": "La vitamine K2 dirige le calcium (absorbé grâce à la vitamine D) vers les os plutôt que les artères. Essentielles ensemble.",
+    "source": "van Ballegooijen et al. (Int J Endocrinology, 2017)",
+    "conseil_pratique": "Toujours prendre D3 + K2 ensemble. Les formules combinées en gouttes sont idéales."
+  },
+  {
+    "id": "vitamine_c_fer",
+    "type": "synergie",
+    "nutriment_a": "vitamine_c",
+    "nutriment_b": "fer",
+    "force": "forte",
+    "message": "La vitamine C peut multiplier jusqu'à 9x l'absorption du fer non-héminique (végétal). Effet uniquement si pris au même repas.",
+    "source": "ACS Omega (2022) — absorption passe de 0,8% à 7,1% selon la dose de vitamine C",
+    "conseil_pratique": "Toujours accompagner les repas riches en fer végétal (lentilles, épinards) d'une source de vitamine C (citron, poivron, kiwi)."
+  },
+  {
+    "id": "zinc_fer_antagonisme",
+    "type": "antagonisme",
+    "nutriment_a": "zinc",
+    "nutriment_b": "fer",
+    "force": "moderee",
+    "message": "Le zinc et le fer entrent en compétition pour l'absorption intestinale. Les prendre ensemble réduit l'efficacité des deux.",
+    "source": "Cambridge Nutrition Reviews (2000) + Sandstrom (2001)",
+    "conseil_pratique": "Prendre zinc le matin avec le repas, fer en milieu d'après-midi. Minimum 2h d'écart."
+  },
+  {
+    "id": "calcium_fer_antagonisme",
+    "type": "antagonisme",
+    "nutriment_a": "fer",
+    "nutriment_b": "calcium",
+    "force": "forte",
+    "message": "Le calcium peut réduire l'absorption du fer non-héminique jusqu'à 60%. Ne jamais prendre un complément de calcium au même repas qu'un complément de fer.",
+    "source": "Drugs.com Medical Review (2025), BuzzRx (2025)",
+    "conseil_pratique": "Calcium le soir (avec la vitamine D), fer à midi loin des produits laitiers."
+  },
+  {
+    "id": "omega3_vitamine_d_synergie",
+    "type": "synergie",
+    "nutriment_a": "omega3",
+    "nutriment_b": "vitamine_d",
+    "force": "moderee",
+    "message": "Les oméga-3 améliorent l'absorption de la vitamine D (liposoluble) et potentialisent ses effets anti-inflammatoires.",
+    "source": "Interactions of Vitamin D, Magnesium, Zinc, K2, Boron — Nutrients Review (2025)",
+    "conseil_pratique": "Prendre vitamine D et oméga-3 ensemble avec un repas gras pour maximiser leur absorption."
+  },
+  {
+    "id": "microbiote_absorption_generale",
+    "type": "synergie",
+    "nutriment_a": "probiotiques",
+    "nutriment_b": "tous",
+    "force": "forte",
+    "message": "Un microbiote équilibré améliore l'absorption de la quasi-totalité des vitamines et minéraux. Un intestin dysbiotique rend toute supplémentation moins efficace.",
+    "source": "Barone et al. (BioFactors, 2022) — revue clinique complète",
+    "conseil_pratique": "Rétablir le microbiote en priorité si troubles digestifs : toutes les autres supplémentations seront plus efficaces ensuite."
+  },
+  {
+    "id": "vitamine_a_fer_synergie",
+    "type": "synergie",
+    "nutriment_a": "vitamine_a",
+    "nutriment_b": "fer",
+    "force": "moderee",
+    "message": "La vitamine A et le bêta-carotène améliorent l'absorption du fer non-héminique et participent à la mobilisation des réserves de fer.",
+    "source": "Sandstrom (British Journal of Nutrition, 2001)",
+    "conseil_pratique": "Inclure des carottes ou patates douces (bêta-carotène) dans les repas riches en fer végétal."
+  },
+  {
+    "id": "zinc_vitamine_a_cofacteur",
+    "type": "synergie",
+    "nutriment_a": "zinc",
+    "nutriment_b": "vitamine_a",
+    "force": "moderee",
+    "message": "Le zinc est nécessaire au transport et au métabolisme de la vitamine A dans l'organisme. Une carence en zinc peut induire une carence fonctionnelle en vitamine A même si les réserves sont normales.",
+    "source": "Smith et al. (Science, 1973) — confirmé par Nutrient Synergy PMC (2023)",
+    "conseil_pratique": "Corriger le zinc en même temps que la vitamine A pour une efficacité maximale des deux."
+  },
+  {
+    "id": "magnesium_zinc_antagonisme_doses_elevees",
+    "type": "antagonisme",
+    "nutriment_a": "magnesium",
+    "nutriment_b": "zinc",
+    "force": "faible",
+    "message": "À doses élevées (supplément), magnésium et zinc partagent des voies d'absorption et peuvent se concurrencer légèrement. Aux doses normales, pas d'interaction significative.",
+    "source": "Drugs.com Medical Review (2025)",
+    "conseil_pratique": "Aux doses recommandées (Mg 300mg, Zinc 15mg), aucun problème. Éviter de dépasser les doses sans avis médical."
+  }
+]

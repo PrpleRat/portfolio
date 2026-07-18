@@ -1,0 +1,12 @@
+{
+  "defaultPlatformId": "spotify",
+  "platforms": [
+    { "id": "spotify", "name": "Spotify", "ratePerStreamEUR": 0.003 },
+    { "id": "apple_music", "name": "Apple Music", "ratePerStreamEUR": 0.005 },
+    { "id": "deezer", "name": "Deezer", "ratePerStreamEUR": 0.0025 },
+    { "id": "youtube_music", "name": "YouTube Music", "ratePerStreamEUR": 0.002 },
+    { "id": "tidal", "name": "Tidal", "ratePerStreamEUR": 0.006 },
+    { "id": "amazon_music", "name": "Amazon Music", "ratePerStreamEUR": 0.004 },
+    { "id": "soundcloud", "name": "SoundCloud (monétisé)", "ratePerStreamEUR": 0.0015 }
+  ]
+}

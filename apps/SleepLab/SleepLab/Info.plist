@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>fr</string>
+	<key>CFBundleDisplayName</key>
+	<string>Noctavia</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
+	<key>UIDeviceFamily</key>
+	<array>
+		<integer>1</integer>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>UIApplicationSceneManifest</key>
+	<dict>
+		<key>UIApplicationSupportsMultipleScenes</key>
+		<false/>
+	</dict>
+	<key>UILaunchScreen</key>
+	<dict/>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>NSSupportsLiveActivities</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>processing</string>
+	</array>
+	<key>BGTaskSchedulerPermittedIdentifiers</key>
+	<array>
+		<string>com.prple.sleeplab.night.processing</string>
+	</array>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Noctavia lit tes données de santé pour enrichir l'analyse de ton sommeil.</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Noctavia enregistre tes phases de sommeil dans Santé.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Pour détecter les ronflements et enregistrer les sons nocturnes.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>L'accéléromètre détecte tes mouvements pour identifier les phases de sommeil.</string>
+	<key>NSUserNotificationsUsageDescription</key>
+	<string>Pour le réveil intelligent et les conseils du matin.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Pour détecter la parole nocturne (somnambulisme).</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Pour récupérer la météo locale de la nuit (Open-Meteo).</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.prple.sleeplab</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>sleeplab</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

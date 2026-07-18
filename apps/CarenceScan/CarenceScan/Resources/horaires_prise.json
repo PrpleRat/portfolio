@@ -1,0 +1,65 @@
+[
+  {
+    "complement_id": "vitamine_d3_k2",
+    "moment": "Repas du midi ou du soir",
+    "avec": "Repas contenant des graisses (huile, poisson, avocat)",
+    "eviter": "À jeun — absorption réduite de 50% sans graisses",
+    "priorite": 1
+  },
+  {
+    "complement_id": "magnesium",
+    "moment": "Le soir, 1h avant le coucher",
+    "avec": "Seul ou avec un petit repas léger",
+    "eviter": "Le matin (effet relaxant) ; loin du calcium (compétition légère)",
+    "priorite": 2
+  },
+  {
+    "complement_id": "zinc",
+    "moment": "Le matin avec le petit-déjeuner",
+    "avec": "Avec un repas protéiné",
+    "eviter": "À jeun (nausées) ; au même repas que le fer ; loin des produits laitiers riches en calcium",
+    "priorite": 3
+  },
+  {
+    "complement_id": "vitamine_c",
+    "moment": "Le matin à jeun ou avec les repas riches en fer",
+    "avec": "Eau ou jus, idéalement avec lentilles/épinards pour l'absorption du fer",
+    "eviter": "Avec de très hautes doses de B12 (peut réduire légèrement la B12)",
+    "priorite": 4
+  },
+  {
+    "complement_id": "omega3",
+    "moment": "Repas du matin ou du midi",
+    "avec": "Repas gras pour maximiser l'absorption",
+    "eviter": "Le soir pour certaines personnes (peut perturber le sommeil)",
+    "priorite": 5
+  },
+  {
+    "complement_id": "complexe_b",
+    "moment": "Le matin avec le petit-déjeuner",
+    "avec": "Repas pour éviter les nausées",
+    "eviter": "Le soir (effet stimulant sur le système nerveux)",
+    "priorite": 6
+  },
+  {
+    "complement_id": "vitamine_b12",
+    "moment": "Le matin à jeun ou sous la langue",
+    "avec": "Seule (meilleure absorption) ou sublingual",
+    "eviter": "Avec de la vitamine C en très haute dose",
+    "priorite": 7
+  },
+  {
+    "complement_id": "fer",
+    "moment": "Milieu d'après-midi (entre midi et dîner)",
+    "avec": "Vitamine C (jus d'orange ou comprimé) pour booster l'absorption",
+    "eviter": "Calcium (produits laitiers), zinc, café, thé — réduisent tous l'absorption du fer",
+    "priorite": 8
+  },
+  {
+    "complement_id": "probiotiques",
+    "moment": "Le matin à jeun",
+    "avec": "Eau froide uniquement",
+    "eviter": "Eau chaude ou bouillante (tue les bactéries) ; antibiotiques (prendre à 2h d'écart minimum)",
+    "priorite": 9
+  }
+]

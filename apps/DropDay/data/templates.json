@@ -1,0 +1,134 @@
+[
+  {
+    "format": "single",
+    "level": "beginner",
+    "weeks": 8,
+    "steps": [
+      { "daysOffset": -56, "title": "Finaliser le mix", "description": "Boucle le mix final avec ton ingé son. Export WAV 24-bit.", "category": "production" },
+      { "daysOffset": -49, "title": "Mastering", "description": "Envoie le mix au mastering. Prévois 3-5 jours de délai.", "category": "production", "defaultCost": 80 },
+      { "daysOffset": -42, "title": "Artwork + visuels", "description": "Crée la cover 3000x3000px + visuels stories/teaser.", "category": "design", "defaultCost": 50 },
+      { "daysOffset": -35, "title": "Soumettre à la distrib", "description": "Uploader sur DistroKid ou TuneCore. Prévoir 7-10 jours de traitement.", "category": "distribution", "defaultCost": 20 },
+      { "daysOffset": -28, "title": "Créer le pre-save", "description": "Configure Hypeddit ou HearNow pour le lien pre-save.", "category": "promo" },
+      { "daysOffset": -21, "title": "Promo organique", "description": "Posts teaser, stories, countdown. 3-4 posts minimum.", "category": "promo" },
+      { "daysOffset": -14, "title": "Soumettre aux playlists indé", "description": "SubmitHub ou contact direct curateurs indépendants.", "category": "promo", "defaultCost": 30 },
+      { "daysOffset": -7, "title": "Dernier push promo", "description": "Stories quotidiennes, DM aux contacts, relance pre-save.", "category": "promo" },
+      { "daysOffset": 0, "title": "Sortie 🎉", "description": "Release day ! Partage le lien sur toutes tes plateformes.", "category": "release" },
+      { "daysOffset": 7, "title": "Relancer playlists + stats semaine 1", "description": "Relance les curateurs, note tes stats J+7 pour le post-mortem.", "category": "post_release" }
+    ]
+  },
+  {
+    "format": "single",
+    "level": "intermediate",
+    "weeks": 10,
+    "steps": [
+      { "daysOffset": -70, "title": "Finaliser le mix", "description": "Boucle le mix final avec ton ingé son.", "category": "production" },
+      { "daysOffset": -63, "title": "Mastering", "description": "Mastering pro. Prévois 3-5 jours.", "category": "production", "defaultCost": 120 },
+      { "daysOffset": -56, "title": "Contacter Groover", "description": "Soumets aux blogs et playlists via Groover.", "category": "promo", "defaultCost": 50 },
+      { "daysOffset": -49, "title": "Artwork + visuels", "description": "Cover pro + pack visuels réseaux.", "category": "design", "defaultCost": 80 },
+      { "daysOffset": -42, "title": "Préparer le dossier de presse", "description": "Bio, photos HD, liens streaming, pitch 150 mots.", "category": "promo" },
+      { "daysOffset": -35, "title": "Soumettre à la distrib", "description": "DistroKid/TuneCore. Prévoir 7-10 jours.", "category": "distribution", "defaultCost": 20 },
+      { "daysOffset": -28, "title": "Soumettre à Spotify Editorial", "description": "Pitch via le dashboard distributeur (deadline ~4 semaines avant).", "category": "distribution" },
+      { "daysOffset": -21, "title": "Créer le pre-save", "description": "Hypeddit/HearNow + landing page.", "category": "promo" },
+      { "daysOffset": -14, "title": "Campagne pub Instagram/TikTok", "description": "Budget test 50-100€ sur le hook le plus fort.", "category": "promo", "defaultCost": 75 },
+      { "daysOffset": -7, "title": "Dernier push promo", "description": "Stories, reels, relances curateurs.", "category": "promo" },
+      { "daysOffset": 0, "title": "Sortie 🎉", "description": "Release day ! Push sur tous les canaux.", "category": "release" },
+      { "daysOffset": 7, "title": "Relancer playlists + stats semaine 1", "description": "Relances + collecte stats J+7.", "category": "post_release" }
+    ]
+  },
+  {
+    "format": "single",
+    "level": "advanced",
+    "weeks": 12,
+    "steps": [
+      { "daysOffset": -84, "title": "Tourner le clip", "description": "Planifie et tourne le clip vidéo.", "category": "video", "defaultCost": 500 },
+      { "daysOffset": -77, "title": "Finaliser le mix", "description": "Mix final validé par l'équipe.", "category": "production" },
+      { "daysOffset": -70, "title": "Mastering", "description": "Mastering premium.", "category": "production", "defaultCost": 200 },
+      { "daysOffset": -63, "title": "Contacter Groover", "description": "Campagne Groover ciblée blogs + playlists.", "category": "promo", "defaultCost": 100 },
+      { "daysOffset": -56, "title": "Contacter attachés de presse", "description": "Pitch presse spécialisée et médias mainstream.", "category": "promo", "defaultCost": 300 },
+      { "daysOffset": -49, "title": "Artwork + visuels", "description": "Pack visuel complet (cover, banners, stories).", "category": "design", "defaultCost": 150 },
+      { "daysOffset": -42, "title": "Embargo médias", "description": "Envoie en embargo aux médias partenaires.", "category": "promo" },
+      { "daysOffset": -35, "title": "Soumettre à la distrib", "description": "Upload distributeur premium.", "category": "distribution", "defaultCost": 30 },
+      { "daysOffset": -28, "title": "Exclusivité Spotify/Apple Music", "description": "Négocie une exclusivité ou premier écoute si possible.", "category": "distribution" },
+      { "daysOffset": -21, "title": "Créer le pre-save", "description": "Landing + pre-save multi-plateformes.", "category": "promo" },
+      { "daysOffset": -14, "title": "Campagne pub Instagram/TikTok", "description": "Budget pub ciblé 200-500€.", "category": "promo", "defaultCost": 300 },
+      { "daysOffset": -7, "title": "Dernier push promo", "description": "Countdown, interviews, teasers clip.", "category": "promo" },
+      { "daysOffset": 0, "title": "Sortie 🎉", "description": "Push clips + interviews + live.", "category": "release" },
+      { "daysOffset": 7, "title": "Relancer playlists + stats semaine 1", "description": "Relances presse + stats J+7.", "category": "post_release" }
+    ]
+  },
+  {
+    "format": "double_single",
+    "level": "beginner",
+    "weeks": 10,
+    "steps": [
+      { "daysOffset": -70, "title": "Finaliser les 2 mixes", "description": "Valide les mixes des 2 titres liés.", "category": "production" },
+      { "daysOffset": -63, "title": "Mastering (x2)", "description": "Mastering des 2 tracks.", "category": "production", "defaultCost": 140 },
+      { "daysOffset": -56, "title": "Artwork cohérent", "description": "Covers liées visuellement pour les 2 singles.", "category": "design", "defaultCost": 80 },
+      { "daysOffset": -49, "title": "Planifier le drop 1", "description": "Sortie du premier single 3 semaines avant le second.", "category": "strategy" },
+      { "daysOffset": -42, "title": "Soumettre single 1 à la distrib", "description": "Upload du premier titre.", "category": "distribution", "defaultCost": 20 },
+      { "daysOffset": -35, "title": "Promo single 1", "description": "Teasers et pre-save pour le premier drop.", "category": "promo" },
+      { "daysOffset": -28, "title": "Sortie single 1", "description": "Premier single en ligne.", "category": "release" },
+      { "daysOffset": -21, "title": "Soumettre single 2 à la distrib", "description": "Upload du second titre.", "category": "distribution", "defaultCost": 20 },
+      { "daysOffset": -14, "title": "Promo double single", "description": "Narrative : partie 1 / partie 2.", "category": "promo" },
+      { "daysOffset": -7, "title": "Dernier push promo", "description": "Stories, relances, pre-save single 2.", "category": "promo" },
+      { "daysOffset": 0, "title": "Sortie single 2 🎉", "description": "Deuxième single + push cross-promo.", "category": "release" },
+      { "daysOffset": 7, "title": "Stats semaine 1", "description": "Collecte stats des 2 sorties.", "category": "post_release" }
+    ]
+  },
+  {
+    "format": "ep",
+    "level": "beginner",
+    "weeks": 12,
+    "steps": [
+      { "daysOffset": -84, "title": "Finaliser les mixes EP", "description": "Boucle tous les titres de l'EP.", "category": "production" },
+      { "daysOffset": -77, "title": "Mastering EP", "description": "Mastering cohérent sur tous les tracks.", "category": "production", "defaultCost": 200 },
+      { "daysOffset": -70, "title": "Artwork EP", "description": "Cover EP + visuels par track si possible.", "category": "design", "defaultCost": 100 },
+      { "daysOffset": -63, "title": "Stratégie de drops", "description": "Planifie 1 single en avance de l'EP (3 sem avant).", "category": "strategy" },
+      { "daysOffset": -56, "title": "Mettre à jour la bio", "description": "Bio Spotify/Apple avec mention EP à venir.", "category": "promo" },
+      { "daysOffset": -49, "title": "EPK simple", "description": "One-sheet : bio, tracklist, visuels, liens.", "category": "promo" },
+      { "daysOffset": -42, "title": "Soumettre single avance", "description": "Upload du lead single.", "category": "distribution", "defaultCost": 20 },
+      { "daysOffset": -35, "title": "Promo lead single", "description": "Teasers + pre-save single.", "category": "promo" },
+      { "daysOffset": -28, "title": "Sortie lead single", "description": "Premier extrait de l'EP.", "category": "release" },
+      { "daysOffset": -21, "title": "Soumettre EP complet", "description": "Upload EP sur distributeur.", "category": "distribution", "defaultCost": 30 },
+      { "daysOffset": -14, "title": "Promo EP", "description": "Tracklist reveal, snippets, stories.", "category": "promo" },
+      { "daysOffset": -7, "title": "Dernier push promo", "description": "Countdown EP, relances curateurs.", "category": "promo" },
+      { "daysOffset": 0, "title": "Sortie EP 🎉", "description": "Release day EP complet.", "category": "release" },
+      { "daysOffset": 7, "title": "Stats semaine 1", "description": "Stats lead single + EP.", "category": "post_release" }
+    ]
+  },
+  {
+    "format": "album",
+    "level": "intermediate",
+    "weeks": 16,
+    "steps": [
+      { "daysOffset": -112, "title": "Finaliser l'album", "description": "Séquence et mixes finaux.", "category": "production" },
+      { "daysOffset": -98, "title": "Mastering album", "description": "Mastering cohérent album complet.", "category": "production", "defaultCost": 400 },
+      { "daysOffset": -84, "title": "Artwork album", "description": "Cover + booklet digital.", "category": "design", "defaultCost": 200 },
+      { "daysOffset": -70, "title": "Stratégie singles", "description": "Planifie 2-3 singles avant l'album.", "category": "strategy" },
+      { "daysOffset": -56, "title": "Dossier de presse", "description": "EPK complet avec tracklist et story.", "category": "promo" },
+      { "daysOffset": -42, "title": "Groover + SubmitHub", "description": "Campagnes playlists et blogs.", "category": "promo", "defaultCost": 100 },
+      { "daysOffset": -35, "title": "Soumettre singles", "description": "Upload des singles promo.", "category": "distribution", "defaultCost": 40 },
+      { "daysOffset": -28, "title": "Pitch Spotify Editorial", "description": "Pitch album via distributeur.", "category": "distribution" },
+      { "daysOffset": -21, "title": "Soumettre album", "description": "Upload album complet.", "category": "distribution", "defaultCost": 40 },
+      { "daysOffset": -14, "title": "Campagne pub", "description": "Budget promo réseaux.", "category": "promo", "defaultCost": 150 },
+      { "daysOffset": -7, "title": "Dernier push promo", "description": "Countdown album.", "category": "promo" },
+      { "daysOffset": 0, "title": "Sortie album 🎉", "description": "Release day !", "category": "release" },
+      { "daysOffset": 7, "title": "Stats semaine 1", "description": "Collecte stats album.", "category": "post_release" }
+    ]
+  },
+  {
+    "format": "clip",
+    "level": "beginner",
+    "weeks": 6,
+    "steps": [
+      { "daysOffset": -42, "title": "Script + storyboard", "description": "Écris le script et le découpage visuel.", "category": "video" },
+      { "daysOffset": -35, "title": "Tournage", "description": "Tourne le clip (1-2 jours max).", "category": "video", "defaultCost": 200 },
+      { "daysOffset": -28, "title": "Montage rough cut", "description": "Premier montage pour validation.", "category": "video" },
+      { "daysOffset": -21, "title": "Étalonnage + color grading", "description": "Finalise les couleurs et le rendu.", "category": "video", "defaultCost": 100 },
+      { "daysOffset": -14, "title": "Miniature + titre optimisé", "description": "Thumbnail accrocheur + titre SEO YouTube.", "category": "promo" },
+      { "daysOffset": -7, "title": "Programmer la sortie YouTube", "description": "Upload privé + programmation date/heure.", "category": "distribution" },
+      { "daysOffset": 0, "title": "Sortie clip 🎬", "description": "Publication YouTube + push réseaux.", "category": "release" },
+      { "daysOffset": 3, "title": "Partage multi-plateformes", "description": "Reels, TikTok, stories avec extrait clip.", "category": "post_release" }
+    ]
+  }
+]

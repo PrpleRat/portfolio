@@ -1,23 +1,16 @@
-# Portfolio — Développeur iOS · Mobile · Full-stack
+# Enzo Jouet — Portfolio développeur
 
-> Apps natives iOS, React Native et sites web en production.  
-> Toulouse · France · Disponible pour CDI / freelance / stage long
+**iOS · Mobile · Full-stack** — Toulouse, France
 
----
-
-## Qui je suis
-
-Développeur **produit** : je conçois, code, livre et maintiens des applications de bout en bout — du SwiftUI au pipeline TestFlight, du Next.js au déploiement Vercel.
-
-Je construis surtout des apps **local-first** (données sur l’appareil, zéro serveur obligatoire) et des outils métier pour micro-entrepreneurs et créateurs.
+Apps natives Swift/SwiftUI, React Native (Expo), et produits web en production.
 
 | | |
 |---|---|
-| **Focus** | iOS (Swift / SwiftUI) · React Native (Expo) · Next.js |
-| **Zone** | Toulouse / Occitanie · remote OK |
+| **Email** | [jouet.enzo@gmail.com](mailto:jouet.enzo@gmail.com) |
+| **LinkedIn** | [Enzo Jouet](https://www.linkedin.com/in/enzo-jouet-bb187a222) |
+| **Téléphone** | [07 68 20 98 54](tel:+33768209854) |
 | **GitHub** | [github.com/PrpleRat](https://github.com/PrpleRat) |
 | **Site live** | [voisintech.fr](https://www.voisintech.fr) |
-| **Contact** | *à compléter : email / LinkedIn / téléphone* |
 
 ---
 
@@ -26,115 +19,73 @@ Je construis surtout des apps **local-first** (données sur l’appareil, zéro 
 ```text
 Mobile natif     Swift · SwiftUI · SwiftData · HealthKit · CoreMotion · AVFoundation · Widgets · Live Activities
 Cross-platform   React Native · Expo · Expo Router · TypeScript
-Web              Next.js · React · Prisma · Turso (SQLite) · Resend · Tailwind / Radix
-CI / Release     GitHub Actions · Fastlane · XcodeGen · TestFlight · App Store Connect
-Infra            Docker · Docker Compose · PWA · Vercel
+Web              Next.js · React · Prisma · TypeScript
+CI / Release     GitHub Actions · XcodeGen · TestFlight (pipeline multi-apps partagé)
 ```
 
 ---
 
-## Projets phares
+## Code source dans ce repo
 
-### 1. BeatDeal — Contrats de licence beats (iOS)
+Le dossier [`apps/`](./apps/) contient le code **sanitisé** (pas de clés API, pas de certificats, pas de Team ID Apple).
 
-Application **Swift / SwiftUI** 100 % offline pour producteurs de musique : générateur de contrats PDF en moins de 60 secondes.
+| Dossier | Description |
+|---------|-------------|
+| [`apps/BeatDeal`](./apps/BeatDeal) | Contrats de licence beats — SwiftUI, PDF offline |
+| [`apps/BeatBill`](./apps/BeatBill) | Factures producteurs — Expo / React Native |
+| [`apps/DropDay`](./apps/DropDay) | Planification de sorties musicales — Expo |
+| [`apps/SplitPad`](./apps/SplitPad) | Split sheets studio — Expo |
+| [`apps/SleepLab`](./apps/SleepLab) | Noctavia — suivi sommeil (HealthKit, capteurs) |
+| [`apps/TrajOc`](./apps/TrajOc) | Trajets Occitanie (transports, vélo, carte) |
+| [`apps/RAS`](./apps/RAS) | Fusée de détresse — dead man’s switch |
+| [`apps/CarenceScan`](./apps/CarenceScan) | Bilan carences → PDF médecin, 100 % local |
+| [`apps/Panium`](./apps/Panium) | Handpan tactile — audio SwiftUI |
+| [`apps/PhotoSpaceCleaner`](./apps/PhotoSpaceCleaner) | Tri / nettoyage photothèque — Expo |
+| [`apps/gesture-photo-studio`](./apps/gesture-photo-studio) | Édition photo + gestes webcam (web) |
+| [`apps/Arduino`](./apps/Arduino) | Liaison radio NRF24L01 (émetteur / récepteur) |
 
-- 4 types de licence · PDF local · partage natif · catalogue beats · tracker de licences · royalties
-- Deep links vers BeatBill / SplitPad · App Store (achat unique)
-- CI : GitHub Actions → archive Xcode → TestFlight (sans Mac local)
-
-**Repo :** [PrpleRat/BeatDeal](https://github.com/PrpleRat/BeatDeal) · [Détail](./projects/beatdeal.md)
-
----
-
-### 2. Noctavia — Suivi du sommeil (iOS)
-
-App **Swift / SwiftUI** basée sur les capteurs iPhone : HealthKit, CoreMotion, audio, corrélations locales, réveil intelligent, Live Activity, widget.
-
-- Analyse on-device (Pearson, dette de sommeil, facteurs exogènes)
-- Export / import JSON · météo Open-Meteo · zéro API payante
-
-**Repo :** *SleepLab / Noctavia* · [Détail](./projects/noctavia.md)
+Fiches détaillées : [`projects/`](./projects/)
 
 ---
 
-### 3. TrajOc — Trajets Occitanie (iOS)
+## Suite pro (beta) — pas de code ici
 
-Planificateur multimodal : transports (Navitia), vélo partagé (JCDecaux), piéton / vélo (OpenRouteService), widget, alertes perturbations.
+La suite d’apps métier pour micro-entrepreneurs (agenda, facturation, compta, CRM) est présentée sur l’espace Pro du site — **beta** :
 
-**Repo :** [PrpleRat/TrajOc](https://github.com/PrpleRat/TrajOc) · [Détail](./projects/trajoc.md)
+→ **[voisintech.fr/pro](https://www.voisintech.fr/pro)**  
+→ **[voisintech.fr/train-suite](https://www.voisintech.fr/train-suite)**
 
----
-
-### 4. BeatBill & DropDay — Productivité musique (React Native)
-
-- **BeatBill** — factures / devis PDF pour producteurs (Expo, offline, deep link BeatDeal)  
-  → [PrpleRat/BeatBill](https://github.com/PrpleRat/BeatBill)
-- **DropDay** — planification de sorties musicales, budget promo, post-mortem PDF  
-
-Même pipeline CI que les apps natives : `expo prebuild` → Xcode → TestFlight.
-
-[Détail](./projects/beatbill-dropday.md)
+Le code source de cette suite et du site web ne sont pas inclus dans ce portfolio.
 
 ---
 
-### 5. CashTheTrain — Suite d’apps iOS + CI partagée
+## Site web VoisinTech
 
-Monorepo de **10+ apps** (SwiftUI, Expo, Flutter) avec un seul jeu de secrets App Store Connect et des workflows TestFlight par app.
-
-Inclut aussi une suite micro-entrepreneur : FactuTrain · AgendaTrain · TrainCRM · TrainCA (App Group + sync événements + deep links).
-
-**Repo :** [PrpleRat/CashTheTrain](https://github.com/PrpleRat/CashTheTrain) · [Détail](./projects/cashthetrain.md)
+En production : **[www.voisintech.fr](https://www.voisintech.fr)**  
+(Next.js, devis en ligne, admin, espace pro — code source non publié ici.)
 
 ---
 
-### 6. VoisinTech — Site & back-office (Next.js)
+## Pipeline CI / build iOS partagé
 
-Site vitrine + devis multi-étapes + admin pour une activité de dépannage informatique (Toulouse / Lourdes).
+Plusieurs apps iOS partagent la **même architecture de release** :
 
-- Next.js · Prisma · Turso · Resend · formulaires accessibles (seniors)
-- En production : [www.voisintech.fr](https://www.voisintech.fr)
+- génération de projet Xcode (`XcodeGen` / `expo prebuild`) en CI
+- build + archive sur runners `macos`
+- upload TestFlight via App Store Connect API
+- secrets injectés uniquement via **GitHub Secrets** (jamais commités)
 
-**Repo :** [PrpleRat/voisintech-site](https://github.com/PrpleRat/voisintech-site) · [Détail](./projects/voisintech.md)
-
----
-
-### 7. Autres apps iOS livrables
-
-| App | Stack | Idée |
-|-----|--------|------|
-| **RAS** | SwiftUI · SwiftData | Dead man’s switch / alerte proches (GPS, SMS, Face ID) |
-| **CarenceScan** | SwiftUI | Questionnaire symptômes → carences → PDF médecin, 100 % local |
-| **Panium** | SwiftUI · AVAudio | Handpan tactile, polyphonie, reverb, offline |
-| **Photo Space Cleaner** | Expo | Tri swipe de la photothèque, taille réelle, corbeille |
-
-Fiches : [RAS](./projects/ras.md) · [CarenceScan](./projects/carencescan.md) · [Panium](./projects/panium.md)
+Voir la description technique (sans données sensibles) : [`docs/ci-partage.md`](./docs/ci-partage.md)
 
 ---
 
 ## Ce que je cherche
 
-- **Poste :** développeur iOS, mobile (RN), ou full-stack TypeScript
-- **Environnement :** produit qui ship, ownership, qualité > volume de features
-- **Points forts à exploiter :** apps offline / privacy, CI iOS, UX métier, shipping autonome
-
----
-
-## Comment lire ce repo
-
-1. Ce **README** = vue d’ensemble pour un recruteur (2 minutes)
-2. Dossier [`projects/`](./projects/) = fiches techniques (stack, architecture, livrables)
-3. Les repos liés = code réel, pipelines CI, README de prod
+Poste **développeur iOS**, **mobile** ou **full-stack TypeScript** — produit qui ship, ownership, qualité.
 
 ---
 
 ## Contact
 
-```text
-Email     : __________________
-LinkedIn  : __________________
-Téléphone : __________________
-GitHub    : https://github.com/PrpleRat
-```
-
-*Remplace les lignes ci-dessus avant d’envoyer le lien aux recruteurs.*
+**Enzo Jouet** · Toulouse  
+[jouet.enzo@gmail.com](mailto:jouet.enzo@gmail.com) · [07 68 20 98 54](tel:+33768209854) · [LinkedIn](https://www.linkedin.com/in/enzo-jouet-bb187a222)

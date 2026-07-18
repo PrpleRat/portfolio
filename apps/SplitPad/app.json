@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "SplitPad",
+    "slug": "splitpad",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "splitpad",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cashthetrain.splitpad",
+      "infoPlist": {
+        "UIBackgroundModes": [],
+        "LSApplicationQueriesSchemes": ["beatdeal"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "package": "com.cashthetrain.splitpad"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "tsconfigPaths": true
+    }
+  }
+}

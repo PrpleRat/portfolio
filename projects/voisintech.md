@@ -1,31 +1,22 @@
-# VoisinTech
+# VoisinTech — site & suite pro
 
-**Site web + back-office — Next.js en production**
+**Pas de code source dans ce portfolio** (site et suite pro exclus volontairement).
 
-| | |
-|---|---|
-| Stack | Next.js · TypeScript · Prisma · Turso · Resend · Radix · Framer Motion |
-| Live | https://www.voisintech.fr |
-| Repo | https://github.com/PrpleRat/voisintech-site |
-| Contexte | Micro-entreprise · dépannage informatique domicile (Toulouse & Lourdes) |
+## Site en production
 
-## Fonctionnalités
+→ [https://www.voisintech.fr](https://www.voisintech.fr)
 
-- Pages services, tarifs, zone d’intervention
-- Devis multi-étapes (UX senior-friendly)
-- Contact + FAQ, avis clients avec modération
-- Admin : devis, messages, avis
-- Emails transactionnels (Resend)
-- Sections Pro / matériel en déploiement
+Dépannage informatique à domicile (Toulouse & Lourdes) : devis en ligne, admin, SEO local.
 
-## Architecture
+Stack (indicatif) : Next.js · TypeScript · Prisma · emails transactionnels · Vercel.
 
-- App Router Next.js
-- Prisma + adapter LibSQL (Turso)
-- Middleware, formulaires validés, déploiement Vercel
+## Suite pro (beta)
 
-## Pourquoi c’est intéressant
+Apps métier pour micro-entrepreneurs (agenda, facturation, compta, CRM) — beta présentée ici :
 
-- Projet **en production** avec vrai métier
-- Full-stack TypeScript de bout en bout
-- Sens UX (seniors) + SEO local / conversion
+→ [https://www.voisintech.fr/pro](https://www.voisintech.fr/pro)  
+→ [https://www.voisintech.fr/train-suite](https://www.voisintech.fr/train-suite)
+
+## Pourquoi c’est dans le portfolio
+
+Montre un produit **en production** et une offre B2B en beta, sans exposer le code métier ni les secrets d’infra.

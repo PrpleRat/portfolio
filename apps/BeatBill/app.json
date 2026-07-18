@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "BeatBill",
+    "slug": "beatbill",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "scheme": "beatbill",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.cashthetrain.beatbill",
+      "appleTeamId": "YOUR_TEAM_ID",
+      "infoPlist": {
+        "UIBackgroundModes": [],
+        "LSApplicationQueriesSchemes": ["beatdeal"]
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#0a0a0a"
+      },
+      "package": "com.cashthetrain.beatbill"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/icon.png",
+          "color": "#22c55e"
+        }
+      ],
+      "expo-asset",
+      "expo-font",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "BeatBill utilise tes photos pour afficher ton logo sur les factures PDF."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    }
+  }
+}
