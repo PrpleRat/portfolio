@@ -60,12 +60,15 @@ Fiches détaillées : [`projects/`](./projects/)
 
 ---
 
-## Open source (toolkits)
+## Open source & talks
 
-| Repo | Description |
-|------|-------------|
-| **[ios-testflight-ci](https://github.com/enzo-jouet/ios-testflight-ci)** | CI TestFlight **sans Mac** (XcodeGen / Expo → GitHub Actions) |
-| **[homelab-media-stack](https://github.com/enzo-jouet/homelab-media-stack)** | Modèle NAS : Docker + tunnel + PWA média + worker LAN |
+| Repo / sujet | Lien |
+|--------------|------|
+| **ios-testflight-ci** | https://github.com/enzo-jouet/ios-testflight-ci |
+| **homelab-media-stack** | https://github.com/enzo-jouet/homelab-media-stack |
+| **Talk prêt** | « TestFlight depuis Windows — CI iOS sans Mac » (10–12 min) — [pitch](./docs/talk-meetup.md) |
+
+Communauté cible : **MUG Toulouse** (Mobile User Group), La Mêlée / Cantine.
 
 ---
 
