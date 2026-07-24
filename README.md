@@ -10,7 +10,8 @@ Apps natives Swift/SwiftUI, React Native (Expo), et produits web en production.
 | **LinkedIn** | [Enzo Jouet](https://www.linkedin.com/in/enzo-jouet-bb187a222) |
 | **Téléphone** | [07 68 20 98 54](tel:+33768209854) |
 | **GitHub** | [github.com/enzo-jouet](https://github.com/enzo-jouet) |
-| **Site live** | [voisintech.fr](https://www.voisintech.fr) |
+| **Site** | [voisintech.fr](https://www.voisintech.fr) |
+| **Dashboard NAS** | [dashboard.voisintech.fr](https://dashboard.voisintech.fr) |
 
 ---
 
@@ -21,6 +22,7 @@ Mobile natif     Swift · SwiftUI · SwiftData · HealthKit · CoreMotion · AVF
 Cross-platform   React Native · Expo · Expo Router · TypeScript
 Web              Next.js · React · Prisma · TypeScript
 CI / Release     GitHub Actions · XcodeGen · TestFlight (pipeline multi-apps partagé)
+Homelab / Ops    Docker · Cloudflare Tunnel · NAS · PWA media stack
 ```
 
 ---
@@ -48,6 +50,25 @@ Fiches détaillées : [`projects/`](./projects/)
 
 ---
 
+## En production (live)
+
+| URL | Rôle |
+|-----|------|
+| **[www.voisintech.fr](https://www.voisintech.fr)** | Site vitrine + devis + admin (Next.js) |
+| **[dashboard.voisintech.fr](https://dashboard.voisintech.fr)** | Homelab / NAS — PWA média (musique, photos, files) via Cloudflare Tunnel |
+| **[voisintech.fr/pro](https://www.voisintech.fr/pro)** | Espace Pro + suite iOS beta |
+
+---
+
+## Open source (toolkits)
+
+| Repo | Description |
+|------|-------------|
+| **[ios-testflight-ci](https://github.com/enzo-jouet/ios-testflight-ci)** | CI TestFlight **sans Mac** (XcodeGen / Expo → GitHub Actions) |
+| **[homelab-media-stack](https://github.com/enzo-jouet/homelab-media-stack)** | Modèle NAS : Docker + tunnel + PWA média + worker LAN |
+
+---
+
 ## Suite pro (beta) — pas de code ici
 
 La suite d’apps métier pour micro-entrepreneurs (agenda, facturation, compta, CRM) est présentée sur l’espace Pro du site — **beta** :
@@ -59,10 +80,16 @@ Le code source de cette suite et du site web ne sont pas inclus dans ce portfoli
 
 ---
 
-## Site web VoisinTech
+## Homelab / NAS
 
-En production : **[www.voisintech.fr](https://www.voisintech.fr)**  
-(Next.js, devis en ligne, admin, espace pro — code source non publié ici.)
+Serveur maison (NAS) exposé en HTTPS sur **dashboard.voisintech.fr** :
+
+- PWA installable (iOS) — profils type Netflix
+- Musique (Navidrome), photos (Immich), files d’attente téléchargements
+- Tunnel Cloudflare (pas d’ouverture de ports routeur)
+- Worker PC optionnel pour les jobs lourds (CPU offload)
+
+Modèle open source (sans secrets) : **[homelab-media-stack](https://github.com/enzo-jouet/homelab-media-stack)** · fiche [`projects/homelab.md`](./projects/homelab.md)
 
 ---
 
@@ -75,7 +102,7 @@ Plusieurs apps iOS partagent la **même architecture de release** :
 - upload TestFlight via App Store Connect API
 - secrets injectés uniquement via **GitHub Secrets** (jamais commités)
 
-Voir la description technique (sans données sensibles) : [`docs/ci-partage.md`](./docs/ci-partage.md)
+Toolkit public : **[ios-testflight-ci](https://github.com/enzo-jouet/ios-testflight-ci)** · détail : [`docs/ci-partage.md`](./docs/ci-partage.md)
 
 ---
 

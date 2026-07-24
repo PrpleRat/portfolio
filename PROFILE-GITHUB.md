@@ -14,7 +14,12 @@ Je ship des apps natives (Swift/SwiftUI), React Native (Expo) et des produits we
 `Swift` `SwiftUI` `Expo` `TypeScript` `Next.js` `GitHub Actions`
 
 ### En production
-- [voisintech.fr](https://www.voisintech.fr) — site + espace [Pro / beta](https://www.voisintech.fr/pro)
+- [voisintech.fr](https://www.voisintech.fr) — site + [espace Pro](https://www.voisintech.fr/pro)
+- [dashboard.voisintech.fr](https://dashboard.voisintech.fr) — homelab NAS (PWA média)
+
+### Open source
+- [ios-testflight-ci](https://github.com/enzo-jouet/ios-testflight-ci) — TestFlight sans Mac
+- [homelab-media-stack](https://github.com/enzo-jouet/homelab-media-stack) — modèle NAS / Docker / tunnel
 
 ### Code
 → Repo **[portfolio](https://github.com/enzo-jouet/portfolio)** (apps iOS / mobile + doc CI)

@@ -1,22 +1,25 @@
-# VoisinTech — site & suite pro
+# VoisinTech — site, suite pro & dashboard
 
-**Pas de code source dans ce portfolio** (site et suite pro exclus volontairement).
+**Pas de code source du site / suite pro dans ce portfolio** (volontaire).
 
-## Site en production
+## En production
 
-→ [https://www.voisintech.fr](https://www.voisintech.fr)
+| URL | Rôle |
+|-----|------|
+| [www.voisintech.fr](https://www.voisintech.fr) | Site vitrine + devis + admin |
+| [dashboard.voisintech.fr](https://dashboard.voisintech.fr) | Homelab NAS — PWA média |
+| [voisintech.fr/pro](https://www.voisintech.fr/pro) | Espace Pro |
+| [voisintech.fr/train-suite](https://www.voisintech.fr/train-suite) | Suite iOS beta |
 
-Dépannage informatique à domicile (Toulouse & Lourdes) : devis en ligne, admin, SEO local.
+## Site
 
-Stack (indicatif) : Next.js · TypeScript · Prisma · emails transactionnels · Vercel.
+Dépannage informatique à domicile (Toulouse & Lourdes).  
+Stack : Next.js · TypeScript · Prisma · emails · Vercel.
+
+## Homelab
+
+Voir [`homelab.md`](./homelab.md) et le repo modèle [homelab-media-stack](https://github.com/enzo-jouet/homelab-media-stack).
 
 ## Suite pro (beta)
 
-Apps métier pour micro-entrepreneurs (agenda, facturation, compta, CRM) — beta présentée ici :
-
-→ [https://www.voisintech.fr/pro](https://www.voisintech.fr/pro)  
-→ [https://www.voisintech.fr/train-suite](https://www.voisintech.fr/train-suite)
-
-## Pourquoi c’est dans le portfolio
-
-Montre un produit **en production** et une offre B2B en beta, sans exposer le code métier ni les secrets d’infra.
+Apps métier micro-entrepreneurs (agenda, facturation, compta, CRM) — présentées sur `/pro` et `/train-suite`.
